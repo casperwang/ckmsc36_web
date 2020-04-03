@@ -1,0 +1,16 @@
+*{
+    text-align: center;
+}
+
+body{
+  width: 500px;
+  height: 700px;
+  margin: auto;
+}
+
+.content{
+    position: relative;
+    top: calc((100% - 70px) / 2);
+    margin: auto;
+    height: 70px;
+}
