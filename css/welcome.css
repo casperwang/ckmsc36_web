@@ -1,16 +1,56 @@
-*{
+* {
     text-align: center;
 }
 
-body{
-  width: 500px;
-  height: 700px;
+body {
+  height: 90vh;
+  width: 90vw;
+  text-align: center;
   margin: auto;
+  background: url('../images/marble.jpg') no-repeat center fixed;
+  background-size: cover;
 }
 
-.content{
+.content {
     position: relative;
-    top: calc((100% - 70px) / 2);
+    top: calc((100% - 200px) / 2);
     margin: auto;
-    height: 70px;
+    border: 200px;
+}
+
+h1 {
+    font-size: 100px;
+    font-family: Courgette;
+    margin: 16px;
+}
+
+h1::before {
+    content: "";
+    position: absolute;
+    width: 80%;
+    height: 2px;
+    top: 125px;
+    left: 10%;
+    background-color: #000;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.5s ease-in-out 0.0s;
+    transition: all 0.5s ease-in-out 0.0s;
+  }
+
+h1:hover::before {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+
+a {
+    color: gray;
+    font-size: initial;
+    text-decoration-line: none;
+}
+
+a:hover {
+
 }
