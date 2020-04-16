@@ -18,7 +18,7 @@ var nelements = grid[0] * grid[1];
 
 function initDoc(){
 	for(var i = 0; i < numballs; i++){
-		$("#ballcontainer").append("<div class = 'ball' id = 'ball_" + i + "'><div class = 'hoverbox' id = 'hoverbox_" + i + "'></div>" + "</div>"); 
+		$("#ballcontainer").append("<div class = 'ball' id = 'ball_" + i + "'><div class = 'hoverbox' id = 'hoverbox_" + i + "'></div></div>"); 
 	}
 	$("#ballcontainer").css("width", wid);
 	$("#ballcontainer").css("height", len);
@@ -38,6 +38,7 @@ function initDoc(){
 	$(".ball").css("height", dia);
 
 	$("#logoImg").css("height", $("#logoImg").css("width"));
+	$(".hoverbox").css("right", "100px");
 }
 
 function bgripple(){
@@ -149,30 +150,36 @@ function updSel(){
 		scale: function(el, i, l){
 			var sc = 1;
 			if(i == curSel) sc *= selectScale;
-			if(i == curGo) sc = bigScale;
+			if(i == curGo) sc *= bigScale;
 			return sc;
 		},
 		easing: "easeInOutSine",
 		duration: 50
 	});
-	console.log("Cursel = " + curSel);
+	//console.log("Cursel = " + curSel);
 	$(".hoverbox").html("");
 	if(curSel != -1){
-		$("#hoverbox_" + curSel).html(titles[curSel]);
+		var txt = titles[curSel].replace(/\S/g, "<span class = 'selLetter' visible = 'false'>$&</span>");
+		$("#hoverbox_" + curSel).html(txt);
+		$(".selLetter").css("font-size", (dia / 2) + "px");
+		$("#hoverbox_" + curSel).css("right", (dia * 1.5) + "px");
+		$("#hoverbox_" + curSel).css("width", "200px");
+		$("#hoverbox_" + curSel).css("background-color", colours[curSel]);
+		anime.timeline()
+		.add({
+			targets: ".selLetter",
+			opacity: [0, 1],
+			delay: function(el, i, l){
+				return (l - i) * 50;
+			},
+			duration: 100,
+			easing: "easeInSine"
+		});
+
 	}
 }
 
-function logoUpdate(){
-	anime({
-      targets: '#lineEureka .lines path',
-      strokeDashoffset: [anime.setDashoffset, 0],
-      easing: 'easeInSine',
-      duration: 1500,
-      delay: function(el, i) { return i * 50 },
-      //direction: "alternate",
-      //loop: true
-    });
-}
+
 
 function checkHover(){
 	$("#ballcontainer").on({
@@ -190,14 +197,8 @@ function checkHover(){
 	    	curGo = parseInt(ID.split("_")[1]);
 	    	ballUpdate();
 	    	updSel();
-	    	logoUpdate();
 	    	modalUpdate();
 	    }
 	}, ".ball");
-	$("#lineEureka").on({
-		mouseenter: function() {
-	    	logoUpdate();
-	    }
-	});
 }
 

@@ -26,9 +26,19 @@
 
 .ball {
 	position: absolute;
+	text-align: center;
 	/*background-image: url("../image/ericxiao.jpg");*/
 	border-radius: 50%;
 	box-shadow: 10px 10px 21px 0px rgba(0,0,0,0.75);
+}
+
+.hoverbox{
+	position: absolute;
+	display: inline-block;
+	width: 300px;
+	background-color: #fff;
+	text-align: right;
+	padding: 10px 10px 10px 10px;
 }
 
 .leftSide, .rightside{
@@ -37,7 +47,8 @@
 }
 
 .leftSide{
-	background-image: url("../image/marble.jpg");*/
+	/*background-image: url("../image/marble.jpg");*/
+	color: #777;
 }
 
 .rightside{
@@ -70,6 +81,7 @@
 
 .title {
 	position: relative;
+	color: #000;
 	text-align: center;
 	font-weight: 900;
   	font-size: 3.5em;
@@ -98,23 +110,14 @@
 	margin-bottom: 2%;
 }
 
-#mainText{
-	display: inline-block;
-	font-size: 30px;
+.mainText{
+	font-size: 20px;
+	display: flex;
 	height: auto;
-}
-
-#mainContent{
-	display: inline-block;
-	text-align: center;
-	padding: 3% 3% 3% 3%;
-	width: 60%;
-}
-
-.hoverbox{
-	position: relative;
-	right: 30px;
-	width: 600px;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	padding: 10% 10% 10% 10%;
 }
 
 #lineEureka{
@@ -123,3 +126,31 @@
 	width: 200px;
 	height: 75px;
 }
+
+.parallax {
+  /* The image used */
+  background-image: url("../image/ericxiao.jpg");
+
+  /* Set a specific height */
+  height: 1000px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#par_bg1{
+	background-image: url("../image/ericxiao.jpg");
+}
+
+#par_bg2{
+	background-image: url("../image/einstein.jpeg");
+}
+
+#par_bg3{
+	background-image: url("../image/einstein.jpeg");
+}
+
+

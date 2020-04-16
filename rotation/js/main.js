@@ -4,6 +4,7 @@ $(document).ready(function(){
 	initBalls();
 	updateLineArt();
 	checkHover();
+	logoHover();
 	modalUpdate();
 });
 
