@@ -43,19 +43,24 @@ function updateTitle(){
 	    scaleX: [0,1],
 	    opacity: [0.5,1],
 	    easing: "easeOutExpo",
-	    duration: 500,
+	    duration: 300,
 	    offset: '-=875',
 	    delay: (el, i, l) => 80 * (l - i) - 30
-	  }).add({ 
+	  });
+	anime.timeline()
+	  .add({ 
   		targets: '#logoImg',
   		opacity: [0, 1],
-  		easing: "easeOutExpo",
-  		duration: 300
+  		easing: "easeInQuad",
+  		duration: 200
   	  }).add({
 		targets: ".mainContent",
 		opacity: [0, 1],
-		easing: "easeInExpo",
-		duration: 500
+		easing: "easeInQuad",
+		delay: function(el, i, l){
+			return i * 50;
+		},
+		duration: 200
 	});
 	  
 }

@@ -4,6 +4,7 @@ var dia = len / 17;
 var curGo = 0, curSel = -1;
 var rotAngle = 360 / (numballs + 1);
 var colours = ["#C0D72F", "#EAEAEA", "#F9A51B", "#D64141", "#478BAA", "#FDEC10"];
+var coloursLight = ["#dffa37", "#f7f7f7", "#ffb845", "#fa7878", "#6bbde3", "#fff24f"];
 var bigScale = 1.7, selectScale = 1.2, focusColour = "#FFFFFF";
 var txtSz = dia / bigScale; //Greek text letter size
 var paths = [
