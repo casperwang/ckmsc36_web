@@ -20,6 +20,15 @@
 	height: 150px;
 }
 
+.sect{
+	background-image: url("../images/marble.jpg");
+	/* Create the parallax scrolling effect */
+	  background-attachment: fixed;
+	  background-position: center;
+	  background-repeat: no-repeat;
+	  background-size: cover;
+}
+
 section{
 	width: 100vw;
 	background-size: cover;
@@ -27,6 +36,12 @@ section{
 }
 
 .first_section {
+	-webkit-clip-path: polygon(
+		0% 0%,
+	    100% 0%,
+	    100% 100%,
+	    0% 90%
+	);
 	min-height: 87vh;
 	padding: 20% 0px 0px 0px;
 }
@@ -36,11 +51,24 @@ section{
 }
 
 .third_section {
+	-webkit-clip-path: polygon(
+		0% 30%,
+	    100% 0%,
+	    100% 70%,
+	    40% 80%,
+	    0% 75%
+	);
 	min-height: 85vh;
 	padding: 13% 0px 0px 0px;
 }
 
 .fifth_section {
+	-webkit-clip-path: polygon(
+		0% 25%,
+	    100% 0%,
+	    100% 100%,
+	    0% 100%
+	);
 	min-height: 60vh;
 }
 
