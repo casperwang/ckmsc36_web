@@ -166,7 +166,7 @@ function updSel(){
 		var txt = titles[curSel].replace(/\S/g, "<span class = 'selLetter' visible = 'false'>$&</span>");
 		$("#hoverbox_" + curSel).css("padding", "10px 10px 10px 10px");
 		$("#hoverbox_" + curSel).css("right", (dia * 1.5) + "px");
-		$("#hoverbox_" + curSel).css("font-size", (dia / 2) + "px");
+		$("#hoverbox_" + curSel).css("width", "500px");
 		$("#hoverbox_" + curSel).html(txt);
 
 		$("#hoverbg_" + curSel).css("width", $("#hoverbox_" + curSel).css("width"));
@@ -174,6 +174,8 @@ function updSel(){
 		$("#hoverbg_" + curSel).css("right", (dia * 1.5) + "px");
 		$("#hoverbg_" + curSel).css("top", "10px");
 		$("#hoverbg_" + curSel).css("backgroundColor", coloursLight[curSel % 6]);
+
+		$(".selLetter").css("font-size", (dia / 2) + "px");
 		anime.timeline()
 		.add({
 			targets: "#hoverbg_" + curSel,

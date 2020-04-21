@@ -48,7 +48,7 @@ var paths = [
 ];
 
 var titles = [
-  "Eὕρηκα!",
+  "Εύρηκα!",
   "何謂專題？",
   "數學組",
   "資訊組",
@@ -57,6 +57,79 @@ var titles = [
   "生物組",
   "地科組",
   "影片、音樂"
+];
+
+var descs = [
+  "Jizz in my pants",
+  "Jizz in my pants",
+  "Jizz in my pants",
+  "Jizz in my pants",
+  "Jizz in my pants",
+  "Jizz in my pants",
+  "Jizz in my pants",
+  "Jizz in my pants",
+  "Jizz in my pants"
+];
+
+var firstSection = [
+  "關於Εύρηκα!",
+  "關於數學組",
+  "關於數學組",
+  "關於數學組",
+  "關於數學組",
+  "關於數學組",
+  "關於數學組",
+  "關於數學組",
+  "關於數學組"
+];
+
+var secondSection = [
+  "PTJ和他們的產地",
+  "PTJ和他們的產地",
+  "PTJ和他們的產地",
+  "PTJ和他們的產地",
+  "PTJ和他們的產地",
+  "PTJ和他們的產地",
+  "PTJ和他們的產地",
+  "PTJ和他們的產地",
+  "PTJ和他們的產地",
+  "PTJ和他們的產地",
+];
+
+var firstBgs = [
+  "url('./images/logos/ericxiao.jpg')",
+  "url('./images/logos/ericxiao.jpg')",
+  "url('./images/logos/ericxiao.jpg')",
+  "url('./images/logos/ericxiao.jpg')",
+  "url('./images/logos/ericxiao.jpg')",
+  "url('./images/logos/ericxiao.jpg')",
+  "url('./images/logos/ericxiao.jpg')",
+  "url('./images/logos/ericxiao.jpg')",
+  "url('./images/logos/ericxiao.jpg')"
+];
+
+var secBgs = [
+  "url('./images/einstein.jpeg')",
+  "url('./images/einstein.jpeg')",
+  "url('./images/einstein.jpeg')",
+  "url('./images/einstein.jpeg')",
+  "url('./images/einstein.jpeg')",
+  "url('./images/einstein.jpeg')",
+  "url('./images/einstein.jpeg')",
+  "url('./images/einstein.jpeg')",
+  "url('./images/einstein.jpeg')",
+];
+
+var thirdBgs = [
+  "url('./images/logos/ericxiao.jpg')",
+  "url('./images/logos/ericxiao.jpg')",
+  "url('./images/logos/ericxiao.jpg')",
+  "url('./images/logos/ericxiao.jpg')",
+  "url('./images/logos/ericxiao.jpg')",
+  "url('./images/logos/ericxiao.jpg')",
+  "url('./images/logos/ericxiao.jpg')",
+  "url('./images/logos/ericxiao.jpg')",
+  "url('./images/logos/ericxiao.jpg')",
 ];
 /*
 數學 #C0D72F
