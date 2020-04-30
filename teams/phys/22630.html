@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>自製2.4GHz微帶天線建構訊號收發系統</title>
+    <meta name="author" content="Matthew Howell" />
+    <meta name="description" content="fullPage continuous scrolling demo." />
+    <meta name="keywords"  content="fullpage,jquery,demo,scroll,loop,continuous" />
+    <meta name="Resource-type" content="Document" />
+
+
+    <link rel="stylesheet" type="text/css" href="../../css/fullpage.css" />
+    <link rel="stylesheet" type="text/css" href="../../css/examples.css" />
+
+    <!--[if IE]>
+        <script type="text/javascript">
+             var console = { log: function() {} };
+        </script>
+    <![endif]-->
+</head>
+<body>
+
+<ul id="menu">
+    <li data-menuanchor="firstPage" class="active"><a href="#firstPage">標題</a></li>
+    <li data-menuanchor="secondPage"><a href="#secondPage">專題介紹</a></li>
+    <li data-menuanchor="3rdPage"><a href="#3rdPage">成果發表</a></li>
+</ul>
+
+<div id="fullpage">
+    <div class="section active" id="section0">
+        <h1>自製2.4GHz微帶天線建構訊號收發系統</h1>
+    </div>
+    <div class="section" id="section1">
+        <div class="slide active" id="slide1">
+            <div class="intro">
+                <h1>Slide 2.1</h1>
+            </div>
+        </div>
+        <div class="slide" id="slide2">
+            <div class="intro">
+                <h1>Slide 2.2</h1>
+                <p>
+                    We are using the class `active` on this section and in this particular horizontal slide. This way it will appear on the viewport on page load, instead of the 1st section 1st slide.
+                </p>
+                <p>You can apply the same logic to horizontal slides</p>
+            </div>
+        </div>
+        <div class="slide" id="slide3">
+            <h1>Slide 2.3</h1>
+        </div>
+
+    </div>
+    <div class="section" id="section2">
+        <div class="intro">
+            <h1>Section 3</h1>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript" src="../../js/fullpage.js"></script>
+<script type="text/javascript" src="../../js/examples.js"></script>
+<script type="text/javascript">
+    var myFullpage = new fullpage('#fullpage', {
+        sectionsColor: ['#1bbc9b', '#4BBFC3', '#7BAABE', 'whitesmoke', '#ccddff'],
+        anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage', 'lastPage'],
+        menu: '#menu',
+        lazyLoad: true
+    });
+</script>
+
+</body>
+</html>
