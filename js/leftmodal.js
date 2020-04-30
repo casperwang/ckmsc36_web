@@ -29,22 +29,51 @@ function updateTitle(){
 	$(".first_section").css("background-image", firstBgs[curGo]);
 	$(".third_section").css("background-image", secBgs[curGo]);
 	$(".fifth_section").css("background-image", thirdBgs[curGo]);
+	$(".seventh_section").css("background-image", fourthBgs[curGo]);
 
+	//Title
 	var textWrapper = $("#titleText");
 	var txt = titles[curGo].replace(/\S/g, "<span class = 'letter'>$&</span>");
 	textWrapper.html(txt);
-
+	//Description (subtitle underneath)
 	var textWrapper = $("#titleDesc");
 	var txt = descs[curGo].replace(/\S/g, "<span class = 'descLetter'>$&</span>");
 	textWrapper.html(txt);
 
-	var textWrapper = $("#firstSection");
-	var txt = firstSection[curGo].replace(/\S/g, "<span class = 'h3title'>$&</span>");
-	textWrapper.html(txt);
-
+	//Second section
 	var textWrapper = $("#secondSection");
-	var txt = secondSection[curGo].replace(/\S/g, "<span class = 'h3title'>$&</span>");
+	var txt = secondSection[curGo]["title"].replace(/\S/g, "<span class = 'h3title'>$&</span>");
 	textWrapper.html(txt);
+	$(".second_photo").css("background-image", teacher_photos[curGo]);
+	$("#secondInner").html(secondSection[curGo]["innerText"]);
+
+	//Fourth Section
+	var textWrapper = $("#fourthSection");
+	var txt = fourthSection[curGo]["title"].replace(/\S/g, "<span class = 'h3title'>$&</span>");
+	textWrapper.html(txt);
+	$("#fourthInner").html(fourthSection[curGo]["innerText"]);
+
+	//Sixth Section
+	var textWrapper = $("#sixthSection");
+	var txt = sixthSection[curGo]["title"].replace(/\S/g, "<span class = 'h3title'>$&</span>");
+	textWrapper.html(txt);
+	$("#sixthInner").html(sixthSection[curGo]["innerText"]);
+
+	$("#fourthphoto_top").css("background-image", teacher_photos[curGo]);
+	$("#fourthphoto_bot").css("background-image", teacher_photos[curGo]);
+
+	//Bottom profiles
+	/*
+	<div class="portfolio-item third-item">
+        <div class="image">
+          <a href="img/03-big-item.jpg" data-lightbox="image-1"><img src="img/third-item.jpg"></a>
+        </div>
+        <div class="text">
+          <span>Focus</span>
+          <h4>Clean Design</h4>
+        </div>
+    </div>
+	*/
 
 	anime.timeline()
 	  .add({
@@ -71,29 +100,19 @@ function updateTitle(){
 	    delay: (el, i, l) => 20 * (l - i + 1)
 	  });
 
-	 anime.timeline()
-	   .add({
-	   	targets: "#firstSection .h3title",
-	   	opacity: [0,1],
-	    translateZ: 0,
-	    easing: "easeOutExpo",
-	    duration: 400,
-	    delay: (el, i, l) => 30 * (i + 1)
-	   }).add({
-	   	targets: "#secondSection .h3title",
-	   	opacity: [0,1],
-	    translateZ: 0,
-	    easing: "easeOutExpo",
-	    duration: 400,
-	    delay: (el, i, l) => 30 * (i + 1)
-	   });
+	 anime({
+	 	targets: '.sectionTitle, .sectionText',
+	 	opacity: [0, 1],
+	 	easing: "easeInSine",
+	 	duration: 300
+	 });
 }
 
 function modalUpdate(){
 	console.log("Updating modal");
 	$("#logoPut").attr("src", "./image/logos/ericxiao.jpg");
 
-	$("#par_bg3").css("background-image", 'url("../image/ericxiao.jpg")');
+	$("#par_bg3").css("background-image", 'url("../image/marble.jpg")');
 	
 	updateTitle();
 	logoUpdate();

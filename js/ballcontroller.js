@@ -47,7 +47,7 @@ function bgripple(){
 	var idx = grid[0] / 2 * grid[1] + grid[1] / 2;
 	tl.add({
 		targets: "#ballbg",
-		backgroundColor: colours[curGo % 6],
+		backgroundColor: colours[curGo],
 		duration: 0
 	});
 	tl.add({
@@ -56,7 +56,7 @@ function bgripple(){
 			{value: 0, easing: 'easeOutQuad', duration: 300},
 			{value: 1, easing: 'easeInQuad', duration: 300}
 		],
-		backgroundColor: colours[curGo % 6],
+		backgroundColor: colours[curGo],
 		delay: anime.stagger(90, {grid: grid, from: idx})
 	});
 	
@@ -99,7 +99,7 @@ function initBalls(){
 			}
 		},
 		backgroundColor: function(el, i, l){
-			return colours[i % 6];
+			return colours[i];
 		}
 	});
 }
@@ -134,7 +134,7 @@ function ballUpdate(){
 			return sc;
 		},
 		backgroundColor: function(el, i, l){
-			return colours[i % 6];
+			return colours[i];
 		},
 		duration: 50,
 		easing: "easeInQuad"
@@ -173,7 +173,7 @@ function updSel(){
 		$("#hoverbg_" + curSel).css("height", dia / 2);
 		$("#hoverbg_" + curSel).css("right", (dia * 1.5) + "px");
 		$("#hoverbg_" + curSel).css("top", "10px");
-		$("#hoverbg_" + curSel).css("backgroundColor", coloursLight[curSel % 6]);
+		$("#hoverbg_" + curSel).css("backgroundColor", coloursLight[curSel]);
 
 		$(".selLetter").css("font-size", (dia / 2) + "px");
 		anime.timeline()
