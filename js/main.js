@@ -1,4 +1,4 @@
-$(document).ready(function(){
+function readyIntroPage(){
 	initDoc();
 	initBg();
 	initBalls();
@@ -6,5 +6,9 @@ $(document).ready(function(){
 	checkHover();
 	logoHover();
 	modalUpdate();
+}
+
+$(document).ready(function(){
+	readyIntroPage();
 });
 

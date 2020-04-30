@@ -5,19 +5,24 @@
 .circle_base {
     border-radius: 50%;
 	margin-left: auto;
+	text-align: center;
 	margin-right: auto;
 }
 
 .teacher_photo {
 	background-size: cover;
+	float: left;
 	width: 300px;
 	height: 300px;
 }
 
-.student_photo {
+.second_photo {
 	background-size: cover;
-	width: 150px;
-	height: 150px;
+	float: right;
+	margin-top: 50px;
+	width: 300px;
+	height: 300px;
+	z-index: 0;
 }
 
 .sect{
@@ -40,12 +45,13 @@ section{
 	    100% 100%,
 	    0% 90%
 	);
-	min-height: 87vh;
+	min-height: 110vh;
 	padding: 20% 0px 0px 0px;
 }
 
 .second_section {
 	padding: 0px 0px 0px 0px;
+	min-height: 70vh;
 }
 
 .third_section {
@@ -56,18 +62,26 @@ section{
 	    40% 80%,
 	    0% 75%
 	);
-	min-height: 85vh;
-	padding: 13% 0px 0px 0px;
+	min-height: 120vh;
+	padding: 20% 0px 0px 0px;
+}
+
+.fourth_section{
+	min-height: 50vh;
 }
 
 .fifth_section {
 	-webkit-clip-path: polygon(
-		0% 25%,
+		0% 30%,
 	    100% 0%,
-	    100% 100%,
+	    100% 80%,
 	    0% 100%
 	);
-	min-height: 60vh;
+	min-height: 150vh;
+}
+
+.sixth_section{
+	min-height: 50vh;
 }
 
 .right {
@@ -75,7 +89,7 @@ section{
 }
 
 h2 {
-	font-size: 44px;
+	font-size: 50px;
 	font-weight: 900;
 	letter-spacing: 3px;
 }
@@ -87,7 +101,7 @@ h2 {
 }
 
 .h3title{
-	font-size: 30px;
+	font-size: 50px;
 	font-weight: 450;
 	letter-spacing: 1px;
 }
@@ -97,6 +111,34 @@ h2 {
 	height: 3px;
 	background-color: black;
 	margin: 25px 0px 25px auto;
+}
+
+.sectionText{
+	margin-top: 50px;
+	font-size: 20px;
+}
+
+.fourth_photos{
+	display: grid;
+	grid-template-columns: repeat(20, lfr);
+	position: relative;
+}
+
+#fourthphoto_top{
+	grid-column-start: 1;
+	grid-row-start: 1;
+	grid-column-end: 5;
+	grid-row-end: 5;
+	z-index: 0;
+}
+
+#fourthphoto_bot{
+	grid-column-start: 2;
+	grid-row-start: 3;
+	grid-column-end: 6;
+	grid-row-end: 7;
+	z-index: 0;
+	filter: brightness(50%);
 }
 
 span {
