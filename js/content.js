@@ -1,5 +1,5 @@
 var titles = [
-  "Εύρηκα!",
+  "Εὕρηκα!",
   "何謂專題？",
   "數學組",
   "資訊組",
@@ -24,7 +24,7 @@ var descs = [
 
 var secondSection = [
   {
-    "title": "關於Εύρηκα!",
+    "title": "關於Εὕρηκα!",
     "innerText": `Hwæt. We Gardena in geardagum,
 þeodcyninga, þrym gefrunon,
 hu ða æþelingas ellen fremedon.Hwæt. We Gardena in geardagum,
