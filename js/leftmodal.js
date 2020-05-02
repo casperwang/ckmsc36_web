@@ -74,7 +74,33 @@ function updateTitle(){
         </div>
     </div>
 	*/
-
+	var len = groups[curGo]["len"];
+	$(".sixth_section").html(`<div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <h3 id = "sixthSection" class = "sectionTitle"></h3>
+                            <div id = "sixthInner" class = "sectionText"></div>
+                        </div>
+                    </div>
+                    <div class = "row">`);
+	for(var i = 0; i < 1; i++){
+		$(".sixth_section").append(
+			`
+			<div class="col-md-3 col-sm-6">
+				<div class="portfolio-item">
+			        <div class="image">
+			          <a href="${groups[curGo]["images"][i]}" data-lightbox="image-1"><img src="${groups[curGo]["images"][i]}"></a>
+			        </div>
+			        <div class="text">
+			          <span>Focus</span>
+			          <h4>Clean Design</h4>
+			        </div>
+			    </div>
+			
+			`
+		);
+	}
+	$(".sixth_section").append('</div></div>');
 	anime.timeline()
 	  .add({
 	    targets: '#titleText .letter',

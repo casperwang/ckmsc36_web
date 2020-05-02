@@ -170,27 +170,13 @@ function updSel(){
 		$("#hoverbox_" + curSel).html(txt);
 
 		$("#hoverbg_" + curSel).css("width", $("#hoverbox_" + curSel).css("width"));
-		$("#hoverbg_" + curSel).css("height", dia / 2);
+		$("#hoverbg_" + curSel).css("height", "3em");
 		$("#hoverbg_" + curSel).css("right", (dia * 1.5) + "px");
 		$("#hoverbg_" + curSel).css("top", "10px");
 		$("#hoverbg_" + curSel).css("backgroundColor", coloursLight[curSel]);
 
 		$(".selLetter").css("font-size", (dia / 2) + "px");
-		anime.timeline()
-		.add({
-			targets: "#hoverbg_" + curSel,
-			width: [0, 200],
-			duration: 50,
-			easing: "easeInQuad"
-		}).add({
-			targets: ".selLetter",
-			opacity: [0, 1],
-			delay: function(el, i, l){
-				return (l - i) * 20;
-			},
-			duration: 50,
-			easing: "easeInQuad"
-		});
+		
 	} 
 }
 
@@ -200,10 +186,24 @@ function checkHover(){
 	$("#ballcontainer").on({
 	    mouseenter: function() {
 	    	curSel = parseInt(this.id.split("_")[1]);
+	    	anime.timeline()
+			.add({
+				targets: "#hoverbg_" + curSel,
+				width: [0, 200],
+				duration: 50,
+				easing: "easeInQuad"
+			}).add({
+				targets: ".selLetter",
+				opacity: [0, 1],
+				delay: function(el, i, l){
+					return (l - i) * 20;
+				},
+				duration: 50,
+				easing: "easeInQuad"
+			});
 	        updSel();
 	    },
 	    mouseleave: function() {
-	    	console.log("Exit!");
 	    	anime.timeline()
 	    	.add({
 				targets: ".selLetter",
@@ -220,6 +220,7 @@ function checkHover(){
 				easing: "easeOutQuad"
 			});
 	    	curSel = -1;
+	    	updSel();
 	    },
 	    click: function(){
 	    	var ID = this.id;

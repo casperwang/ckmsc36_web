@@ -346,12 +346,14 @@ var groups = [
   {
     "len": 6,
     "images": [
-      "url('./images/einstein.jpeg')",
-      "url('./images/einstein.jpeg')",
-      "url('./images/einstein.jpeg')",
-      "url('./images/einstein.jpeg')",
-      "url('./images/einstein.jpeg')",
-      "url('./images/einstein.jpeg')",
+      "./images/einstein.jpeg",
+      "./images/einstein.jpeg",
+      "./images/einstein.jpeg",
+      "./images/einstein.jpeg",
+      "./images/einstein.jpeg",
+      "./images/einstein.jpeg",
+      "./images/einstein.jpeg",
+      "./images/einstein.jpeg"
     ], //團體照
     "titles": [
       "辣椒的研究",

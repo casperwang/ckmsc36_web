@@ -41,6 +41,8 @@
 
 .hoverbg{
 	position: absolute;
+	display:inline-block;
+	height: 100vh;
 }
 
 .leftSide{
