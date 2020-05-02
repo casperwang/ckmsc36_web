@@ -53,15 +53,7 @@ function updateTitle(){
 	textWrapper.html(txt);
 	$("#fourthInner").html(fourthSection[curGo]["innerText"]);
 
-	//Sixth Section
-	var textWrapper = $("#sixthSection");
-	var txt = sixthSection[curGo]["title"].replace(/\S/g, "<span class = 'h3title'>$&</span>");
-	textWrapper.html(txt);
-	$("#sixthInner").html(sixthSection[curGo]["innerText"]);
-
-	$("#fourthphoto_top").css("background-image", teacher_photos[curGo]);
-	$("#fourthphoto_bot").css("background-image", teacher_photos[curGo]);
-
+	
 	//Bottom profiles
 	/*
 	<div class="portfolio-item third-item">
@@ -75,18 +67,20 @@ function updateTitle(){
     </div>
 	*/
 	var len = groups[curGo]["len"];
-	$(".sixth_section").html(`<div class="container">
-                    <div class="row">
-                        <div class="col-md-5">
-                            <h3 id = "sixthSection" class = "sectionTitle"></h3>
-                            <div id = "sixthInner" class = "sectionText"></div>
-                        </div>
-                    </div>
-                    <div class = "row">`);
-	for(var i = 0; i < 1; i++){
-		$(".sixth_section").append(
+	var obj = `
+		<div class="container">
+	            <div class="row">
+	                <div class="col-md-5">
+	                    <h3 id = "sixthSection" class = "sectionTitle"></h3>
+	                    <div id = "sixthInner" class = "sectionText"></div>
+	                </div>
+	            </div>
+	            <div class="row">
+	`;
+	for(var i = 0; i < len; i++){
+		obj += 
 			`
-			<div class="col-md-3 col-sm-6">
+			<div class="col-md-3 col-sm-3">
 				<div class="portfolio-item">
 			        <div class="image">
 			          <a href="${groups[curGo]["images"][i]}" data-lightbox="image-1"><img src="${groups[curGo]["images"][i]}"></a>
@@ -96,11 +90,23 @@ function updateTitle(){
 			          <h4>Clean Design</h4>
 			        </div>
 			    </div>
-			
-			`
-		);
+			</div>
+			`;
+		if(i % 3 == 2){
+			obj += '</div><div class="row">';
+		}
 	}
-	$(".sixth_section").append('</div></div>');
+	obj += '</div></div>';
+	$(".sixth_section").html(obj);
+	//Sixth Section
+	var textWrapper = $("#sixthSection");
+	var txt = sixthSection[curGo]["title"].replace(/\S/g, "<span class = 'h3title'>$&</span>");
+	textWrapper.html(txt);
+	$("#sixthInner").html(sixthSection[curGo]["innerText"]);
+
+	$("#fourthphoto_top").css("background-image", teacher_photos[curGo]);
+	$("#fourthphoto_bot").css("background-image", teacher_photos[curGo]);
+
 	anime.timeline()
 	  .add({
 	    targets: '#titleText .letter',
