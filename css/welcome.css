@@ -15,8 +15,8 @@ body {
 #toptitle{
   position: relative;
   display: inline-block;
-  font-size: 100px;
-  width: 50%;
+  font-size: 6vw;
+  width: 60%;
 }
 
 #toptitle .line{
@@ -49,7 +49,31 @@ body {
   margin-top: 50px;
   text-align: center;
   line-height: 2em;
-  font-size: 35px;
+  font-size: 2vw;
+}
+
+.igLogo{
+  display: inline-block;
+  background: url('../images/ig_logo.png') no-repeat;
+  background-size: contain;
+  width: 100px;
+  height: 100px;
+  top: 2em;
+}
+
+#hidden{
+  position: absolute;
+  color: white;
+  bottom: -2%;
+  left: 0%;
+  width: auto;
+}
+
+#notice{
+  position: absolute;
+  bottom: 0%;
+  left: 0%;
+  width: auto;
 }
 
 a {

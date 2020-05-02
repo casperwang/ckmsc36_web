@@ -67,47 +67,47 @@ hu ða æþelingas ellen fremedon.Hwæt. We Gardena in geardagum,
 þeodcyninga, þrym gefrunon,
 hu ða æþelingas ellen fremedon.`
   },{
-    "title": "關於Εύρηκα!",
+    "title": "關於Εὕρηκα!",
     "innerText": `Hwæt. We Gardena in geardagum,
 þeodcyninga, þrym gefrunon,
 hu ða æþelingas ellen fremedon.`
   },{
-    "title": "關於Εύρηκα!",
+    "title": "關於Εὕρηκα!",
     "innerText": `Hwæt. We Gardena in geardagum,
 þeodcyninga, þrym gefrunon,
 hu ða æþelingas ellen fremedon.`
   },{
-    "title": "關於Εύρηκα!",
+    "title": "關於Εὕρηκα!",
     "innerText": `Hwæt. We Gardena in geardagum,
 þeodcyninga, þrym gefrunon,
 hu ða æþelingas ellen fremedon.`
   },{
-    "title": "關於Εύρηκα!",
+    "title": "關於Εὕρηκα!",
     "innerText": `Hwæt. We Gardena in geardagum,
 þeodcyninga, þrym gefrunon,
 hu ða æþelingas ellen fremedon.`
   },{
-    "title": "關於Εύρηκα!",
+    "title": "關於Εὕρηκα!",
     "innerText": `Hwæt. We Gardena in geardagum,
 þeodcyninga, þrym gefrunon,
 hu ða æþelingas ellen fremedon.`
   },{
-    "title": "關於Εύρηκα!",
+    "title": "關於Εὕρηκα!",
     "innerText": `Hwæt. We Gardena in geardagum,
 þeodcyninga, þrym gefrunon,
 hu ða æþelingas ellen fremedon.`
   },{
-    "title": "關於Εύρηκα!",
+    "title": "關於Εὕρηκα!",
     "innerText": `Hwæt. We Gardena in geardagum,
 þeodcyninga, þrym gefrunon,
 hu ða æþelingas ellen fremedon.`
   },{
-    "title": "關於Εύρηκα!",
+    "title": "關於Εὕρηκα!",
     "innerText": `Hwæt. We Gardena in geardagum,
 þeodcyninga, þrym gefrunon,
 hu ða æþelingas ellen fremedon.`
   },{
-    "title": "關於Εύρηκα!",
+    "title": "關於Εὕρηκα!",
     "innerText": `Hwæt. We Gardena in geardagum,
 þeodcyninga, þrym gefrunon,
 hu ða æþelingas ellen fremedon.`

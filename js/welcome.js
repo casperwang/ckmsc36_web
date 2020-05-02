@@ -31,7 +31,7 @@ function readyAnimation(){
   	}).add({
 	    targets: '#toptitle .rgt',
 	    opacity: [0,1],
-	    translateX: ["-0.48em", 0],
+	    translateX: ["-0.5em", 0],
 	    easing: "easeOutExpo",
 	    duration: 600,
 	    offset: '-=600'
