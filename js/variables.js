@@ -8,7 +8,6 @@ var coloursLight = ["#000000", "#000000", "#dffa37", "#f7f7f7", "#ffb845", "#fa7
 var bigScale = 1.7, selectScale = 1.2, focusColour = "#FFFFFF";
 var txtSz = dia / bigScale; //Greek text letter size
 
-
 /*
 數學 #C0D72F
 資訊 #EAEAEA

@@ -44,7 +44,6 @@ function readyAnimation(){
   	});
 }
 
-
 $(document).ready(function(){
 	readyAnimation()
 });
