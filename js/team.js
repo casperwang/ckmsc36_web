@@ -7,7 +7,7 @@ function checkButton(){
 	    	anime.timeline()
 	    	.add({
 	    		targets: "#cursor",
-	    		translateX: [0, 120],
+	    		translateX: [0, 100],
 	    		duration: 150,
 	    		easing: "easeInQuad"
 	    	})
@@ -35,7 +35,7 @@ function checkButton(){
 	    	})
 	    	.add({
 	    		targets: "#cursor",
-	    		translateX: [120, 0],
+	    		translateX: [100, 0],
 	    		duration: 150,
 	    		easing: "easeOutQuad"
 	    	});
