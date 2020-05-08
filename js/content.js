@@ -114,7 +114,7 @@ hu ða æþelingas ellen fremedon.`
   }
 ];
 
-var fourthSection = [
+var thirdSection = [
   {
     "title": "我們的老師",
     "innerText":  `天地玄黃，宇宙洪荒，日月盈昃，辰宿列張，寒來暑往，秋收冬藏，
@@ -142,7 +142,7 @@ var fourthSection = [
  龍師火帝，鳥官人皇，始製文字，乃服衣裳，推位讓國，有虞陶唐`
   },
   {
-    "title": "我們的老師",
+    "title": "姚志鴻老師",
     "innerText":  `天地玄黃，宇宙洪荒，日月盈昃，辰宿列張，寒來暑往，秋收冬藏，
  閏餘成歲，律呂調陽，雲騰致雨，露結為霜，金生麗水，玉出昆岡，
  劍號巨闕，珠稱夜光，果珍李柰，菜重芥姜，海咸河淡，鱗潛羽翔，
@@ -199,7 +199,7 @@ var fourthSection = [
   }
 ];
 
-var sixthSection = [
+var fourthSection = [
   {
     "title": "其他介紹！！！",
     "innerText": `α΄ 1. Σημεῖόν ἐστιν, οὗ μέρος οὐθέν.
@@ -263,10 +263,10 @@ var sixthSection = [
 ];
 
 var firstBgs = [
+  "url('./images/groupimgs/groupimg.jpg')",
   "url('./images/backgrounds/eureka_bg.jpg')",
-  "url('./images/backgrounds/eureka_bg.jpg')",
-  "url('./images/backgrounds/eureka_bg.jpg')",
-  "url('./images/backgrounds/eureka_bg.jpg')",
+  "url('./images/backgrounds/math_background-01.png')",
+  "url('./images/backgrounds/inform_background-01.png')",
   "url('./images/backgrounds/eureka_bg.jpg')",
   "url('./images/backgrounds/eureka_bg.jpg')",
   "url('./images/backgrounds/eureka_bg.jpg')",
@@ -274,11 +274,11 @@ var firstBgs = [
   "url('./images/backgrounds/eureka_bg.jpg')"
 ];
 
-var secBgs = [
+var thirdBgs = [
   "url('./images/groupimgs/groupimg.jpg')",
   "url('./images/groupimgs/groupimg.jpg')",
-  "url('./images/groupimgs/groupimg.jpg')",
-  "url('./images/groupimgs/groupimg.jpg')",
+  "url('./images/backgrounds/math_background-01.png')",
+  "url('./images/backgrounds/inform_background-01.png')",
   "url('./images/groupimgs/groupimg.jpg')",
   "url('./images/groupimgs/groupimg.jpg')",
   "url('./images/groupimgs/groupimg.jpg')",
@@ -287,29 +287,17 @@ var secBgs = [
   "url('./images/groupimgs/groupimg.jpg')"
 ];
 
-var thirdBgs = [
+var fifthBgs = [
+  "url('./images/backgrounds/eureka_bg.jpg')",
+  "url('./images/backgrounds/eureka_bg.jpg')",
+  "url('./images/backgrounds/math_background-01.png')",
+  "url('./images/backgrounds/inform_background-01.png')",
   "url('./images/backgrounds/eureka_bg.jpg')",
   "url('./images/backgrounds/eureka_bg.jpg')",
   "url('./images/backgrounds/eureka_bg.jpg')",
   "url('./images/backgrounds/eureka_bg.jpg')",
   "url('./images/backgrounds/eureka_bg.jpg')",
   "url('./images/backgrounds/eureka_bg.jpg')",
-  "url('./images/backgrounds/eureka_bg.jpg')",
-  "url('./images/backgrounds/eureka_bg.jpg')",
-  "url('./images/backgrounds/eureka_bg.jpg')",
-  "url('./images/backgrounds/eureka_bg.jpg')",
-];
-
-var fourthBgs = [
-  "url('./images/backgrounds/eureka_bg.jpg')",
-  "url('./images/logos/ericxiao.jpg')",
-  "url('./images/logos/ericxiao.jpg')",
-  "url('./images/logos/ericxiao.jpg')",
-  "url('./images/logos/ericxiao.jpg')",
-  "url('./images/logos/ericxiao.jpg')",
-  "url('./images/logos/ericxiao.jpg')",
-  "url('./images/logos/ericxiao.jpg')",
-  "url('./images/logos/ericxiao.jpg')",
 ];
 
 var teacher_photos = [

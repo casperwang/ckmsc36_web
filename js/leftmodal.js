@@ -1,5 +1,3 @@
-console.log("Hiiiii");
-
 function logoUpdate(){
 	anime.timeline()
 	.add({
@@ -25,11 +23,9 @@ function logoHover(){
 }
 
 function updateTitle(){
-
 	$(".first_section").css("background-image", firstBgs[curGo]);
-	$(".third_section").css("background-image", secBgs[curGo]);
-	$(".fifth_section").css("background-image", thirdBgs[curGo]);
-	$(".seventh_section").css("background-image", fourthBgs[curGo]);
+	$(".third_section").css("background-image", thirdBgs[curGo]);
+	$(".fifth_section").css("background-image", fifthBgs[curGo]);
 
 	//Title
 	var textWrapper = $("#titleText");
@@ -48,12 +44,11 @@ function updateTitle(){
 	$("#secondInner").html(secondSection[curGo]["innerText"]);
 
 	//Fourth Section
-	var textWrapper = $("#fourthSection");
-	var txt = fourthSection[curGo]["title"].replace(/\S/g, "<span class = 'h3title'>$&</span>");
+	var textWrapper = $("#thirdSection");
+	var txt = thirdSection[curGo]["title"].replace(/\S/g, "<span class = 'h3title'>$&</span>");
 	textWrapper.html(txt);
-	$("#fourthInner").html(fourthSection[curGo]["innerText"]);
+	$("#thirdInner").html(thirdSection[curGo]["innerText"]);
 
-	
 	//Bottom profiles
 	/*
 	<div class="portfolio-item third-item">
@@ -67,20 +62,10 @@ function updateTitle(){
     </div>
 	*/
 	var len = groups[curGo]["len"];
-	var obj = `
-		<div class="container">
-	            <div class="row">
-	                <div class="col-md-5">
-	                    <h3 id = "sixthSection" class = "sectionTitle"></h3>
-	                    <div id = "sixthInner" class = "sectionText"></div>
-	                </div>
-	            </div>
-	            <div class="row">
-	`;
-	for(var i = 0; i < len; i++){
+	var obj = '<div class="row">';
+	for (var i = 0; i < len; i++) {
 		obj += 
-			`
-			<div class="col-md-3 col-sm-3">
+			`<div class="col-md-4 col-sm-4">
 				<div class="portfolio-item">
 			        <div class="image">
 			          <a href="${groups[curGo]["images"][i]}" data-lightbox="image-1"><img src="${groups[curGo]["images"][i]}"></a>
@@ -90,32 +75,32 @@ function updateTitle(){
 			          <h4>Clean Design</h4>
 			        </div>
 			    </div>
-			</div>
-			`;
-		if(i % 3 == 2){
+			</div>`
+			;
+		if (i % 3 == 2 && i != len-1) {
 			obj += '</div><div class="row">';
 		}
 	}
-	obj += '</div></div>';
-	$(".sixth_section").html(obj);
+	obj += '</div>';
+	$("#teams").html(obj);
 	//Sixth Section
-	var textWrapper = $("#sixthSection");
-	var txt = sixthSection[curGo]["title"].replace(/\S/g, "<span class = 'h3title'>$&</span>");
+	var textWrapper = $("#fourthSection");
+	var txt = fourthSection[curGo]["title"].replace(/\S/g, "<span class = 'h3title'>$&</span>");
 	textWrapper.html(txt);
-	$("#sixthInner").html(sixthSection[curGo]["innerText"]);
+	$("#fourthInner").html(fourthSection[curGo]["innerText"]);
 
-	$("#fourthphoto_top").css("background-image", teacher_photos[curGo]);
-	$("#fourthphoto_bot").css("background-image", teacher_photos[curGo]);
+	$("#thirdphoto_top").css("background-image", teacher_photos[curGo]);
+	$("#thirdphoto_bot").css("background-image", teacher_photos[curGo]);
 
 	anime.timeline()
-	  .add({
+	.add({
 	    targets: '#titleText .letter',
 	    opacity: [0,1],
 	    translateZ: 0,
 	    easing: "easeOutExpo",
 	    duration: 400,
 	    delay: (el, i, l) => 70 * (l - i + 1)
-	  }).add({
+	}).add({
 	    targets: '.titleLine',
 	    scaleX: [0,1],
 	    opacity: [0.5,1],
@@ -123,21 +108,20 @@ function updateTitle(){
 	    duration: 300,
 	    offset: '-=575',
 	    delay: (el, i, l) => 80 * (l - i) - 30
-	  }).add({
+	}).add({
 	    targets: '#titleDesc .descLetter',
 	    opacity: [0,1],
 	    translateZ: 0,
 	    easing: "easeOutExpo",
 	    duration: 200,
 	    delay: (el, i, l) => 20 * (l - i + 1)
-	  });
-
-	 anime({
+	});
+	anime({
 	 	targets: '.sectionTitle, .sectionText',
 	 	opacity: [0, 1],
 	 	easing: "easeInSine",
 	 	duration: 300
-	 });
+	});
 }
 
 function modalUpdate(){
