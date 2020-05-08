@@ -166,7 +166,7 @@ function updSel(){
 		var txt = titles[curSel].replace(/\S/g, "<span class = 'selLetter' visible = 'false'>$&</span>");
 		$("#hoverbox_" + curSel).css("padding", "10px 10px 10px 10px");
 		$("#hoverbox_" + curSel).css("right", (dia * 1.5) + "px");
-		$("#hoverbox_" + curSel).css("width", "500px");
+		$("#hoverbox_" + curSel).css("width", "10vw");
 		$("#hoverbox_" + curSel).html(txt);
 
 		$("#hoverbg_" + curSel).css("width", $("#hoverbox_" + curSel).css("width"));
@@ -176,7 +176,6 @@ function updSel(){
 		$("#hoverbg_" + curSel).css("backgroundColor", coloursLight[curSel]);
 
 		$(".selLetter").css("font-size", (dia / 2) + "px");
-		
 	} 
 }
 
