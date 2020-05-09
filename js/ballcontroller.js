@@ -1,13 +1,7 @@
-
-
-
-
-
 //Background grid
 var grid = [Math.ceil(wid / 100), Math.ceil(len / 100)];
 var nelements = grid[0] * grid[1];
 /*
-
 數學 #C0D72F
 資訊 #EAEAEA
 化學 #F9A51B
@@ -23,7 +17,6 @@ function initDoc(){
 	$("#ballcontainer").css("width", wid);
 	$("#ballcontainer").css("height", len);
 	$("#ballcontainer").css("right", -len / 2);
-
 
 	$("#ballbg").css("width", wid);
 	$("#ballbg").css("height", len);
@@ -74,11 +67,8 @@ function initBg(){
 		complete: function(anim){
 			bgripple();
 		}
-	});
+	})
 }
-
-
-
 
 function initBalls(){
 	var tl = anime.timeline();
@@ -179,8 +169,6 @@ function updSel(){
 	} 
 }
 
-
-
 function checkHover(){
 	$("#ballcontainer").on({
 	    mouseenter: function() {
@@ -231,3 +219,26 @@ function checkHover(){
 	}, ".ball");
 }
 
+function logoUpdate() {
+	anime.timeline()
+	.add({
+      targets: '#lineEureka .lines path',
+      strokeDashoffset: [anime.setDashoffset, 0],
+      easing: 'easeInSine',
+      duration: 1500,
+      delay: function(el, i, l) { return i * 50 },
+    }).add({
+      targets: '#lineEureka .lines path',
+      opacity: [1, 0],
+      duration: 1500,
+      delay: function(el, i) { return i * 50 },
+    });
+}
+
+function logoHover() {
+	$("#lineEureka").on({
+		mouseenter: function() {
+	    	logoUpdate();
+	    }
+	});
+}

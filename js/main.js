@@ -1,6 +1,5 @@
-function readyIntroPage(){
-	initDoc();
-	initBg();
+function readyIntroPage() {
+	initDoc()
 	initBalls();
 	updateLineArt();
 	checkHover();

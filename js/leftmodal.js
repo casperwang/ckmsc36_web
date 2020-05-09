@@ -1,35 +1,15 @@
-function logoUpdate(){
-	anime.timeline()
-	.add({
-      targets: '#lineEureka .lines path',
-      strokeDashoffset: [anime.setDashoffset, 0],
-      easing: 'easeInSine',
-      duration: 1500,
-      delay: function(el, i, l) { return i * 50 },
-    }).add({
-      targets: '#lineEureka .lines path',
-      opacity: [1, 0],
-      duration: 1500,
-      delay: function(el, i) { return i * 50 },
-    });
-}
-
-function logoHover(){
-	$("#lineEureka").on({
-		mouseenter: function() {
-	    	logoUpdate();
-	    }
-	});
-}
-
-function updateTitle(){
+function updateBackground() {
 	$(".first_section").css("background-image", firstBgs[curGo]);
 	$(".third_section").css("background-image", thirdBgs[curGo]);
 	$(".fifth_section").css("background-image", fifthBgs[curGo]);
+	console.log("initBg")
+}
 
+function updateTitle() {
 	//Title
 	var textWrapper = $("#titleText");
 	var txt = titles[curGo].replace(/\S/g, "<span class = 'letter'>$&</span>");
+	console.log(txt)
 	textWrapper.html(txt);
 	//Description (subtitle underneath)
 	var textWrapper = $("#titleDesc");
@@ -71,9 +51,10 @@ function updateTitle(){
 			          <a href="${groups[curGo]["images"][i]}" data-lightbox="image-1"><img src="${groups[curGo]["images"][i]}"></a>
 			        </div>
 			        <div class="text">
-			          <span>Focus</span>
-			          <h4>Clean Design</h4>
-			        </div>
+			          <span>${groups[curGo]["names"][i]}</span>
+			          <h4>${groups[curGo]["titles"][i]}</h4>
+					</div>
+					<br>
 			    </div>
 			</div>`
 			;
@@ -126,10 +107,7 @@ function updateTitle(){
 
 function modalUpdate(){
 	console.log("Updating modal");
-	$("#logoPut").attr("src", "./image/logos/ericxiao.jpg");
-
-	$("#par_bg3").css("background-image", 'url("../image/marble.jpg")');
-	
+	updateBackground();
 	updateTitle();
-	logoUpdate();
+	console.log("Finish update modal");
 }
