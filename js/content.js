@@ -262,42 +262,43 @@ var fourthSection = [
   }
 ];
 
+var bg_math   = "url('./images/backgrounds/math_background-01.png')";
+var bg_inform = "url('./images/backgrounds/inform_background-01.png')";
+var bg_phys   = "url('./images/backgrounds/phys_background-01.png')";
+var bg_chem   = "url('./images/backgrounds/chem_background-01.png')";
+var bg_earths = "url('./images/backgrounds/earths_background-01.png')";
+
 var firstBgs = [
-  "url('./images/groupimgs/groupimg.jpg')",
-  "url('./images/backgrounds/eureka_bg.jpg')",
-  "url('./images/backgrounds/math_background-01.png')",
   "url('./images/backgrounds/inform_background-01.png')",
   "url('./images/backgrounds/eureka_bg.jpg')",
+  bg_math,
+  bg_inform,
+  bg_phys,
+  bg_chem,
   "url('./images/backgrounds/eureka_bg.jpg')",
-  "url('./images/backgrounds/eureka_bg.jpg')",
-  "url('./images/backgrounds/eureka_bg.jpg')",
-  "url('./images/backgrounds/eureka_bg.jpg')"
+  bg_earths
 ];
 
 var thirdBgs = [
   "url('./images/groupimgs/groupimg.jpg')",
   "url('./images/groupimgs/groupimg.jpg')",
-  "url('./images/backgrounds/math_background-01.png')",
-  "url('./images/backgrounds/inform_background-01.png')",
+  bg_math,
+  bg_inform,
+  bg_phys,
+  bg_chem,
   "url('./images/groupimgs/groupimg.jpg')",
-  "url('./images/groupimgs/groupimg.jpg')",
-  "url('./images/groupimgs/groupimg.jpg')",
-  "url('./images/groupimgs/groupimg.jpg')",
-  "url('./images/groupimgs/groupimg.jpg')",
-  "url('./images/groupimgs/groupimg.jpg')"
+  bg_earths
 ];
 
 var fifthBgs = [
   "url('./images/backgrounds/eureka_bg.jpg')",
   "url('./images/backgrounds/eureka_bg.jpg')",
-  "url('./images/backgrounds/math_background-01.png')",
-  "url('./images/backgrounds/inform_background-01.png')",
+  bg_math,
+  bg_inform,
+  bg_phys,
+  bg_chem,
   "url('./images/backgrounds/eureka_bg.jpg')",
-  "url('./images/backgrounds/eureka_bg.jpg')",
-  "url('./images/backgrounds/eureka_bg.jpg')",
-  "url('./images/backgrounds/eureka_bg.jpg')",
-  "url('./images/backgrounds/eureka_bg.jpg')",
-  "url('./images/backgrounds/eureka_bg.jpg')",
+  bg_earths
 ];
 
 var teacher_photos = [
