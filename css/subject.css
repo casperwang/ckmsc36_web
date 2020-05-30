@@ -89,25 +89,28 @@ section{
 }
 
 h2 {
-	font-size: 50px;
 	font-weight: 900;
 	letter-spacing: 3px;
 }
 
 .letter{
-	font-size: 44px;
+	font-size: max(7vw, 150px);
 	font-weight: 800;
-	letter-spacing: 3px;
+	letter-spacing: 0.1vw;
+}
+
+.descLetter{
+	font-size: max(0.5vw, 30px);
 }
 
 .h3title{
-	font-size: 50px;
+	font-size: max(4.5vw, 100px);
 	font-weight: 450;
 	letter-spacing: 1px;
 }
 
 .line-dec {
-	width: 60px;
+	width: 5vw;
 	height: 3px;
 	background-color: black;
 	margin: 25px 0px 25px auto;
@@ -119,8 +122,8 @@ h2 {
 }
 
 .sectionText{
-	margin-top: 50px;
-	font-size: 20px;
+	margin-top: 5vh;
+	font-size: max(50px, 1.5vw);
 }
 
 .fourth_photos{
@@ -144,10 +147,4 @@ h2 {
 	grid-row-end: 7;
 	z-index: 0;
 	filter: brightness(50%);
-}
-
-span {
-	font-size: 18px;
-	font-weight: 300;
-	letter-spacing: 1px;
 }

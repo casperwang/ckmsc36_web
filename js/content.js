@@ -22,8 +22,14 @@ var descs = [
 
 var secondSection = [
   {
-    "title": "關於Εὕρηκα!",
-    "innerText": ``
+    "title": "何謂Εὕρηκα？",
+    "innerText": `
+
+古希臘時期，數學家阿基米德在泡澡的時候靈光一閃發現了浮力原理，解決了困擾已久的皇冠問題。在這個靈感與興奮交疊的剎那，「Εὕρηκα!」脫口而出。
+</p>
+「Εὕρηκα!」一詞在古希臘語中是「我發現了！」的意思。在數資班特有的專題研究課中，透過一次次的推導、實驗、以及程式執行等等，我們一步步接近我們研究的目標。終於在這些過程與腦中想法交織之下，發現了對我們來說意義重大的結果，在喜悅與欣慰之間，豪邁地歡呼一聲「Εὕρηκα!」為堅持一年多辛苦的專題研究作最好的註解。
+</p>
+發現自己期盼已久結果的喜悅是藏不住的。我們以「Εὕρηκα!」作為第36屆建中數理資優班成果發表會的名稱，希望可以永遠記住這些努力之後的神聖時刻。在未來的人生旅途中，我們也自勉秉持對世間萬物的好奇心與對每件事情清晰的思考能力，探索更多未知領域，創造更多屬於Εὕρηκα!的驚奇瞬間。`
   },{
     "title": "總副召的話",
     "innerText": `Hwæt. We Gardena in geardagum,
@@ -161,17 +167,6 @@ var fourthSection = [
   }
 ];
 
-var fifthSection = [
-  {
-    "title": "成發曲《霓虹彼端》",
-    "innerText": `讓我們一起飛過 霓虹彼端。`
-  },
-  {
-    "title": "wang guan",
-    "innerText": `讓我們一起飛過 霓虹彼端。`
-  }
-];
-
 var sixthSection = [
   {
     "title": "成發影片《Euphoria》",
@@ -194,6 +189,16 @@ var eighthSection = [
   }
 ];
 
+var tenthSection = [
+  {
+    
+  },
+  {
+    "title": "文書、美宣組",
+    "innerText": `讓我們一起飛過 霓虹彼端。`
+  }
+];
+
 var ball_photos = [
   "./images/logos/eureka_icon.png",
   "./images/logos/brain_icon.png",
@@ -203,6 +208,7 @@ var ball_photos = [
   "./images/logos/earths_icon.png",
   "./images/logos/phys_icon.png",
   "./images/logos/bio_icon.png",
+  "./images/logos/up_icon.png",
 ];
 
 var bg_math   = "url('./images/backgrounds/math_background-01.png')";
@@ -236,6 +242,7 @@ var specialBgs = [
     "url('./images/groupimgs/day1_group.jpg')",
     "url('./images/groupimgs/video_group.png')",
     "url('./images/groupimgs/music_front.jpg')",
+    bg_inform,
     bg_inform
   ],
 

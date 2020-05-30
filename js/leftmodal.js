@@ -77,7 +77,10 @@ function updateTitle() {
                     </div>
                 </div>
             </div>
-            <div class = "col-md-12 tenth_section">
+		`);
+		if(curGo == 1){
+			$(".rightSide").before(`
+				<div class = "col-md-12 tenth_section">
                 <div class="content container-fluid">
                     <div class="row">
                         <div class="col-md-5">
@@ -97,7 +100,8 @@ function updateTitle() {
                     </div>
                 </div>
             </div>
-		`);
+            `);
+		}
 		$(".fifth_section").css("-webkit-clip-path", `
 			polygon(
 				  0vw  0vh,
@@ -130,18 +134,32 @@ function updateTitle() {
 		$(".eighth_section").css("min-height", `
 			70vh
 		`);
-
-		$(".ninth_section").css("-webkit-clip-path", `
-			polygon(
-				  0vw  0vh,
-				100vw  20vh,
-			    100vw 100vh,
-			      0vw 90vh
-			)
-		`);
-		$(".ninth_section").css("min-height", `
-			100vh
-		`);
+		if(curGo == 0){
+			$(".ninth_section").css("-webkit-clip-path", `
+				polygon(
+					  0vw  0vh,
+					100vw  20vh,
+				    100vw 100vh,
+				      0vw 100vh
+				)
+			`);
+			$(".ninth_section").css("min-height", `
+				40vh
+			`);
+		} else if(curGo == 1){
+			$(".ninth_section").css("-webkit-clip-path", `
+				polygon(
+					  0vw  0vh,
+					100vw  20vh,
+				    100vw 100vh,
+				      0vw 90vh
+				)
+			`);
+			$(".ninth_section").css("min-height", `
+				100vh
+			`);
+		}
+		
 
 		$(".tenth_section").css("min-height", `
 			70vh
@@ -170,6 +188,15 @@ function updateTitle() {
 		var txt = eighthSection[curGo]["title"].replace(/\S/g, "<span class = 'h3title'>$&</span>");
 		textWrapper.html(txt);
 		$("#eighthInner").html(eighthSection[curGo]["innerText"]);
+
+		//Tenth section
+		if(curGo == 1){
+			var textWrapper = $("#tenthSection");
+			var txt = tenthSection[curGo]["title"].replace(/\S/g, "<span class = 'h3title'>$&</span>");
+			textWrapper.html(txt);
+			$("#tenthInner").html(tenthSection[curGo]["innerText"]);	
+		}
+		
 
 		$("#thirdInner").html("");
 		$("#thirdSection").html("");
