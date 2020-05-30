@@ -35,9 +35,11 @@ body {overflow-x: hidden;}
 }
 
 .hoverbox{
+	padding-left: 2vw;
+	padding-top: 0.5vw;
 	position: absolute;
 	display: inline-block;
-	text-align: right;
+	text-align: left;
 }
 
 .hoverbg{

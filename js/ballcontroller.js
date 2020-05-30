@@ -86,10 +86,6 @@ function initBalls(){
 		},
 		easing: "easeInQuad",
 		rotate: function(el, i, l){
-			if(i == 8){
-				console.log("Rot");
-				return 180;
-			}
 			return 0;
 		},
 		duration: 300
@@ -127,6 +123,10 @@ function collapseBalls(){
 		},
 		easing: "easeOutQuad",
 		rotate: function(el, i, l){
+			if(i == 8){
+				console.log("Rot");
+				return 180;
+			}
 			return 0;
 		},
 		duration: 300
@@ -187,18 +187,18 @@ function updSel(){
 	$(".hoverbox").html("");
 	if(curSel != 8 && curSel != -1){
 		var txt = titles[curSel].replace(/\S/g, "<span class = 'selLetter' visible = 'false'>$&</span>");
-		$("#hoverbox_" + curSel).css("padding", "10px 10px 10px 10px");
 		$("#hoverbox_" + curSel).css("right", (dia * 1.5) + "px");
 		$("#hoverbox_" + curSel).html(txt);
-		$("#hoverbox_" + curSel).css("width", "100%");
+		$("#hoverbox_" + curSel + " .selLetter").css("align", "right");
+		$(".selLetter").css("font-size", "max(20px, 1.5vw)");
+		$("#hoverbox_" + curSel).css("width", "15vw");
 
-		$("#hoverbg_" + curSel).css("width", $("#hoverbox_" + curSel).css("width"));
-		$("#hoverbg_" + curSel).css("height", "3em");
+		$("#hoverbg_" + curSel).css("width", "15vw");
+		$("#hoverbg_" + curSel).css("height", (dia) + "px");
 		$("#hoverbg_" + curSel).css("right", (dia * 1.5) + "px");
-		$("#hoverbg_" + curSel).css("top", "10px");
 		$("#hoverbg_" + curSel).css("backgroundColor", coloursLight[curSel]);
 
-		$(".selLetter").css("font-size", "2vw");
+		
 	} 
 }
 
@@ -210,7 +210,7 @@ function checkHover(){
 		    	anime.timeline()
 				.add({
 					targets: "#hoverbg_" + curSel,
-					width: [0, 200],
+					width: ['0vw', '15vw'],
 					duration: 50,
 					easing: "easeInQuad"
 				}).add({
@@ -238,7 +238,7 @@ function checkHover(){
 					easing: "easeOutQuad"
 				}).add({
 					targets: "#hoverbg_" + curSel,
-					width: [200, 0],
+					width: ['15vw', '0vw'],
 					duration: 50,
 					easing: "easeOutQuad"
 				});
