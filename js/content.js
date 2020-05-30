@@ -10,15 +10,14 @@ var titles = [
 ];
 
 var descs = [
-  "Jizz in my pants",
-  "Jizz in my pants",
-  "Jizz in math",
-  "Jizz in my pants",
-  "Jizz in my pants",
-  "Jizz in my pants",
-  "Jizz in my pants",
-  "Jizz in my pants",
-  "Jizz in my pants"
+  "建國中學第三十六屆數理資優班成果發表會",
+  "六十個人奮鬥的故事",
+  "Μαθηματικά",
+  "Πληροφορική",
+  "Χημεία",
+  "Επιστήμη της Γης",
+  "Η φυσικη",
+  "Βιολογία",
 ];
 
 var secondSection = [
@@ -201,7 +200,7 @@ var sixthSection = [
 
 var eighthSection = [
   {
-    "title": "成發影片《Euphoria》",
+    "title": "成發曲《霓虹彼端》",
     "innerText": `四位建中學生的故事，誌人也誌怪`
   },
   {
@@ -239,13 +238,20 @@ var Bgs = [
   bg_bio,
 ];
 
-var special_bgs = [
+var specialBgs = [
+  [
+    "url('./images/backgrounds/inform_background-01.png')",
+    "url('./images/groupimgs/day1_group.jpg')",
+    "url('./images/groupimgs/video_group.png')",
+    "url('./images/groupimgs/music_front.jpg')",
+    bg_inform
+  ],
   [
     "url('./images/backgrounds/inform_background-01.png')",
     "url('./images/groupimgs/day1_group.jpg')",
     "url('./images/groupimgs/video_group.jpg')",
-  ],
-  [
+    "url('./images/groupimgs/music_front.jpg')",
+    bg_inform
   ],
 
 ]

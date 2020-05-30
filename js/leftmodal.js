@@ -1,10 +1,17 @@
 function updateBackground() {
-	$(".first_section").css("background-image", Bgs[curGo]);
-	$(".third_section").css("background-image", Bgs[curGo]);
-	$(".fifth_section").css("background-image", Bgs[curGo]);
-	$(".seventh_section").css("background-image", Bgs[curGo]);
-	$(".ninth_section").css("background-image", Bgs[curGo]);
-	console.log("initBg")
+	if(curGo <= 1){
+		$(".first_section").css("background-image", specialBgs[curGo][0]);
+		$(".third_section").css("background-image", specialBgs[curGo][1]);
+		$(".fifth_section").css("background-image", specialBgs[curGo][2]);
+		$(".seventh_section").css("background-image", specialBgs[curGo][3]);
+		$(".ninth_section").css("background-image", specialBgs[curGo][4]);
+	} else {
+		$(".first_section").css("background-image", Bgs[curGo]);
+		$(".third_section").css("background-image", Bgs[curGo]);
+		$(".fifth_section").css("background-image", Bgs[curGo]);
+		$(".seventh_section").css("background-image", Bgs[curGo]);
+		$(".ninth_section").css("background-image", Bgs[curGo]);
+	}
 }
 
 function updateTitle() {
