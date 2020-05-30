@@ -21,7 +21,7 @@ function initDoc(){
 	$("#ballbg").css("width", wid);
 	$("#ballbg").css("height", len);
 	//$("#ballbg").css("right", 0);
-	$("#ballbg").css("backgroundColor", "#000000");
+	$("#ballbg").css("background", "#000000");
 
 	$("#backbg").css("width", wid);
 	$("#backbg").css("height", len);
@@ -87,31 +87,15 @@ function initBalls(){
 			} else {
 				return 1;
 			}
-		},
-		backgroundColor: function(el, i, l){
-			return colours[i];
 		}
 	});
+	/*
+	for(var i = 0; i < numballs; i++){
+		$("#ball_" + i).css("background-image", "url('" + ball_photos[i] + "')");
+	}
+	*/
 }
 
-function updateLineArt(){
-	for(var i = 0; i < numballs; i++){
-		if(i == curGo){
-			$("#ball_" + i).html(
-				"<div class = 'hoverbg' id = 'hoverbg_" + i + "'></div><div class = 'hoverbox' id = 'hoverbox_" + i + "'></div>" + paths[i]
-			);
-			anime({
-	          targets: '.lineDrawing .lines path',
-	          strokeDashoffset: [anime.setDashoffset, 0],
-	          easing: 'easeInOutSine',
-	          duration: 1000,
-	          delay: function(el, i) { return i * 500 },
-		    });
-		} else {
-			$("#ball_" + i).html("<div class = 'hoverbg' id = 'hoverbg_" + i + "'></div><div class = 'hoverbox' id = 'hoverbox_" + i + "'></div>");
-		}
-	}
-}
 
 function ballUpdate(){
 	var tl = anime.timeline();
@@ -130,7 +114,6 @@ function ballUpdate(){
 		easing: "easeInQuad"
 	});
 	bgripple();
-	updateLineArt();
 }
 
 function updSel(){

@@ -17,12 +17,13 @@ function updateTitle() {
 	textWrapper.html(txt);
 
 	//Second section
+	
 	var textWrapper = $("#secondSection");
 	var txt = secondSection[curGo]["title"].replace(/\S/g, "<span class = 'h3title'>$&</span>");
 	textWrapper.html(txt);
 	$(".second_photo").css("background-image", teacher_photos[curGo]);
 	$("#secondInner").html(secondSection[curGo]["innerText"]);
-
+	
 	//Third Section
 	var textWrapper = $("#thirdSection");
 	var txt = thirdSection[curGo]["title"].replace(/\S/g, "<span class = 'h3title'>$&</span>");

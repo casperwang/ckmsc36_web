@@ -114,6 +114,98 @@ hu ða æþelingas ellen fremedon.`
   }
 ];
 
+var thirdSection = [
+  {
+    "title": "關於Εὕρηκα!",
+    "innerText": `Hwæt. We Gardena in geardagum,
+þeodcyninga, þrym gefrunon,
+hu ða æþelingas ellen fremedon.Hwæt. We Gardena in geardagum,
+þeodcyninga, þrym gefrunon,
+hu ða æþelingas ellen fremedon.Hwæt. We Gardena in geardagum,
+þeodcyninga, þrym gefrunon,
+hu ða æþelingas ellen fremedon.Hwæt. We Gardena in geardagum,
+þeodcyninga, þrym gefrunon,
+hu ða æþelingas ellen fremedon.Hwæt. We Gardena in geardagum,
+þeodcyninga, þrym gefrunon,
+hu ða æþelingas ellen fremedon.Hwæt. We Gardena in geardagum,
+þeodcyninga, þrym gefrunon,
+hu ða æþelingas ellen fremedon.Hwæt. We Gardena in geardagum,
+þeodcyninga, þrym gefrunon,
+hu ða æþelingas ellen fremedon.Hwæt. We Gardena in geardagum,
+þeodcyninga, þrym gefrunon,
+hu ða æþelingas ellen fremedon.Hwæt. We Gardena in geardagum,
+þeodcyninga, þrym gefrunon,
+hu ða æþelingas ellen fremedon.Hwæt. We Gardena in geardagum,
+þeodcyninga, þrym gefrunon,
+hu ða æþelingas ellen fremedon.Hwæt. We Gardena in geardagum,
+þeodcyninga, þrym gefrunon,
+hu ða æþelingas ellen fremedon.Hwæt. We Gardena in geardagum,
+þeodcyninga, þrym gefrunon,
+hu ða æþelingas ellen fremedon.Hwæt. We Gardena in geardagum,
+þeodcyninga, þrym gefrunon,
+hu ða æþelingas ellen fremedon.Hwæt. We Gardena in geardagum,
+þeodcyninga, þrym gefrunon,
+hu ða æþelingas ellen fremedon.Hwæt. We Gardena in geardagum,
+þeodcyninga, þrym gefrunon,
+hu ða æþelingas ellen fremedon.Hwæt. We Gardena in geardagum,
+þeodcyninga, þrym gefrunon,
+hu ða æþelingas ellen fremedon.Hwæt. We Gardena in geardagum,
+þeodcyninga, þrym gefrunon,
+hu ða æþelingas ellen fremedon.Hwæt. We Gardena in geardagum,
+þeodcyninga, þrym gefrunon,
+hu ða æþelingas ellen fremedon.Hwæt. We Gardena in geardagum,
+þeodcyninga, þrym gefrunon,
+hu ða æþelingas ellen fremedon.Hwæt. We Gardena in geardagum,
+þeodcyninga, þrym gefrunon,
+hu ða æþelingas ellen fremedon.`
+  },{
+    "title": "關於Εὕρηκα!",
+    "innerText": `Hwæt. We Gardena in geardagum,
+þeodcyninga, þrym gefrunon,
+hu ða æþelingas ellen fremedon.`
+  },{
+    "title": "關於數學組",
+    "innerText": `Hwæt. We Gardena in geardagum,
+þeodcyninga, þrym gefrunon,
+hu ða æþelingas ellen fremedon.`
+  },{
+    "title": "關於資訊組",
+    "innerText": `Hwæt. We Gardena in geardagum,
+þeodcyninga, þrym gefrunon,
+hu ða æþelingas ellen fremedon.`
+  },{
+    "title": "關於Εὕρηκα!",
+    "innerText": `Hwæt. We Gardena in geardagum,
+þeodcyninga, þrym gefrunon,
+hu ða æþelingas ellen fremedon.`
+  },{
+    "title": "關於Εὕρηκα!",
+    "innerText": `Hwæt. We Gardena in geardagum,
+þeodcyninga, þrym gefrunon,
+hu ða æþelingas ellen fremedon.`
+  },{
+    "title": "關於Εὕρηκα!",
+    "innerText": `Hwæt. We Gardena in geardagum,
+þeodcyninga, þrym gefrunon,
+hu ða æþelingas ellen fremedon.`
+  },{
+    "title": "關於Εὕρηκα!",
+    "innerText": `Hwæt. We Gardena in geardagum,
+þeodcyninga, þrym gefrunon,
+hu ða æþelingas ellen fremedon.`
+  },{
+    "title": "關於Εὕρηκα!",
+    "innerText": `Hwæt. We Gardena in geardagum,
+þeodcyninga, þrym gefrunon,
+hu ða æþelingas ellen fremedon.`
+  },{
+    "title": "關於Εὕρηκα!",
+    "innerText": `Hwæt. We Gardena in geardagum,
+þeodcyninga, þrym gefrunon,
+hu ða æþelingas ellen fremedon.`
+  }
+];
+
 var fourthSection = [
   {
     "title": "其他介紹！！！",
@@ -178,9 +270,15 @@ var fourthSection = [
 ];
 
 var ball_photos = [
-  "/Users/liusean/Desktop/Projects/ckmsc36_web/images/logos/",
-  "",
-]
+  "/Users/liusean/Desktop/Projects/ckmsc36_web/images/logos/math_icon.png",
+  "/Users/liusean/Desktop/Projects/ckmsc36_web/images/logos/inform_icon.png",
+  "/Users/liusean/Desktop/Projects/ckmsc36_web/images/logos/math_icon.png",
+  "/Users/liusean/Desktop/Projects/ckmsc36_web/images/logos/inform_icon.png",
+  "/Users/liusean/Desktop/Projects/ckmsc36_web/images/logos/phys_icon.png",
+  "/Users/liusean/Desktop/Projects/ckmsc36_web/images/logos/chem_icon.png",
+  "/Users/liusean/Desktop/Projects/ckmsc36_web/images/logos/bio_icon.png",
+  "/Users/liusean/Desktop/Projects/ckmsc36_web/images/logos/earths_icon.png",
+];
 
 var bg_math   = "url('./images/backgrounds/math_background-01.png')";
 var bg_inform = "url('./images/backgrounds/inform_background-01.png')";

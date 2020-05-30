@@ -1,7 +1,6 @@
 function readyIntroPage() {
 	initDoc()
 	initBalls();
-	updateLineArt();
 	checkHover();
 	logoHover();
 	modalUpdate();
