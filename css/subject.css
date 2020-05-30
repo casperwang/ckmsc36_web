@@ -65,11 +65,11 @@ section{
 	      0vw  100vh
 	);
 	min-height: 100vh;
-	padding-top: 20vh;
+	padding-top: 30vh;
 }
 
 .fourth_section{
-	margin-top: -100px;
+	margin-top: 10vh;
 	min-height: 50vh;
 }
 
