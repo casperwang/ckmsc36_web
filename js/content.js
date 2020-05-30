@@ -81,22 +81,22 @@ hu ða æþelingas ellen fremedon.`
 þeodcyninga, þrym gefrunon,
 hu ða æþelingas ellen fremedon.`
   },{
-    "title": "關於Εὕρηκα!",
+    "title": "關於化學組",
     "innerText": `Hwæt. We Gardena in geardagum,
 þeodcyninga, þrym gefrunon,
 hu ða æþelingas ellen fremedon.`
   },{
-    "title": "關於Εὕρηκα!",
+    "title": "關於地科組",
     "innerText": `Hwæt. We Gardena in geardagum,
 þeodcyninga, þrym gefrunon,
 hu ða æþelingas ellen fremedon.`
   },{
-    "title": "關於Εὕρηκα!",
+    "title": "關於物理組",
     "innerText": `Hwæt. We Gardena in geardagum,
 þeodcyninga, þrym gefrunon,
 hu ða æþelingas ellen fremedon.`
   },{
-    "title": "關於Εὕρηκα!",
+    "title": "關於生物組",
     "innerText": `Hwæt. We Gardena in geardagum,
 þeodcyninga, þrym gefrunon,
 hu ða æþelingas ellen fremedon.`
@@ -115,90 +115,50 @@ hu ða æþelingas ellen fremedon.`
 
 var thirdSection = [
   {
-    "title": "關於Εὕρηκα!",
-    "innerText": `Hwæt. We Gardena in geardagum,
-þeodcyninga, þrym gefrunon,
-hu ða æþelingas ellen fremedon.Hwæt. We Gardena in geardagum,
-þeodcyninga, þrym gefrunon,
-hu ða æþelingas ellen fremedon.Hwæt. We Gardena in geardagum,
-þeodcyninga, þrym gefrunon,
-hu ða æþelingas ellen fremedon.Hwæt. We Gardena in geardagum,
-þeodcyninga, þrym gefrunon,
-hu ða æþelingas ellen fremedon.Hwæt. We Gardena in geardagum,
-þeodcyninga, þrym gefrunon,
-hu ða æþelingas ellen fremedon.Hwæt. We Gardena in geardagum,
-þeodcyninga, þrym gefrunon,
-hu ða æþelingas ellen fremedon.Hwæt. We Gardena in geardagum,
-þeodcyninga, þrym gefrunon,
-hu ða æþelingas ellen fremedon.Hwæt. We Gardena in geardagum,
-þeodcyninga, þrym gefrunon,
-hu ða æþelingas ellen fremedon.Hwæt. We Gardena in geardagum,
-þeodcyninga, þrym gefrunon,
-hu ða æþelingas ellen fremedon.Hwæt. We Gardena in geardagum,
-þeodcyninga, þrym gefrunon,
-hu ða æþelingas ellen fremedon.Hwæt. We Gardena in geardagum,
-þeodcyninga, þrym gefrunon,
-hu ða æþelingas ellen fremedon.Hwæt. We Gardena in geardagum,
-þeodcyninga, þrym gefrunon,
-hu ða æþelingas ellen fremedon.Hwæt. We Gardena in geardagum,
-þeodcyninga, þrym gefrunon,
-hu ða æþelingas ellen fremedon.Hwæt. We Gardena in geardagum,
-þeodcyninga, þrym gefrunon,
-hu ða æþelingas ellen fremedon.Hwæt. We Gardena in geardagum,
-þeodcyninga, þrym gefrunon,
-hu ða æþelingas ellen fremedon.Hwæt. We Gardena in geardagum,
-þeodcyninga, þrym gefrunon,
-hu ða æþelingas ellen fremedon.Hwæt. We Gardena in geardagum,
-þeodcyninga, þrym gefrunon,
-hu ða æþelingas ellen fremedon.Hwæt. We Gardena in geardagum,
-þeodcyninga, þrym gefrunon,
-hu ða æþelingas ellen fremedon.Hwæt. We Gardena in geardagum,
-þeodcyninga, þrym gefrunon,
-hu ða æþelingas ellen fremedon.Hwæt. We Gardena in geardagum,
-þeodcyninga, þrym gefrunon,
-hu ða æþelingas ellen fremedon.`
+    "title": "我們的導師",
+    "innerText": `高君陶老師和姚志鴻老師`
   },{
     "title": "關於Εὕρηκα!",
     "innerText": `Hwæt. We Gardena in geardagum,
 þeodcyninga, þrym gefrunon,
 hu ða æþelingas ellen fremedon.`
   },{
-    "title": "關於數學組",
+    "title": "指導老師",
     "innerText": `Hwæt. We Gardena in geardagum,
 þeodcyninga, þrym gefrunon,
 hu ða æþelingas ellen fremedon.`
   },{
-    "title": "關於資訊組",
+    "title": "指導老師",
     "innerText": `Hwæt. We Gardena in geardagum,
 þeodcyninga, þrym gefrunon,
 hu ða æþelingas ellen fremedon.`
   },{
-    "title": "關於Εὕρηκα!",
+    "title": "指導老師",
     "innerText": `Hwæt. We Gardena in geardagum,
 þeodcyninga, þrym gefrunon,
 hu ða æþelingas ellen fremedon.`
   },{
-    "title": "關於Εὕρηκα!",
+    "title": "指導老師",
     "innerText": `Hwæt. We Gardena in geardagum,
 þeodcyninga, þrym gefrunon,
 hu ða æþelingas ellen fremedon.`
   },{
-    "title": "關於Εὕρηκα!",
+    "title": "指導老師",
     "innerText": `Hwæt. We Gardena in geardagum,
 þeodcyninga, þrym gefrunon,
 hu ða æþelingas ellen fremedon.`
   },{
-    "title": "關於Εὕρηκα!",
+    "title": "指導老師",
     "innerText": `Hwæt. We Gardena in geardagum,
 þeodcyninga, þrym gefrunon,
 hu ða æþelingas ellen fremedon.`
   },{
-    "title": "關於Εὕρηκα!",
+    "title": "指導老師",
     "innerText": `Hwæt. We Gardena in geardagum,
 þeodcyninga, þrym gefrunon,
 hu ða æþelingas ellen fremedon.`
   },{
-    "title": "關於Εὕρηκα!",
+    "title": "指導老師",
     "innerText": `Hwæt. We Gardena in geardagum,
 þeodcyninga, þrym gefrunon,
 hu ða æþelingas ellen fremedon.`
@@ -208,9 +168,7 @@ hu ða æþelingas ellen fremedon.`
 var fourthSection = [
   {
     "title": "其他介紹！！！",
-    "innerText": `α΄ 1. Σημεῖόν ἐστιν, οὗ μέρος οὐθέν.
-
-β΄ 2. Γραμμὴ δὲ μῆκος ἀπλατές.`
+    "innerText": ``
   },
   {
     "title": "其他介紹！！！",
@@ -329,7 +287,7 @@ var second_photos = [
 
 var groups = [
   {
-    "len": 6,
+    "len": 1,
     "images": [
       "./images/einstein.jpeg",
       "./images/einstein.jpeg",
@@ -358,7 +316,7 @@ var groups = [
     ], //作者
   }, //Eureka
   {
-    "len": 6,
+    "len": 2,
     "images": [
       "./images/einstein.jpeg",
       "./images/einstein.jpeg",
@@ -387,7 +345,7 @@ var groups = [
     ], //作者
   }, //What is
   {
-    "len": 6,
+    "len": 7,
     "images": [
       "./images/einstein.jpeg",
       "./images/einstein.jpeg",
