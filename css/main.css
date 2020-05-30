@@ -144,4 +144,30 @@
   background-size: cover;
 }
 
+.footer{
+	height: 5vh;
+}
+
+.ig #profilePic{
+	width: 10vh;
+	height: 10vh;
+	background-size: cover;
+	border-radius: 50%;
+}
+
+.ig #text{
+	visibility: hidden;
+}
+
+#eureka #profilePic{
+	background-image: url("../images/ig_images/eureka.jpg");
+}
+
+#class25 #profilePic{
+	background-image: url("../images/ig_images/25.jpg");
+}
+
+#class26 #profilePic{
+	background-image: url("../images/ig_images/26.jpg");
+}
 
