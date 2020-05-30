@@ -30,7 +30,8 @@ body {overflow-x: hidden;}
 	text-align: center;
 	/*background-image: url("../image/ericxiao.jpg");*/
 	border-radius: 50%;
-	background-size: contain;
+	background-size: cover;
+	background-repeat: no-repeat;
 	box-shadow: 10px 10px 21px 0px rgba(0,0,0,0.75);
 }
 
