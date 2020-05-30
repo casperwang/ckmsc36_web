@@ -142,7 +142,7 @@ hu ða æþelingas ellen fremedon.`
 
 var fourthSection = [
   {
-    "title": "其他介紹！！！",
+    "title": "我們的導師們",
     "innerText": ``
   },
   {
@@ -223,6 +223,17 @@ var sixthSection = [
   }
 ];
 
+var eighthSection = [
+  {
+    "title": "成發影片《Euphoria》",
+    "innerText": `四位建中學生的故事，誌人也誌怪`
+  },
+  {
+    "title": "某某組",
+    "innerText": `讓我們一起飛過 霓虹彼端。`
+  }
+];
+
 var ball_photos = [
   "./images/logos/eureka_icon.png",
   "./images/logos/brain_icon.png",
@@ -284,62 +295,12 @@ var second_photos = [
 
 var groups = [
   {
-    "len": 1,
-    "images": [
-      "./images/einstein.jpeg",
-      "./images/einstein.jpeg",
-      "./images/einstein.jpeg",
-      "./images/einstein.jpeg",
-      "./images/einstein.jpeg",
-      "./images/einstein.jpeg",
-      "./images/einstein.jpeg",
-      "./images/einstein.jpeg"
-    ], //團體照
-    "titles": [
-      "辣椒的研究",
-      "辣椒的研究",
-      "辣椒的研究",
-      "辣椒的研究",
-      "辣椒的研究",
-      "辣椒的研究"
-    ], //專題名稱
-    "names": [
-      "陳奕安",
-      "陳奕安",
-      "陳奕安",
-      "陳奕安",
-      "陳奕安",
-      "陳奕安",
-    ], //作者
+    "title": "jizz",
+    "innerText": "more jizz"
   }, //Eureka
   {
-    "len": 2,
-    "images": [
-      "./images/einstein.jpeg",
-      "./images/einstein.jpeg",
-      "./images/einstein.jpeg",
-      "./images/einstein.jpeg",
-      "./images/einstein.jpeg",
-      "./images/einstein.jpeg",
-      "./images/einstein.jpeg",
-      "./images/einstein.jpeg"
-    ], //團體照
-    "titles": [
-      "辣椒的研究",
-      "辣椒的研究",
-      "辣椒的研究",
-      "辣椒的研究",
-      "辣椒的研究",
-      "辣椒的研究"
-    ], //專題名稱
-    "names": [
-      "陳奕安",
-      "陳奕安",
-      "陳奕安",
-      "陳奕安",
-      "陳奕安",
-      "陳奕安",
-    ], //作者
+    "title": "spice",
+    "innerText": "more spice"
   }, //What is
   {
     "len": 7,
