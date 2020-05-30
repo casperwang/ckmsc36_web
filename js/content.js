@@ -81,22 +81,22 @@ hu ða æþelingas ellen fremedon.`
 þeodcyninga, þrym gefrunon,
 hu ða æþelingas ellen fremedon.`
   },{
-    "title": "關於Εὕρηκα!",
+    "title": "關於化學組",
     "innerText": `Hwæt. We Gardena in geardagum,
 þeodcyninga, þrym gefrunon,
 hu ða æþelingas ellen fremedon.`
   },{
-    "title": "關於Εὕρηκα!",
+    "title": "關於地科組",
     "innerText": `Hwæt. We Gardena in geardagum,
 þeodcyninga, þrym gefrunon,
 hu ða æþelingas ellen fremedon.`
   },{
-    "title": "關於Εὕρηκα!",
+    "title": "關於物理組",
     "innerText": `Hwæt. We Gardena in geardagum,
 þeodcyninga, þrym gefrunon,
 hu ða æþelingas ellen fremedon.`
   },{
-    "title": "關於Εὕρηκα!",
+    "title": "關於生物組",
     "innerText": `Hwæt. We Gardena in geardagum,
 þeodcyninga, þrym gefrunon,
 hu ða æþelingas ellen fremedon.`
@@ -123,42 +123,42 @@ var thirdSection = [
 þeodcyninga, þrym gefrunon,
 hu ða æþelingas ellen fremedon.`
   },{
-    "title": "關於數學組",
+    "title": "指導老師",
     "innerText": `Hwæt. We Gardena in geardagum,
 þeodcyninga, þrym gefrunon,
 hu ða æþelingas ellen fremedon.`
   },{
-    "title": "關於資訊組",
+    "title": "指導老師",
     "innerText": `Hwæt. We Gardena in geardagum,
 þeodcyninga, þrym gefrunon,
 hu ða æþelingas ellen fremedon.`
   },{
-    "title": "關於Εὕρηκα!",
+    "title": "指導老師",
     "innerText": `Hwæt. We Gardena in geardagum,
 þeodcyninga, þrym gefrunon,
 hu ða æþelingas ellen fremedon.`
   },{
-    "title": "關於Εὕρηκα!",
+    "title": "指導老師",
     "innerText": `Hwæt. We Gardena in geardagum,
 þeodcyninga, þrym gefrunon,
 hu ða æþelingas ellen fremedon.`
   },{
-    "title": "關於Εὕρηκα!",
+    "title": "指導老師",
     "innerText": `Hwæt. We Gardena in geardagum,
 þeodcyninga, þrym gefrunon,
 hu ða æþelingas ellen fremedon.`
   },{
-    "title": "關於Εὕρηκα!",
+    "title": "指導老師",
     "innerText": `Hwæt. We Gardena in geardagum,
 þeodcyninga, þrym gefrunon,
 hu ða æþelingas ellen fremedon.`
   },{
-    "title": "關於Εὕρηκα!",
+    "title": "指導老師",
     "innerText": `Hwæt. We Gardena in geardagum,
 þeodcyninga, þrym gefrunon,
 hu ða æþelingas ellen fremedon.`
   },{
-    "title": "關於Εὕρηκα!",
+    "title": "指導老師",
     "innerText": `Hwæt. We Gardena in geardagum,
 þeodcyninga, þrym gefrunon,
 hu ða æþelingas ellen fremedon.`
@@ -168,9 +168,7 @@ hu ða æþelingas ellen fremedon.`
 var fourthSection = [
   {
     "title": "其他介紹！！！",
-    "innerText": `α΄ 1. Σημεῖόν ἐστιν, οὗ μέρος οὐθέν.
-
-β΄ 2. Γραμμὴ δὲ μῆκος ἀπλατές.`
+    "innerText": ``
   },
   {
     "title": "其他介紹！！！",
@@ -244,16 +242,17 @@ var bg_inform = "url('./images/backgrounds/inform_background-01.png')";
 var bg_phys   = "url('./images/backgrounds/phys_background-01.png')";
 var bg_chem   = "url('./images/backgrounds/chem_background-01.png')";
 var bg_earths = "url('./images/backgrounds/earths_background-01.png')";
+var bg_bio   = "url('./images/backgrounds/bio_background-01.png')";
 
 var firstBgs = [
   "url('./images/backgrounds/inform_background-01.png')",
   "url('./images/backgrounds/eureka_bg.jpg')",
   bg_math,
   bg_inform,
-  bg_phys,
   bg_chem,
-  "url('./images/backgrounds/eureka_bg.jpg')",
-  bg_earths
+  bg_earths,
+  bg_phys,
+  bg_bio  
 ];
 
 var thirdBgs = [
@@ -261,10 +260,10 @@ var thirdBgs = [
   "url('./images/groupimgs/groupimg.jpg')",
   bg_math,
   bg_inform,
-  bg_phys,
   bg_chem,
-  "url('./images/groupimgs/groupimg.jpg')",
-  bg_earths
+  bg_earths,
+  bg_phys,
+  bg_bio 
 ];
 
 var fifthBgs = [
@@ -272,10 +271,10 @@ var fifthBgs = [
   "url('./images/backgrounds/eureka_bg.jpg')",
   bg_math,
   bg_inform,
-  bg_phys,
   bg_chem,
-  "url('./images/backgrounds/eureka_bg.jpg')",
-  bg_earths
+  bg_earths,
+  bg_phys,
+  bg_bio 
 ];
 
 var teacher_photos = [
@@ -310,7 +309,7 @@ var second_photos = [
 
 var groups = [
   {
-    "len": 6,
+    "len": 1,
     "images": [
       "./images/einstein.jpeg",
       "./images/einstein.jpeg",
@@ -339,7 +338,7 @@ var groups = [
     ], //作者
   }, //Eureka
   {
-    "len": 6,
+    "len": 2,
     "images": [
       "./images/einstein.jpeg",
       "./images/einstein.jpeg",
@@ -368,7 +367,7 @@ var groups = [
     ], //作者
   }, //What is
   {
-    "len": 6,
+    "len": 7,
     "images": [
       "./images/einstein.jpeg",
       "./images/einstein.jpeg",
