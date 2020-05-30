@@ -3,8 +3,8 @@ var wid = document.documentElement.clientWidth / 6, len = document.documentEleme
 var dia = len / 17;
 var curGo = 0, curSel = -1;
 var rotAngle = 360 / (numballs + 1);
-var colours = ["#000000", "#000000", "#C0D72F", "#EAEAEA", "#F9A51B", "#D64141", "#478BAA", "#FDEC10"];
-var coloursLight = ["#000000", "#000000", "#dffa37", "#f7f7f7", "#ffb845", "#fa7878", "#6bbde3", "#fff24f"];
+var colours = ["#FFFFFF", "#FFFFFF", "#C0D72F", "#EAEAEA", "#F9A51B", "#D64141", "#478BAA", "#FDEC10"];
+var coloursLight = ["#FFFFFF", "#FFFFFF", "#dffa37", "#f7f7f7", "#ffb845", "#fa7878", "#6bbde3", "#fff24f"];
 var bigScale = 1.7, selectScale = 1.2, focusColour = "#FFFFFF";
 var txtSz = dia / bigScale; //Greek text letter size
 

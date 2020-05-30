@@ -12,7 +12,10 @@ var nelements = grid[0] * grid[1];
 
 function initDoc(){
 	for(var i = 0; i < numballs; i++){
-		$("#ballcontainer").append("<div class = 'ball' id = 'ball_" + i + "'>" + "<div class = 'hoverbg' id = 'hoverbg_" + i + "'></div><div class = 'hoverbox' id = 'hoverbox_" + i + "'></div></div>"); 
+		$("#ballcontainer").append(`<div class = 'ball' id = 'ball_${i}'>
+											<div class = 'hoverbg' id = 'hoverbg_${i}'></div>
+											<div class = 'hoverbox' id = 'hoverbox_${i}'></div>
+									</div>`); 
 	}
 	$("#ballcontainer").css("width", wid);
 	$("#ballcontainer").css("height", len);
@@ -89,11 +92,12 @@ function initBalls(){
 			}
 		}
 	});
-	/*
+	
 	for(var i = 0; i < numballs; i++){
-		$("#ball_" + i).css("background-image", "url('" + ball_photos[i] + "')");
+		$("#ball_" + i).css("background-image", "url(" + ball_photos[i] +")");
+		$("#ball_" + i).css("border", "none");
 	}
-	*/
+	
 }
 
 
@@ -107,9 +111,9 @@ function ballUpdate(){
 			if(i == curGo) sc = bigScale;
 			return sc;
 		},
-		backgroundColor: function(el, i, l){
-			return colours[i];
-		},
+		//backgroundColor: function(el, i, l){
+			//return colours[i];
+		//},
 		duration: 50,
 		easing: "easeInQuad"
 	});

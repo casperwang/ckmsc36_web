@@ -1,13 +1,12 @@
 var titles = [
   "Εὕρηκα!",
-  "何謂專題？",
+  "各組介紹",
   "數學組",
   "資訊組",
-  "物理組",
   "化學組",
-  "生物組",
   "地科組",
-  "影片、音樂"
+  "物理組",
+  "生物組",
 ];
 
 var descs = [
@@ -270,14 +269,14 @@ var fourthSection = [
 ];
 
 var ball_photos = [
-  "/Users/liusean/Desktop/Projects/ckmsc36_web/images/logos/math_icon.png",
-  "/Users/liusean/Desktop/Projects/ckmsc36_web/images/logos/inform_icon.png",
-  "/Users/liusean/Desktop/Projects/ckmsc36_web/images/logos/math_icon.png",
-  "/Users/liusean/Desktop/Projects/ckmsc36_web/images/logos/inform_icon.png",
-  "/Users/liusean/Desktop/Projects/ckmsc36_web/images/logos/phys_icon.png",
-  "/Users/liusean/Desktop/Projects/ckmsc36_web/images/logos/chem_icon.png",
-  "/Users/liusean/Desktop/Projects/ckmsc36_web/images/logos/bio_icon.png",
-  "/Users/liusean/Desktop/Projects/ckmsc36_web/images/logos/earths_icon.png",
+  "./images/logos/eureka_icon.png",
+  "./images/logos/brain_icon.png",
+  "./images/logos/math_icon.png",
+  "./images/logos/inform_icon.png",
+  "./images/logos/chem_icon.png",
+  "./images/logos/earths_icon.png",
+  "./images/logos/phys_icon.png",
+  "./images/logos/bio_icon.png",
 ];
 
 var bg_math   = "url('./images/backgrounds/math_background-01.png')";

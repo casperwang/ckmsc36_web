@@ -29,6 +29,7 @@
 	text-align: center;
 	/*background-image: url("../image/ericxiao.jpg");*/
 	border-radius: 50%;
+	background-size: contain;
 	box-shadow: 10px 10px 21px 0px rgba(0,0,0,0.75);
 }
 
