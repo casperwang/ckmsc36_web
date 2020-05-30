@@ -6,13 +6,23 @@ ckmsc36_web
 │   README.md
 |   .gitignore
 |   index.html
+|   menupage.html
+|   teampage.html
 │   
 └───js
 │   
 └───css
 |   
 └───images
-|   
-└───videos
-|    
+    └───background
+    |
+    └───teacher
+    |
+|
+└───data
+    └───pdf
+    |   I3.pdf
+    |
+    └───video
+    |
 ```
