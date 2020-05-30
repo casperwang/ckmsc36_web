@@ -1,3 +1,5 @@
+body {overflow-x: hidden;}
+
 #ballcontainer {
 	display: flex;
 	flex-wrap: wrap;

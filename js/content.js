@@ -23,24 +23,9 @@ var descs = [
 var secondSection = [
   {
     "title": "關於Εὕρηκα!",
-    "innerText": `Hwæt. We Gardena in geardagum,
-þeodcyninga, þrym gefrunon,
-hu ða æþelingas ellen fremedon.Hwæt. We Gardena in geardagum,
-þeodcyninga, þrym gefrunon,
-hu ða æþelingas ellen fremedon.Hwæt. We Gardena in geardagum,
-þeodcyninga, þrym gefrunon,
-hu ða æþelingas ellen fremedon.Hwæt. We Gardena in geardagum,
-þeodcyninga, þrym gefruremedon.Hwæt. We Gardena in geardagum,
-þeodcyninga, þrym gefrunon,
-hu ða æþelingas ellen fremedon.Hwæt. We Gardena in geardagum,
-þeodcyninga, þrym gefrunon,
-hu ða æþelingas ellen fremedon.Hwæt. We Gardena in geardagum,
-þeodcyninga, þrym gefrunon,
-hu ða æþelingas ellen fremedon.Hwæt. We Gardena in geardagum,
-þeodcyninga, þrym gefrunon,
-hu ða æþelingas ellen fremedon.`
+    "innerText": ``
   },{
-    "title": "關於Εὕρηκα!",
+    "title": "總副召的話",
     "innerText": `Hwæt. We Gardena in geardagum,
 þeodcyninga, þrym gefrunon,
 hu ða æþelingas ellen fremedon.`
@@ -121,7 +106,7 @@ var fourthSection = [
     "innerText": ``
   },
   {
-    "title": "其他介紹！！！",
+    "title": "影片、音樂組",
     "innerText": `α΄ 1. Σημεῖόν ἐστιν, οὗ μέρος οὐθέν.
 
 β΄ 2. Γραμμὴ δὲ μῆκος ἀπλατές.`
@@ -182,7 +167,7 @@ var fifthSection = [
     "innerText": `讓我們一起飛過 霓虹彼端。`
   },
   {
-    "title": "某某組",
+    "title": "wang guan",
     "innerText": `讓我們一起飛過 霓虹彼端。`
   }
 ];
@@ -193,7 +178,7 @@ var sixthSection = [
     "innerText": `四位建中學生的故事，誌人也誌怪`
   },
   {
-    "title": "某某組",
+    "title": "網管、網站組",
     "innerText": `讓我們一起飛過 霓虹彼端。`
   }
 ];
@@ -204,7 +189,7 @@ var eighthSection = [
     "innerText": `四位建中學生的故事，誌人也誌怪`
   },
   {
-    "title": "某某組",
+    "title": "活動、場地、主持人組",
     "innerText": `讓我們一起飛過 霓虹彼端。`
   }
 ];
@@ -249,7 +234,7 @@ var specialBgs = [
   [
     "url('./images/backgrounds/inform_background-01.png')",
     "url('./images/groupimgs/day1_group.jpg')",
-    "url('./images/groupimgs/video_group.jpg')",
+    "url('./images/groupimgs/video_group.png')",
     "url('./images/groupimgs/music_front.jpg')",
     bg_inform
   ],

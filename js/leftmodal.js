@@ -5,6 +5,7 @@ function updateBackground() {
 		$(".fifth_section").css("background-image", specialBgs[curGo][2]);
 		$(".seventh_section").css("background-image", specialBgs[curGo][3]);
 		$(".ninth_section").css("background-image", specialBgs[curGo][4]);
+		$(".eleventh_section").css("background-image", specialBgs[curGo][5]);
 	} else {
 		$(".first_section").css("background-image", Bgs[curGo]);
 		$(".third_section").css("background-image", Bgs[curGo]);
@@ -20,9 +21,11 @@ function updateTitle() {
 	$(".seventh_section").remove();
 	$(".eighth_section").remove();
 	$(".ninth_section").remove();
+	$(".tenth_section").remove();
+	$(".eleventh_section").remove();
 	if(curGo <= 1){ //Eureka
 		$(".fifth_section").html(`
-			<div class="content container">
+			<div class="content container-fluid">
                 <div class="row">
                     <div class="col-md-5">
                         <h3 id="fifthSection" class="sectionTitle"></h3>
@@ -35,7 +38,7 @@ function updateTitle() {
 		`);
 		$(".rightSide").before(`
 			<div class = "col-md-12 sixth_section">
-                <div class="content container">
+                <div class="content container-fluid">
                     <div class="row">
                         <div class="col-md-5">
                             <h3 id="sixthSection" class="sectionTitle"></h3>
@@ -45,7 +48,7 @@ function updateTitle() {
                 </div>
             </div>
 			<div class = "col-md-12 bg_section seventh_section">
-                <div class="content container">
+                <div class="content container-fluid">
                     <div class="row">
                         <div class="col-md-5">
                             <h3 id="seventhSection" class="sectionTitle"></h3>
@@ -55,7 +58,7 @@ function updateTitle() {
                 </div>
             </div>
             <div class = "col-md-12 eighth_section">
-                <div class="content container">
+                <div class="content container-fluid">
                     <div class="row">
                         <div class="col-md-5">
                             <h3 id="eighthSection" class="sectionTitle"></h3>
@@ -65,11 +68,31 @@ function updateTitle() {
                 </div>
             </div>
             <div class = "col-md-12 bg_section ninth_section">
-                <div class="content container">
+                <div class="content container-fluid">
                     <div class="row">
                         <div class="col-md-5">
                             <h3 id="ninthSection" class="sectionTitle"></h3>
                             <div id="ninthInner" class="sectionText"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class = "col-md-12 tenth_section">
+                <div class="content container-fluid">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <h3 id="tenthSection" class="sectionTitle"></h3>
+                            <div id="tenthInner" class="sectionText"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class = "col-md-12 bg_section eleventh_section">
+                <div class="content container-fluid">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <h3 id="eleventhSection" class="sectionTitle"></h3>
+                            <div id="eleventhInner" class="sectionText"></div>
                         </div>
                     </div>
                 </div>
@@ -110,13 +133,29 @@ function updateTitle() {
 
 		$(".ninth_section").css("-webkit-clip-path", `
 			polygon(
-				  0vw  15vh,
+				  0vw  0vh,
 				100vw  20vh,
 			    100vw 100vh,
-			      0vw 100vh
+			      0vw 90vh
 			)
 		`);
 		$(".ninth_section").css("min-height", `
+			100vh
+		`);
+
+		$(".tenth_section").css("min-height", `
+			70vh
+		`);
+
+		$(".eleventh_section").css("-webkit-clip-path", `
+			polygon(
+				  0vw  0vh,
+				100vw  20vh,
+			    100vw 100vh,
+			      0vw 90vh
+			)
+		`);
+		$(".eleventh_section").css("min-height", `
 			40vh
 		`);
 
@@ -133,7 +172,7 @@ function updateTitle() {
 		$("#eighthInner").html(eighthSection[curGo]["innerText"]);
 
 		$("#thirdInner").html("");
-		$("#thirdTitle").html("");
+		$("#thirdSection").html("");
 	} else { //else 
 		$(".fifth_section").html("");
 		$(".fifth_section").css("-webkit-clip-path", `
