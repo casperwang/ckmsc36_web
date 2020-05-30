@@ -124,6 +124,9 @@ function updateTitle() {
 		var txt = eighthSection[curGo]["title"].replace(/\S/g, "<span class = 'h3title'>$&</span>");
 		textWrapper.html(txt);
 		$("#eighthInner").html(eighthSection[curGo]["innerText"]);
+
+		$("#thirdInner").html("");
+		$("#thirdTitle").html("");
 	} else { //else 
 		$(".fifth_section").html("");
 		$(".fifth_section").css("-webkit-clip-path", `
@@ -134,16 +137,14 @@ function updateTitle() {
 			      0vw 100vh
 			);
 		`);
-		$(".fifth_section").css("min-height", `
-			70vh
-		`);
+		$(".fifth_section").css("min-height", "20vh");
 
 		//Third Section
 		var textWrapper = $("#thirdSection");
 		var txt = thirdSection[curGo]["title"].replace(/\S/g, "<span class = 'h3title'>$&</span>");
 		textWrapper.html(txt)
 		$("#thirdInner").html(thirdSection[curGo]["innerText"]);
-		
+
 		$("#thirdphoto_top").css("background-image", teacher_photos[curGo]);
 	}
 	//Title
