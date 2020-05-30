@@ -31,32 +31,7 @@ hu ða æþelingas ellen fremedon.Hwæt. We Gardena in geardagum,
 hu ða æþelingas ellen fremedon.Hwæt. We Gardena in geardagum,
 þeodcyninga, þrym gefrunon,
 hu ða æþelingas ellen fremedon.Hwæt. We Gardena in geardagum,
-þeodcyninga, þrym gefrunon,
-hu ða æþelingas ellen fremedon.Hwæt. We Gardena in geardagum,
-þeodcyninga, þrym gefrunon,
-hu ða æþelingas ellen fremedon.Hwæt. We Gardena in geardagum,
-þeodcyninga, þrym gefrunon,
-hu ða æþelingas ellen fremedon.Hwæt. We Gardena in geardagum,
-þeodcyninga, þrym gefrunon,
-hu ða æþelingas ellen fremedon.Hwæt. We Gardena in geardagum,
-þeodcyninga, þrym gefrunon,
-hu ða æþelingas ellen fremedon.Hwæt. We Gardena in geardagum,
-þeodcyninga, þrym gefrunon,
-hu ða æþelingas ellen fremedon.Hwæt. We Gardena in geardagum,
-þeodcyninga, þrym gefrunon,
-hu ða æþelingas ellen fremedon.Hwæt. We Gardena in geardagum,
-þeodcyninga, þrym gefrunon,
-hu ða æþelingas ellen fremedon.Hwæt. We Gardena in geardagum,
-þeodcyninga, þrym gefrunon,
-hu ða æþelingas ellen fremedon.Hwæt. We Gardena in geardagum,
-þeodcyninga, þrym gefrunon,
-hu ða æþelingas ellen fremedon.Hwæt. We Gardena in geardagum,
-þeodcyninga, þrym gefrunon,
-hu ða æþelingas ellen fremedon.Hwæt. We Gardena in geardagum,
-þeodcyninga, þrym gefrunon,
-hu ða æþelingas ellen fremedon.Hwæt. We Gardena in geardagum,
-þeodcyninga, þrym gefrunon,
-hu ða æþelingas ellen fremedon.Hwæt. We Gardena in geardagum,
+þeodcyninga, þrym gefruremedon.Hwæt. We Gardena in geardagum,
 þeodcyninga, þrym gefrunon,
 hu ða æþelingas ellen fremedon.Hwæt. We Gardena in geardagum,
 þeodcyninga, þrym gefrunon,
@@ -223,6 +198,28 @@ var fourthSection = [
     "innerText": `α΄ 1. Σημεῖόν ἐστιν, οὗ μέρος οὐθέν.
 
 β΄ 2. Γραμμὴ δὲ μῆκος ἀπλατές.`
+  }
+];
+
+var fifthSection = [
+  {
+    "title": "成發曲《霓虹彼端》",
+    "innerText": `讓我們一起飛過 霓虹彼端。`
+  },
+  {
+    "title": "某某組",
+    "innerText": `讓我們一起飛過 霓虹彼端。`
+  }
+];
+
+var sixthSection = [
+  {
+    "title": "成發影片《Euphoria》",
+    "innerText": `四位建中學生的故事，誌人也誌怪`
+  },
+  {
+    "title": "某某組",
+    "innerText": `讓我們一起飛過 霓虹彼端。`
   }
 ];
 
