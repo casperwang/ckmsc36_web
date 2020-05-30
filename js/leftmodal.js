@@ -1,7 +1,7 @@
 function updateBackground() {
-	$(".first_section").css("background-image", firstBgs[curGo]);
-	$(".third_section").css("background-image", thirdBgs[curGo]);
-	$(".fifth_section").css("background-image", fifthBgs[curGo]);
+	$(".first_section").css("background-image", Bgs[curGo]);
+	$(".third_section").css("background-image", Bgs[curGo]);
+	$(".fifth_section").css("background-image", Bgs[curGo]);
 	console.log("initBg")
 }
 
@@ -21,7 +21,6 @@ function updateTitle() {
 	var textWrapper = $("#secondSection");
 	var txt = secondSection[curGo]["title"].replace(/\S/g, "<span class = 'h3title'>$&</span>");
 	textWrapper.html(txt);
-	$(".second_photo").css("background-image", teacher_photos[curGo]);
 	$("#secondInner").html(secondSection[curGo]["innerText"]);
 	
 	//Third Section
