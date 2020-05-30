@@ -23,10 +23,10 @@ function updateTitle() {
 	$(".second_photo").css("background-image", teacher_photos[curGo]);
 	$("#secondInner").html(secondSection[curGo]["innerText"]);
 
-	//Fourth Section
+	//Third Section
 	var textWrapper = $("#thirdSection");
 	var txt = thirdSection[curGo]["title"].replace(/\S/g, "<span class = 'h3title'>$&</span>");
-	textWrapper.html(txt);
+	textWrapper.html(txt)
 	$("#thirdInner").html(thirdSection[curGo]["innerText"]);
 
 	//Bottom profiles

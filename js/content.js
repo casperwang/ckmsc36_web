@@ -13,7 +13,7 @@ var titles = [
 var descs = [
   "Jizz in my pants",
   "Jizz in my pants",
-  "Jizz in my pants",
+  "Jizz in math",
   "Jizz in my pants",
   "Jizz in my pants",
   "Jizz in my pants",
@@ -72,12 +72,12 @@ hu ða æþelingas ellen fremedon.`
 þeodcyninga, þrym gefrunon,
 hu ða æþelingas ellen fremedon.`
   },{
-    "title": "關於Εὕρηκα!",
+    "title": "關於數學組",
     "innerText": `Hwæt. We Gardena in geardagum,
 þeodcyninga, þrym gefrunon,
 hu ða æþelingas ellen fremedon.`
   },{
-    "title": "關於Εὕρηκα!",
+    "title": "關於資訊組",
     "innerText": `Hwæt. We Gardena in geardagum,
 þeodcyninga, þrym gefrunon,
 hu ða æþelingas ellen fremedon.`
@@ -114,7 +114,6 @@ hu ða æþelingas ellen fremedon.`
   }
 ];
 
-
 var fourthSection = [
   {
     "title": "其他介紹！！！",
@@ -129,7 +128,7 @@ var fourthSection = [
 β΄ 2. Γραμμὴ δὲ μῆκος ἀπλατές.`
   },
   {
-    "title": "其他介紹！！！",
+    "title": "專題介紹！！！",
     "innerText": `α΄ 1. Σημεῖόν ἐστιν, οὗ μέρος οὐθέν.
 
 β΄ 2. Γραμμὴ δὲ μῆκος ἀπλατές.`
@@ -284,44 +283,205 @@ var groups = [
   }, //Eureka
   {
     "len": 6,
-    "images": [],
-    "titles": [],
-    "names": [],
+    "images": [
+      "./images/einstein.jpeg",
+      "./images/einstein.jpeg",
+      "./images/einstein.jpeg",
+      "./images/einstein.jpeg",
+      "./images/einstein.jpeg",
+      "./images/einstein.jpeg",
+      "./images/einstein.jpeg",
+      "./images/einstein.jpeg"
+    ], //團體照
+    "titles": [
+      "辣椒的研究",
+      "辣椒的研究",
+      "辣椒的研究",
+      "辣椒的研究",
+      "辣椒的研究",
+      "辣椒的研究"
+    ], //專題名稱
+    "names": [
+      "陳奕安",
+      "陳奕安",
+      "陳奕安",
+      "陳奕安",
+      "陳奕安",
+      "陳奕安",
+    ], //作者
   }, //What is
   {
     "len": 6,
-    "images": [],
-    "titles": [],
-    "names": [],
+    "images": [
+      "./images/einstein.jpeg",
+      "./images/einstein.jpeg",
+      "./images/einstein.jpeg",
+      "./images/einstein.jpeg",
+      "./images/einstein.jpeg",
+      "./images/einstein.jpeg",
+      "./images/einstein.jpeg",
+      "./images/einstein.jpeg"
+    ], //團體照
+    "titles": [
+      "辣椒的研究",
+      "辣椒的研究",
+      "辣椒的研究",
+      "辣椒的研究",
+      "辣椒的研究",
+      "辣椒的研究"
+    ], //專題名稱
+    "names": [
+      "陳奕安",
+      "陳奕安",
+      "陳奕安",
+      "陳奕安",
+      "陳奕安",
+      "陳奕安",
+    ], //作者
   }, //數學
   {
     "len": 6,
-    "images": [],
-    "titles": [],
-    "names": [],
+    "images": [
+      "./images/einstein.jpeg",
+      "./images/einstein.jpeg",
+      "./images/einstein.jpeg",
+      "./images/einstein.jpeg",
+      "./images/einstein.jpeg",
+      "./images/einstein.jpeg",
+      "./images/einstein.jpeg",
+      "./images/einstein.jpeg"
+    ], //團體照
+    "titles": [
+      "辣椒的研究",
+      "辣椒的研究",
+      "辣椒的研究",
+      "辣椒的研究",
+      "辣椒的研究",
+      "辣椒的研究"
+    ], //專題名稱
+    "names": [
+      "陳奕安",
+      "陳奕安",
+      "陳奕安",
+      "陳奕安",
+      "陳奕安",
+      "陳奕安",
+    ], //作者
   }, //資訊
   {
     "len": 6,
-    "images": [],
-    "titles": [],
-    "names": [],
+    "images": [
+      "./images/einstein.jpeg",
+      "./images/einstein.jpeg",
+      "./images/einstein.jpeg",
+      "./images/einstein.jpeg",
+      "./images/einstein.jpeg",
+      "./images/einstein.jpeg",
+      "./images/einstein.jpeg",
+      "./images/einstein.jpeg"
+    ], //團體照
+    "titles": [
+      "辣椒的研究",
+      "辣椒的研究",
+      "辣椒的研究",
+      "辣椒的研究",
+      "辣椒的研究",
+      "辣椒的研究"
+    ], //專題名稱
+    "names": [
+      "陳奕安",
+      "陳奕安",
+      "陳奕安",
+      "陳奕安",
+      "陳奕安",
+      "陳奕安",
+    ], //作者
   }, //化學
   {
-    "len": 2,
-    "images": [],
-    "titles": [],
-    "names": [],
+    "len": 6,
+    "images": [
+      "./images/einstein.jpeg",
+      "./images/einstein.jpeg",
+      "./images/einstein.jpeg",
+      "./images/einstein.jpeg",
+      "./images/einstein.jpeg",
+      "./images/einstein.jpeg",
+      "./images/einstein.jpeg",
+      "./images/einstein.jpeg"
+    ], //團體照
+    "titles": [
+      "辣椒的研究",
+      "辣椒的研究",
+      "辣椒的研究",
+      "辣椒的研究",
+      "辣椒的研究",
+      "辣椒的研究"
+    ], //專題名稱
+    "names": [
+      "陳奕安",
+      "陳奕安",
+      "陳奕安",
+      "陳奕安",
+      "陳奕安",
+      "陳奕安",
+    ], //作者
   }, //地科
   {
     "len": 6,
-    "images": [],
-    "titles": [],
-    "names": [],
+    "images": [
+      "./images/einstein.jpeg",
+      "./images/einstein.jpeg",
+      "./images/einstein.jpeg",
+      "./images/einstein.jpeg",
+      "./images/einstein.jpeg",
+      "./images/einstein.jpeg",
+      "./images/einstein.jpeg",
+      "./images/einstein.jpeg"
+    ], //團體照
+    "titles": [
+      "辣椒的研究",
+      "辣椒的研究",
+      "辣椒的研究",
+      "辣椒的研究",
+      "辣椒的研究",
+      "辣椒的研究"
+    ], //專題名稱
+    "names": [
+      "陳奕安",
+      "陳奕安",
+      "陳奕安",
+      "陳奕安",
+      "陳奕安",
+      "陳奕安",
+    ], //作者
   }, //物理
   {
     "len": 6,
-    "images": [],
-    "titles": [],
-    "names": [],
+    "images": [
+      "./images/einstein.jpeg",
+      "./images/einstein.jpeg",
+      "./images/einstein.jpeg",
+      "./images/einstein.jpeg",
+      "./images/einstein.jpeg",
+      "./images/einstein.jpeg",
+      "./images/einstein.jpeg",
+      "./images/einstein.jpeg"
+    ], //團體照
+    "titles": [
+      "辣椒的研究",
+      "辣椒的研究",
+      "辣椒的研究",
+      "辣椒的研究",
+      "辣椒的研究",
+      "辣椒的研究"
+    ], //專題名稱
+    "names": [
+      "陳奕安",
+      "陳奕安",
+      "陳奕安",
+      "陳奕安",
+      "陳奕安",
+      "陳奕安",
+    ], //作者
   } //生物
 ];
