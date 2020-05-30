@@ -20,6 +20,12 @@ ckmsc36_web
     |
 |
 └───data
+|   content.json
+    └───teams
+    |
+    └───photo
+    |
+    |
     └───pdf
     |   I3.pdf
     |
