@@ -1,9 +1,0 @@
-{
-  "scripts": {
-    "start": "node server"
-  },
-  "dependencies": {
-    "express": "latest",
-    "jquery-appear-original": "^0.6.2"
-  }
-}
