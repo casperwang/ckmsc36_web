@@ -1,10 +1,11 @@
-var numballs = 8;
+var numballs = 9;
 var wid = document.documentElement.clientWidth / 6, len = document.documentElement.clientHeight; //size of 
 var dia = len / 17;
 var curGo = 0, curSel = -1;
+var curTeam = {sub: 'inform', id: 0}
 var rotAngle = 360 / (numballs + 1);
-var colours = ["#000000", "#000000", "#C0D72F", "#EAEAEA", "#F9A51B", "#D64141", "#478BAA", "#FDEC10"];
-var coloursLight = ["#000000", "#000000", "#dffa37", "#f7f7f7", "#ffb845", "#fa7878", "#6bbde3", "#fff24f"];
+var colours = ["#ff8c45", "#925cff", "#C0D72F", "#EAEAEA", "#F9A51B", "#D64141", "#478BAA", "#FDEC10"];
+var coloursLight = ["#ffb080", "#c2a3ff", "#dffa37", "#f7f7f7", "#ffb845", "#fa7878", "#6bbde3", "#fff24f"];
 var bigScale = 1.7, selectScale = 1.2, focusColour = "#FFFFFF";
 var txtSz = dia / bigScale; //Greek text letter size
 

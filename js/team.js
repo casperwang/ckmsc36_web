@@ -1,54 +1,12 @@
-console.log("AAAA");
-
-function checkButton(){
-	$("#backButton").on({
-	    mouseenter: function() {
-	    	console.log("Jizz");
-	    	anime.timeline()
-	    	.add({
-	    		targets: "#cursor",
-	    		translateX: [0, 100],
-	    		duration: 150,
-	    		easing: "easeInQuad"
-	    	})
-	    	.add({
-	    		targets: "#bannerText .letter",
-	    		opacity: [0, 100],
-	    		delay: function(el, i, l){
-	    			return i * 20;
-	    		},
-	    		duration: 75,
-	    		offset: "-=10",
-	    		easing: "easeInQuad"
-	    	});
-	    },
-	    mouseleave: function() {
-	    	anime.timeline()
-	    	.add({
-	    		targets: "#bannerText .letter",
-	    		opacity: [100, 0],
-	    		delay: function(el, i, l){
-	    			return -i * 20;
-	    		},
-	    		duration: 75,
-	    		easing: "easeOutQuad"
-	    	})
-	    	.add({
-	    		targets: "#cursor",
-	    		translateX: [100, 0],
-	    		duration: 150,
-	    		easing: "easeOutQuad"
-	    	});
-	    },
-	    click: function(){
-	    	window.location.href = "../../menupage.html";
-	    }
-	});
+function updateContent() {
+	var obj = data[curTeam.sub][curTeam.id]
+	$('#project_title').html(obj.title)
+	$('#project_author').html(obj.author)
+	console.log(obj)
 }
 
-
 $(document).ready(function(){ //TODO - load the text with animations
-	checkButton();
+	updateContent();
 });
 
 
