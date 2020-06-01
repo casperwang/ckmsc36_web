@@ -217,14 +217,72 @@ var Bgs = [
   bg_bio,
 ];
 
-var teacherSubs = [
+var secondSubs = [
+  "By 陳彥儒",
+  "總召：洪辰亞、陳冠豪 / 副召 ： 楊竣凱、闕子維",
   "姚志鴻老師 By ",
   "彭天健老師 By ",
   "曹淇峰老師 By ",
-  "李文禮老師 By 22626劉奕辰",
+  "李文禮老師 By 劉奕辰",
   "賴奕帆老師 By ",
-  "魏宏仁老師 By 225陳冠豪",
-]
+  "魏宏仁老師 By 陳冠豪",
+];
+
+var thirdSubs = [
+  "",
+  "By",
+  "姚志鴻老師 By ",
+  "彭天健老師 By ",
+  "曹淇峰老師 By ",
+  "李文禮老師 By 劉奕辰",
+  "賴奕帆老師 By ",
+  "魏宏仁老師 By 陳冠豪",
+];
+
+var fourthSubs = [
+  "By",
+  "By",
+  "",
+  "",
+  "",
+  "",
+  "",
+  ""
+];
+
+var sixthSubs = [
+  "",
+  "By ",
+  "By ",
+  "By ",
+  "By ",
+  "By 劉奕辰",
+  "By ",
+  "By 陳冠豪",
+];
+
+var eighthSubs = [
+  "",
+  "By ",
+  "By ",
+  "By ",
+  "By ",
+  "By 劉奕辰",
+  "By ",
+  "By 陳冠豪",
+];
+
+
+var tenthSubs = [
+  "",
+  "By ",
+  "By ",
+  "By ",
+  "By ",
+  "By 劉奕辰",
+  "By ",
+  "By 陳冠豪",
+];
 
 var specialBgs = [
   [
