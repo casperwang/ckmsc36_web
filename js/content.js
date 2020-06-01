@@ -286,66 +286,10 @@ var second_photos = [
 ];
 
 var groups = [
+  {},
+  {},
   {
-    "len": 1,
-    "images": [
-      "./images/einstein.jpeg",
-      "./images/einstein.jpeg",
-      "./images/einstein.jpeg",
-      "./images/einstein.jpeg",
-      "./images/einstein.jpeg",
-      "./images/einstein.jpeg",
-      "./images/einstein.jpeg",
-      "./images/einstein.jpeg"
-    ], //團體照
-    "titles": [
-      "辣椒的研究",
-      "辣椒的研究",
-      "辣椒的研究",
-      "辣椒的研究",
-      "辣椒的研究",
-      "辣椒的研究"
-    ], //專題名稱
-    "names": [
-      "陳奕安",
-      "陳奕安",
-      "陳奕安",
-      "陳奕安",
-      "陳奕安",
-      "陳奕安",
-    ], //作者
-  }, //Eureka
-  {
-    "len": 2,
-    "images": [
-      "./images/einstein.jpeg",
-      "./images/einstein.jpeg",
-      "./images/einstein.jpeg",
-      "./images/einstein.jpeg",
-      "./images/einstein.jpeg",
-      "./images/einstein.jpeg",
-      "./images/einstein.jpeg",
-      "./images/einstein.jpeg"
-    ], //團體照
-    "titles": [
-      "辣椒的研究",
-      "辣椒的研究",
-      "辣椒的研究",
-      "辣椒的研究",
-      "辣椒的研究",
-      "辣椒的研究"
-    ], //專題名稱
-    "names": [
-      "陳奕安",
-      "陳奕安",
-      "陳奕安",
-      "陳奕安",
-      "陳奕安",
-      "陳奕安",
-    ], //作者
-  }, //What is
-  {
-    "len": 7,
+    "len": 8,
     "images": [
       "./images/einstein.jpeg",
       "./images/einstein.jpeg",
@@ -381,8 +325,6 @@ var groups = [
       "./images/einstein.jpeg",
       "./images/einstein.jpeg",
       "./images/einstein.jpeg",
-      "./images/einstein.jpeg",
-      "./images/einstein.jpeg",
       "./images/einstein.jpeg"
     ], //團體照
     "titles": [
@@ -403,12 +345,8 @@ var groups = [
     ], //作者
   }, //資訊
   {
-    "len": 6,
+    "len": 4,
     "images": [
-      "./images/einstein.jpeg",
-      "./images/einstein.jpeg",
-      "./images/einstein.jpeg",
-      "./images/einstein.jpeg",
       "./images/einstein.jpeg",
       "./images/einstein.jpeg",
       "./images/einstein.jpeg",
@@ -432,14 +370,8 @@ var groups = [
     ], //作者
   }, //化學
   {
-    "len": 6,
+    "len": 2,
     "images": [
-      "./images/einstein.jpeg",
-      "./images/einstein.jpeg",
-      "./images/einstein.jpeg",
-      "./images/einstein.jpeg",
-      "./images/einstein.jpeg",
-      "./images/einstein.jpeg",
       "./images/einstein.jpeg",
       "./images/einstein.jpeg"
     ], //團體照
@@ -461,9 +393,8 @@ var groups = [
     ], //作者
   }, //地科
   {
-    "len": 6,
+    "len": 7,
     "images": [
-      "./images/einstein.jpeg",
       "./images/einstein.jpeg",
       "./images/einstein.jpeg",
       "./images/einstein.jpeg",
@@ -492,8 +423,6 @@ var groups = [
   {
     "len": 6,
     "images": [
-      "./images/einstein.jpeg",
-      "./images/einstein.jpeg",
       "./images/einstein.jpeg",
       "./images/einstein.jpeg",
       "./images/einstein.jpeg",
