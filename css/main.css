@@ -1,7 +1,8 @@
+body {overflow-x: hidden;}
+
 #ballcontainer {
 	display: flex;
 	flex-wrap: wrap;
-	left: 0;
 	justify-content: center;
 }
 
@@ -29,15 +30,17 @@
 	text-align: center;
 	/*background-image: url("../image/ericxiao.jpg");*/
 	border-radius: 50%;
-	background-size: contain;
+	background-size: cover;
+	background-repeat: no-repeat;
 	box-shadow: 10px 10px 21px 0px rgba(0,0,0,0.75);
 }
 
 .hoverbox{
+	padding-left: 2vw;
+	padding-top: 0.5vw;
 	position: absolute;
 	display: inline-block;
-	text-align: right;
-	width: 200px;
+	text-align: left;
 }
 
 .hoverbg{
@@ -113,23 +116,6 @@
 	margin-bottom: 2%;
 }
 
-.mainText{
-	font-size: 20px;
-	display: flex;
-	height: auto;
-	justify-content: center;
-	align-items: center;
-	width: 100%;
-	padding: 10% 10% 10% 10%;
-}
-
-#lineEureka{
-	margin-left: 50px;
-	padding-top: 50px;
-	width: 200px;
-	height: 75px;
-}
-
 .parallax {
   /* The image used */
   background-image: url("../image/ericxiao.jpg");
@@ -144,4 +130,30 @@
   background-size: cover;
 }
 
+.footer{
+	height: 5vh;
+}
+
+.ig #profilePic{
+	width: 10vh;
+	height: 10vh;
+	background-size: cover;
+	border-radius: 50%;
+}
+
+.ig #text{
+	visibility: hidden;
+}
+
+#eureka #profilePic{
+	background-image: url("../images/ig_images/eureka.jpg");
+}
+
+#class25 #profilePic{
+	background-image: url("../images/ig_images/25.jpg");
+}
+
+#class26 #profilePic{
+	background-image: url("../images/ig_images/26.jpg");
+}
 

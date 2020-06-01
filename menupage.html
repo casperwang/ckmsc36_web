@@ -1,6 +1,7 @@
 <html>
     <head>
         <meta charset="utf-8">
+
         <title>Eureka!</title>
         <link rel="icon" href="images/icon.png">
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
@@ -18,60 +19,62 @@
         <link rel="stylesheet" href="css/main.css">
     </head>
     <body>
-        <div class="row">
-            <div class="col-md-12 bg_section first_section">
-                <div class="content container">
-                    <div class="right">
-                        <h2 id="titleText"></h2>
-                        <div class="line-dec titleLine"></div>
-                        <span id="titleDesc"></span>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-12 second_section">
-                <div class="content container">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <h3 id="secondSection" class = "sectionTitle"></h3>
-                            <div class="second_photo circle_base"></div>
-                            <div id="secondInner" class="sectionText"></div>
-                        </div>    
-                    </div>
-                    <br>
-                </div>
-            </div>
-            <div class = "col-md-12 bg_section third_section">
-                <div class="content container">
-                    <div class="row">
-                        <div class="col-md-7">
-                            <h3 id="thirdSection" class = "sectionTitle"></h3>
-                            <div id="thirdInner" class = "sectionText"></div>
+        <div class = "container-fluid">
+            <div class="row" id = "mainContent">
+                <div class="col-md-12 bg_section first_section">
+                    <div class="content container-fluid">
+                        <div class="right">
+                            <h2 id="titleText"></h2>
+                            <div class="line-dec titleLine"></div>
+                            <span id="titleDesc"></span>
                         </div>
-                        <div class="col-md-1"></div>
-                        <div class="col-md-4">
-                            <div class = "third_photos">
-                                <div class="teacher_photo circle_base" id = "thirdphoto_top"></div>
+                    </div>
+                </div>
+                <div class="col-md-12 second_section">
+                    <div class="content container-fluid">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <h3 id="secondSection" class = "sectionTitle"></h3>
+                                <div class="second_photo circle_base"></div>
+                                <div id="secondInner" class="sectionText"></div>
+                            </div>    
+                        </div>
+                        <br>
+                    </div>
+                </div>
+                <div class = "col-md-12 bg_section third_section">
+                    <div class="content container-fluid">
+                        <div class="row">
+                            <div class="col-md-7">
+                                <h3 id="thirdSection" class = "sectionTitle"></h3>
+                                <div id="thirdInner" class = "sectionText"></div>
+                            </div>
+                            <div class="col-md-1"></div>
+                            <div class="col-md-4">
+                                <div class = "third_photos">
+                                    <div class="teacher_photo circle_base" id = "thirdphoto_top"></div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class = "col-md-12 fourth_section">
-                <div class="content container">
-                    <div class="row">
-                        <div class="col-md-5">
-                            <h3 id="fourthSection" class="sectionTitle"></h3>
-                            <div id="fourthInner" class="sectionText"></div>
+                <div class = "col-md-12 fourth_section">
+                    <div class="content container-fluid">
+                        <div class="row">
+                            <div class="col-md-5">
+                                <h3 id="fourthSection" class="sectionTitle"></h3>
+                                <div id="fourthInner" class="sectionText"></div>
+                            </div>
+                        </div>
+                        <div id="teams">
                         </div>
                     </div>
-                    <div id="teams">
-                    </div>
                 </div>
-            </div>
-            <div class = "col-md-12 bg_section fifth_section">
-            </div>
-            <div class="float-right rightSide">
-                <div id="ballcontainer"></div>
+                <div class = "col-md-12 bg_section fifth_section">
+                </div>
+                <div class="float-right rightSide">
+                    <div id="ballcontainer"></div>
+                </div>
             </div>
         </div>
     </body>

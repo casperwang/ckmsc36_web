@@ -2,7 +2,6 @@ function readyIntroPage() {
 	initDoc()
 	initBalls();
 	checkHover();
-	logoHover();
 	modalUpdate();
 }
 

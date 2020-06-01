@@ -1,6 +1,7 @@
 //Background grid
 var grid = [Math.ceil(wid / 100), Math.ceil(len / 100)];
 var nelements = grid[0] * grid[1];
+var ballState = 1, checkBallHover = true;
 /*
 數學 #C0D72F
 資訊 #EAEAEA
@@ -74,6 +75,8 @@ function initBg(){
 }
 
 function initBalls(){
+
+	checkBallHover = false;
 	var tl = anime.timeline();
 	tl.add({ //Disperse the balls to correct position
 		targets: "#ballcontainer .ball",
@@ -81,7 +84,11 @@ function initBalls(){
 			console.log("l = " + l + ", i = " + i);
 			return (i + 1) * window.innerHeight / (l + 1);	
 		},
-		easing: "easeInQuad"
+		easing: "easeInQuad",
+		rotate: function(el, i, l){
+			return 0;
+		},
+		duration: 300
 	}).add({ //Updates first focus ball
 		targets: "#ballcontainer .ball",
 		scale: function(el, i, l){
@@ -90,7 +97,11 @@ function initBalls(){
 			} else {
 				return 1;
 			}
-		}
+		},
+		complete: function(){
+			checkBallHover = true;
+		},
+		duration: 50
 	});
 	
 	for(var i = 0; i < numballs; i++){
@@ -98,6 +109,41 @@ function initBalls(){
 		$("#ball_" + i).css("border", "none");
 	}
 	
+	
+}
+
+function collapseBalls(){
+	checkBallHover = false;
+	var tl = anime.timeline();
+	tl.add({ //Disperse the balls to correct position
+		targets: "#ballcontainer .ball",
+		translateY: function(el, i, l){
+			console.log("l = " + l + ", i = " + i);
+			return (1) * window.innerHeight / (l + 1) ;	
+		},
+		easing: "easeOutQuad",
+		rotate: function(el, i, l){
+			if(i == 8){
+				console.log("Rot");
+				return 180;
+			}
+			return 0;
+		},
+		duration: 300
+	}).add({ //Updates first focus ball
+		targets: "#ballcontainer .ball",
+		scale: 1,
+		duration: 50,
+		complete: function(){
+			checkBallHover = true;
+		}
+	});
+	
+	for(var i = 0; i < numballs; i++){
+		$("#ball_" + i).css("background-image", "url(" + ball_photos[i] +")");
+		$("#ball_" + i).css("border", "none");
+	}
+
 }
 
 
@@ -139,69 +185,88 @@ function updSel(){
 	}
 	//console.log("Cursel = " + curSel);
 	$(".hoverbox").html("");
-	if(curSel != -1){
+	if(curSel != 8 && curSel != -1){
 		var txt = titles[curSel].replace(/\S/g, "<span class = 'selLetter' visible = 'false'>$&</span>");
-		$("#hoverbox_" + curSel).css("padding", "10px 10px 10px 10px");
 		$("#hoverbox_" + curSel).css("right", (dia * 1.5) + "px");
-		$("#hoverbox_" + curSel).css("width", "10vw");
 		$("#hoverbox_" + curSel).html(txt);
+		$("#hoverbox_" + curSel + " .selLetter").css("align", "right");
+		$(".selLetter").css("font-size", "max(20px, 1.5vw)");
+		$("#hoverbox_" + curSel).css("width", "15vw");
 
-		$("#hoverbg_" + curSel).css("width", $("#hoverbox_" + curSel).css("width"));
-		$("#hoverbg_" + curSel).css("height", "3em");
+		$("#hoverbg_" + curSel).css("width", "15vw");
+		$("#hoverbg_" + curSel).css("height", (dia) + "px");
 		$("#hoverbg_" + curSel).css("right", (dia * 1.5) + "px");
-		$("#hoverbg_" + curSel).css("top", "10px");
 		$("#hoverbg_" + curSel).css("backgroundColor", coloursLight[curSel]);
 
-		$(".selLetter").css("font-size", (dia / 2) + "px");
+		
 	} 
 }
 
 function checkHover(){
 	$("#ballcontainer").on({
 	    mouseenter: function() {
-	    	curSel = parseInt(this.id.split("_")[1]);
-	    	anime.timeline()
-			.add({
-				targets: "#hoverbg_" + curSel,
-				width: [0, 200],
-				duration: 50,
-				easing: "easeInQuad"
-			}).add({
-				targets: ".selLetter",
-				opacity: [0, 1],
-				delay: function(el, i, l){
-					return (l - i) * 20;
-				},
-				duration: 50,
-				easing: "easeInQuad"
-			});
-	        updSel();
+	    	if(checkBallHover){
+	    		curSel = parseInt(this.id.split("_")[1]);
+		    	anime.timeline()
+				.add({
+					targets: "#hoverbg_" + curSel,
+					width: ['0vw', '15vw'],
+					duration: 50,
+					easing: "easeInQuad"
+				}).add({
+					targets: ".selLetter",
+					opacity: [0, 1],
+					delay: function(el, i, l){
+						return (l - i) * 20;
+					},
+					duration: 50,
+					easing: "easeInQuad"
+				});
+		        updSel();
+	    	}
 	    },
 	    mouseleave: function() {
-	    	anime.timeline()
-	    	.add({
-				targets: ".selLetter",
-				opacity: [1, 0],
-				delay: function(el, i, l){
-					return (i) * 20;
-				},
-				duration: 50,
-				easing: "easeOutQuad"
-			}).add({
-				targets: "#hoverbg_" + curSel,
-				width: [200, 0],
-				duration: 50,
-				easing: "easeOutQuad"
-			});
-	    	curSel = -1;
-	    	updSel();
+	    	if(checkBallHover){
+	    		anime.timeline()
+		    	.add({
+					targets: ".selLetter",
+					opacity: [1, 0],
+					delay: function(el, i, l){
+						return (i) * 20;
+					},
+					duration: 50,
+					easing: "easeOutQuad"
+				}).add({
+					targets: "#hoverbg_" + curSel,
+					width: ['15vw', '0vw'],
+					duration: 50,
+					easing: "easeOutQuad"
+				});
+		    	curSel = -1;
+		    	updSel();
+	    	}
 	    },
 	    click: function(){
-	    	var ID = this.id;
-	    	curGo = parseInt(ID.split("_")[1]);
-	    	ballUpdate();
-	    	updSel();
-	    	modalUpdate();
+	    	if(checkBallHover){
+	    		var ID = this.id;
+	    		oriGo = curGo;
+		    	curGo = parseInt(ID.split("_")[1]);
+		    	if(curGo == 8){
+		    		ballState ^= 1;
+		    		curSel = -1;
+		    		if(!ballState){
+		    			collapseBalls();
+		    		} else {
+		    			initBalls();
+		    		}
+		    		updSel();
+		    		curGo = oriGo;
+		    	} else {
+		    		ballUpdate();
+		    		updSel();
+		    		modalUpdate();
+		    	}
+	    	}
 	    }
 	}, ".ball");
 }
@@ -220,12 +285,4 @@ function logoUpdate() {
       duration: 1500,
       delay: function(el, i) { return i * 50 },
     });
-}
-
-function logoHover() {
-	$("#lineEureka").on({
-		mouseenter: function() {
-	    	logoUpdate();
-	    }
-	});
 }
