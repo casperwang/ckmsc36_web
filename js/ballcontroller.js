@@ -1,7 +1,7 @@
 //Background grid
 var grid = [Math.ceil(wid / 100), Math.ceil(len / 100)];
 var nelements = grid[0] * grid[1];
-var ballState = 1, checkBallHover = true;
+var ballState = 1, checkBallHover = true, inHover = false;
 /*
 數學 #C0D72F
 資訊 #EAEAEA
@@ -202,10 +202,14 @@ function updSel(){
 	} 
 }
 
+
+
+
 function checkHover(){
 	$("#ballcontainer").on({
 	    mouseenter: function() {
-	    	if(checkBallHover){
+	    	if(checkBallHover && !inHover){
+	    		inHover = true;
 	    		curSel = parseInt(this.id.split("_")[1]);
 		    	anime.timeline()
 				.add({
@@ -220,13 +224,16 @@ function checkHover(){
 						return (l - i) * 20;
 					},
 					duration: 50,
-					easing: "easeInQuad"
+					easing: "easeInQuad",
+					complete: function(){
+						inHover = false;
+					}
 				});
 		        updSel();
 	    	}
 	    },
 	    mouseleave: function() {
-	    	if(checkBallHover){
+	    	if(checkBallHover && !inHover){
 	    		anime.timeline()
 		    	.add({
 					targets: ".selLetter",
@@ -240,7 +247,10 @@ function checkHover(){
 					targets: "#hoverbg_" + curSel,
 					width: ['15vw', '0vw'],
 					duration: 50,
-					easing: "easeOutQuad"
+					easing: "easeOutQuad",
+					complete: function(){
+						inHover = false;
+					}
 				});
 		    	curSel = -1;
 		    	updSel();

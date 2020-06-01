@@ -200,6 +200,8 @@ function updateTitle() {
 
 		$("#thirdInner").html("");
 		$("#thirdSection").html("");
+
+		$("#thirdphoto_top").css("background-image", "");
 	} else { //else 
 		$(".fifth_section").html("");
 		$(".fifth_section").css("-webkit-clip-path", `
