@@ -12,22 +12,23 @@ body {
 	height: 300px;
 }
 
-.section{
+#section0, #section3{
 	text-align: center;
 }
 
 h1 {
-	font-size: 5em;
-	font-family: arial,helvetica;
+	font-size: max(4.5vw, 100px);
+	font-weight: 450;
+	letter-spacing: 1px;
 	color: #fff;
-	margin:0;
-	padding:0;
 }
 
-.intro p {
+p {
+	margin-top: 5vh;
+	font-size: max(30px, 1vw);
 	color: #fff;
 }
 
 .row {
-	padding: 15px 15% 15px 15%;
+	padding: 15px 5% 15px 5%;
 }

@@ -2,11 +2,14 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<title>teampage</title>
+    <link rel="icon" href="images/icon.png">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-
+    <script src="js/variables.js"></script>
+    <script src="data/data.js"></script>
+    <script src="js/team.js"></script>
 	<link rel="stylesheet" type="text/css" href="css/fullpage.css" />
 	<link rel="stylesheet" type="text/css" href="css/team.css" />
 	<link rel="stylesheet" type="text/css" href="examples.css" />
@@ -45,15 +48,16 @@
     </div>
     
 	<div class="section" id="section2">
-        <div class="row">
-            <div class="col-md-6">
-                <iframe id="project_pdf" src="data/I3.pdf" width="100%" height="700px">
-                </iframe>
-            </div>
-            <div class="col-md-6">
+        <div class="row thinner_padding">
+            <div class="col-md-5">
                 <div id="project_intro" class="intro">
                     <h1>內容簡介</h1>
+                    <p>兵者，詭道也。故能而示之不能，用而示之不用，近而示之遠，遠而示之近。利而誘之，亂而取之，實而備之，強而避之，怒而撓之，卑而驕之，佚而勞之，親而離之。攻其無備，出其不意。此兵家之勝，不可先傳也。</p>
                 </div>
+            </div>
+            <div class="col-md-7">
+                <iframe id="project_pdf" src="data/I3.pdf" width="100%" height="800px">
+                </iframe>
             </div>
         </div>
     </div>

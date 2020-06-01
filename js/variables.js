@@ -2,6 +2,7 @@ var numballs = 9;
 var wid = document.documentElement.clientWidth / 6, len = document.documentElement.clientHeight; //size of 
 var dia = len / 17;
 var curGo = 0, curSel = -1;
+var curTeam = {sub: 'inform', id: 0}
 var rotAngle = 360 / (numballs + 1);
 var colours = ["#ff8c45", "#925cff", "#C0D72F", "#EAEAEA", "#F9A51B", "#D64141", "#478BAA", "#FDEC10"];
 var coloursLight = ["#ffb080", "#c2a3ff", "#dffa37", "#f7f7f7", "#ffb845", "#fa7878", "#6bbde3", "#fff24f"];
