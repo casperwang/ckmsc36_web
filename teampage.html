@@ -1,37 +1,82 @@
 <!DOCTYPE html>
-<html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
 <head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>teampage</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="../css/team.css">
-    <script src="../js/anime.min.js"></script>
-    <script src="../js/team.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="css/fullpage.css" />
+	<link rel="stylesheet" type="text/css" href="css/team.css" />
+	<link rel="stylesheet" type="text/css" href="examples.css" />
 </head>
 <body>
-<div id = "backButton" class = "backBtn">
-    <span id = "cursor"></span>
-    <div id = "bannerText">
-        <span class = "letter">B</span><span class = "letter">a</span><span class = "letter">c</span><span class = "letter">k</span>
+
+<div id="fullpage">
+	<div class="section " id="section0">
+		<div class="intro">
+			<h1 id="project_title">專題名稱</h1>
+			<p id="project_author">作者</p>
+		</div>
     </div>
-</div>
-<div class="contentWrapper">
-    <div id = "row">
-        <div id = "col-3"></div>
-        <div id = "col-9">
-            <h1 class="h1">h1aaa</h1>
-            <p>hello 
-            <code>what</code></p>
-            <h1 class="h1">h1fff</h1>
-            <h1 class="h1">h1fff</h1>
-            <h1 class="h1">hdasf1</h1>
-            <h1 class="h1">haasdf1</h1>
+    
+	<div class="section" id="section1">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="circle_base" style="background-image: url('./images/einstein.jpeg');"></div>
+            </div>
+            <div class="col-md-8">
+                <div class="intro">
+                    <p>愛因斯坦</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-8">
+                <div class="intro">
+                    <p>愛因斯坦</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="circle_base" style="background-image: url('./images/einstein.jpeg');"></div>
+            </div>
+        </div>
+    </div>
+    
+	<div class="section" id="section2">
+        <div class="row">
+            <div class="col-md-6">
+                <iframe id="project_pdf" src="data/I3.pdf" width="100%" height="700px">
+                </iframe>
+            </div>
+            <div class="col-md-6">
+                <div id="project_intro" class="intro">
+                    <h1>內容簡介</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+	<div class="section" id="section3">
+		<div class="intro">
+            <h1>成發影片</h1><br>
+            <iframe width="1020" height="630" src="https://www.youtube-nocookie.com/embed/tzPZ6N9giUE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
     </div>
 </div>
-<iframe src="data/I3.pdf" width="50%" height="auto">
-</iframe>
+
+<script type="text/javascript" src="js/fullpage.js"></script>
+<script type="text/javascript" src="examples.js"></script>
+
+<script type="text/javascript">
+    var myFullpage = new fullpage('#fullpage', {
+        anchors: ['firstPage', 'secondPage', '3rdPage', '4thPage'],
+        sectionsColor: ['#C63D0F', '#1BBC9B', '#7E8F7C', '#C63D0F'],
+        navigation: true,
+        css3: true
+    });
+</script>
 
 </body>
 </html>

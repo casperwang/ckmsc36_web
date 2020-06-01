@@ -324,8 +324,6 @@ var groups = [
       "./images/einstein.jpeg",
       "./images/einstein.jpeg",
       "./images/einstein.jpeg",
-      "./images/einstein.jpeg",
-      "./images/einstein.jpeg",
       "./images/einstein.jpeg"
     ], //團體照
     "titles": [
@@ -346,12 +344,8 @@ var groups = [
     ], //作者
   }, //資訊
   {
-    "len": 6,
+    "len": 4,
     "images": [
-      "./images/einstein.jpeg",
-      "./images/einstein.jpeg",
-      "./images/einstein.jpeg",
-      "./images/einstein.jpeg",
       "./images/einstein.jpeg",
       "./images/einstein.jpeg",
       "./images/einstein.jpeg",
@@ -375,14 +369,8 @@ var groups = [
     ], //作者
   }, //化學
   {
-    "len": 6,
+    "len": 2,
     "images": [
-      "./images/einstein.jpeg",
-      "./images/einstein.jpeg",
-      "./images/einstein.jpeg",
-      "./images/einstein.jpeg",
-      "./images/einstein.jpeg",
-      "./images/einstein.jpeg",
       "./images/einstein.jpeg",
       "./images/einstein.jpeg"
     ], //團體照
@@ -404,9 +392,8 @@ var groups = [
     ], //作者
   }, //地科
   {
-    "len": 6,
+    "len": 7,
     "images": [
-      "./images/einstein.jpeg",
       "./images/einstein.jpeg",
       "./images/einstein.jpeg",
       "./images/einstein.jpeg",
@@ -435,8 +422,6 @@ var groups = [
   {
     "len": 6,
     "images": [
-      "./images/einstein.jpeg",
-      "./images/einstein.jpeg",
       "./images/einstein.jpeg",
       "./images/einstein.jpeg",
       "./images/einstein.jpeg",
