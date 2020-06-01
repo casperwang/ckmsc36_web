@@ -1,9 +1,7 @@
-*{
-	margin: 0px;
-}
 
 .circle_base {
     border-radius: 50%;
+    shape-outside: circle();
 	margin-left: auto;
 	text-align: center;
 	margin-right: auto;
@@ -15,9 +13,9 @@
 
 .teacher_photo {
 	background-size: cover;
-	float: left;
 	width: 20vw;
 	height: 20vw;
+	float: right;
 }
 
 .second_photo {
@@ -59,9 +57,9 @@ section{
 
 .third_section {
 	-webkit-clip-path: polygon(
-		  0vw  10vh,
+		  0vw  5vh,
 	    100vw   0vh,
-	    100vw  90vh,
+	    100vw  95vh,
 	      0vw  100vh
 	);
 	min-height: 100vh;
@@ -145,4 +143,10 @@ h2 {
 	grid-row-end: 7;
 	z-index: 0;
 	filter: brightness(50%);
+}
+
+.mainVideo{
+	width: 40vw;
+	height: auto;
+	text-align: center;
 }

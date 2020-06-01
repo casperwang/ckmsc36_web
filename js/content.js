@@ -144,7 +144,14 @@ var fourthSection = [
 var sixthSection = [
   {
     "title": "成發影片《Euphoria》",
-    "innerText": `四位建中學生的故事，誌人也誌怪`
+    "innerText": `
+    <div class = "mainVideo" style = 'padding-top: 10vh; margin: 0 auto; width: 100px; '>
+      <iframe id = "euphoria"
+      width="1080" height="630"
+      src="https://www.youtube.com/embed/MREGIl3GnxY">
+      </iframe>
+    </div>
+    `
   },
   {
     "title": "網管、網站組",
@@ -155,7 +162,14 @@ var sixthSection = [
 var eighthSection = [
   {
     "title": "成發曲《霓虹彼端》",
-    "innerText": `四位建中學生的故事，誌人也誌怪`
+    "innerText": `
+    <div class = "mainVideo" style = 'padding-top: 10vh; margin: 0 auto; width: 100px; '>
+      <iframe id = "euphoria"
+      width="1080" height="630"
+      src="https://www.youtube.com/embed/MU2APcEQifQ">
+      </iframe>
+    </div>
+    `
   },
   {
     "title": "活動、場地、主持人組",
@@ -203,6 +217,73 @@ var Bgs = [
   bg_bio,
 ];
 
+var secondSubs = [
+  "By 陳彥儒",
+  "總召：洪辰亞、陳冠豪 / 副召 ： 楊竣凱、闕子維",
+  "姚志鴻老師 By ",
+  "彭天健老師 By ",
+  "曹淇峰老師 By ",
+  "李文禮老師 By 劉奕辰",
+  "賴奕帆老師 By ",
+  "魏宏仁老師 By 陳冠豪",
+];
+
+var thirdSubs = [
+  "",
+  "By",
+  "姚志鴻老師 By ",
+  "彭天健老師 By ",
+  "曹淇峰老師 By ",
+  "李文禮老師 By 劉奕辰",
+  "賴奕帆老師 By ",
+  "魏宏仁老師 By 陳冠豪",
+];
+
+var fourthSubs = [
+  "By",
+  "By",
+  "",
+  "",
+  "",
+  "",
+  "",
+  ""
+];
+
+var sixthSubs = [
+  "",
+  "By ",
+  "By ",
+  "By ",
+  "By ",
+  "By 劉奕辰",
+  "By ",
+  "By 陳冠豪",
+];
+
+var eighthSubs = [
+  "",
+  "By ",
+  "By ",
+  "By ",
+  "By ",
+  "By 劉奕辰",
+  "By ",
+  "By 陳冠豪",
+];
+
+
+var tenthSubs = [
+  "",
+  "By ",
+  "By ",
+  "By ",
+  "By ",
+  "By 劉奕辰",
+  "By ",
+  "By 陳冠豪",
+];
+
 var specialBgs = [
   [
     "url('./images/backgrounds/inform_background-01.png')",
@@ -223,18 +304,14 @@ var specialBgs = [
 ]
 
 var teacher_photos = [
-  "url('./images/einstein.jpeg')",
-  "url('./images/einstein.jpeg')",
-  "url('./images/einstein.jpeg')",
-  "url('./images/einstein.jpeg')",
-  "url('./images/einstein.jpeg')",
-  "url('./images/einstein.jpeg')",
-  "url('./images/einstein.jpeg')",
-  "url('./images/einstein.jpeg')",
-  "url('./images/einstein.jpeg')",
-  "url('./images/einstein.jpeg')",
-  "url('./images/einstein.jpeg')",
-  "url('./images/einstein.jpeg')",
+  "",
+  "",
+  "url('./images/teacher/math.png')",
+  "url('./images/teacher/inform.png')",
+  "url('./images/teacher/chem.png')",
+  "url('./images/teacher/earths.png')",
+  "url('./images/teacher/phys.png')",
+  "url('./images/teacher/bio.png')",
 ];
 
 var second_photos = [

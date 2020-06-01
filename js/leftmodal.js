@@ -29,6 +29,7 @@ function updateTitle() {
                 <div class="row">
                     <div class="col-md-5">
                         <h3 id="fifthSection" class="sectionTitle"></h3>
+                        <h4 id="fifthSub" class = "sectionSubtitle"></h4>
                         <div id="fifthInner" class="sectionText"></div>
                     </div>
                 </div>
@@ -42,6 +43,7 @@ function updateTitle() {
                     <div class="row">
                         <div class="col-md-5">
                             <h3 id="sixthSection" class="sectionTitle"></h3>
+                            <h4 id="sixthSub" class = "sectionSubtitle"></h4>
                             <div id="sixthInner" class="sectionText"></div>
                         </div>
                     </div>
@@ -52,6 +54,7 @@ function updateTitle() {
                     <div class="row">
                         <div class="col-md-5">
                             <h3 id="seventhSection" class="sectionTitle"></h3>
+                            <h4 id="seventhSub" class = "sectionSubtitle"></h4>
                             <div id="seventhInner" class="sectionText"></div>
                         </div>
                     </div>
@@ -62,6 +65,7 @@ function updateTitle() {
                     <div class="row">
                         <div class="col-md-5">
                             <h3 id="eighthSection" class="sectionTitle"></h3>
+                            <h4 id="eighthSub" class = "sectionSubtitle"></h4>
                             <div id="eighthInner" class="sectionText"></div>
                         </div>
                     </div>
@@ -72,6 +76,7 @@ function updateTitle() {
                     <div class="row">
                         <div class="col-md-5">
                             <h3 id="ninthSection" class="sectionTitle"></h3>
+                            <h4 id="ninthSub" class = "sectionSubtitle"></h4>
                             <div id="ninthInner" class="sectionText"></div>
                         </div>
                     </div>
@@ -85,6 +90,7 @@ function updateTitle() {
                     <div class="row">
                         <div class="col-md-5">
                             <h3 id="tenthSection" class="sectionTitle"></h3>
+                            <h4 id="tenthSub" class = "sectionSubtitle"></h4>
                             <div id="tenthInner" class="sectionText"></div>
                         </div>
                     </div>
@@ -95,6 +101,7 @@ function updateTitle() {
                     <div class="row">
                         <div class="col-md-5">
                             <h3 id="eleventhSection" class="sectionTitle"></h3>
+                            <h4 id="eleventhSub" class = "sectionSubtitle"></h4>
                             <div id="eleventhInner" class="sectionText"></div>
                         </div>
                     </div>
@@ -182,11 +189,12 @@ function updateTitle() {
 		var txt = sixthSection[curGo]["title"].replace(/\S/g, "<span class = 'h3title'>$&</span>");
 		textWrapper.html(txt);
 		$("#sixthInner").html(sixthSection[curGo]["innerText"]);
-
+		$("#sixthSub").html(sixthSubs[curGo]);
 		//Eighth section
 		var textWrapper = $("#eighthSection");
 		var txt = eighthSection[curGo]["title"].replace(/\S/g, "<span class = 'h3title'>$&</span>");
 		textWrapper.html(txt);
+		$("#eighthSub").html(eighthSubs[curGo]);
 		$("#eighthInner").html(eighthSection[curGo]["innerText"]);
 
 		//Tenth section
@@ -194,11 +202,13 @@ function updateTitle() {
 			var textWrapper = $("#tenthSection");
 			var txt = tenthSection[curGo]["title"].replace(/\S/g, "<span class = 'h3title'>$&</span>");
 			textWrapper.html(txt);
+			$("#tenthSub").html(tenthSubs[curGo]);
 			$("#tenthInner").html(tenthSection[curGo]["innerText"]);	
 		}
 		
 
 		$("#thirdInner").html("");
+		$("#thirdSub").html("");
 		$("#thirdSection").html("");
 
 		$("#thirdphoto_top").css("background-image", "");
@@ -219,8 +229,11 @@ function updateTitle() {
 		var txt = thirdSection[curGo]["title"].replace(/\S/g, "<span class = 'h3title'>$&</span>");
 		textWrapper.html(txt)
 		$("#thirdInner").html(thirdSection[curGo]["innerText"]);
-
+		$("#thirdInner").prepend(`<div class = "third_photos">
+                                    <div class="teacher_photo circle_base" id = "thirdphoto_top"></div>
+                                </div>`);
 		$("#thirdphoto_top").css("background-image", teacher_photos[curGo]);
+		$("#thirdSub").html(thirdSubs[curGo]);
 	}
 	//Title
 	var textWrapper = $("#titleText");
@@ -236,6 +249,7 @@ function updateTitle() {
 	var textWrapper = $("#secondSection");
 	var txt = secondSection[curGo]["title"].replace(/\S/g, "<span class = 'h3title'>$&</span>");
 	textWrapper.html(txt);
+	$("#secondSub").html(secondSubs[curGo]);
 	$("#secondInner").html(secondSection[curGo]["innerText"]);
 	
 	
@@ -284,7 +298,7 @@ function updateTitle() {
 	var txt = fourthSection[curGo]["title"].replace(/\S/g, "<span class = 'h3title'>$&</span>");
 	textWrapper.html(txt);
 	$("#fourthInner").html(fourthSection[curGo]["innerText"]);
-
+	$("#fourthSub").html(fourthSubs[curGo]);
 
 	anime.timeline()
 	.add({
@@ -311,10 +325,10 @@ function updateTitle() {
 	    delay: (el, i, l) => 20 * (l - i + 1)
 	});
 	anime({
-	 	targets: '.sectionTitle, .sectionText',
+	 	targets: '.sectionTitle, .sectionText .sectionSubTitle',
 	 	opacity: [0, 1],
 	 	easing: "easeInSine",
-	 	duration: 300
+	 	duration: 200
 	});
 }
 
