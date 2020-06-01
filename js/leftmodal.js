@@ -219,8 +219,12 @@ function updateTitle() {
 		var txt = thirdSection[curGo]["title"].replace(/\S/g, "<span class = 'h3title'>$&</span>");
 		textWrapper.html(txt)
 		$("#thirdInner").html(thirdSection[curGo]["innerText"]);
-
+		$("#thirdInner").prepend(`<div class = "third_photos">
+                                    <div class="teacher_photo circle_base" id = "thirdphoto_top"></div>
+                                </div>`);
 		$("#thirdphoto_top").css("background-image", teacher_photos[curGo]);
+		$("#thirdSub").html(teacherSubs[curGo - 2]);
+		
 	}
 	//Title
 	var textWrapper = $("#titleText");
@@ -311,10 +315,10 @@ function updateTitle() {
 	    delay: (el, i, l) => 20 * (l - i + 1)
 	});
 	anime({
-	 	targets: '.sectionTitle, .sectionText',
+	 	targets: '.sectionTitle, .sectionText .sectionSubTitle',
 	 	opacity: [0, 1],
 	 	easing: "easeInSine",
-	 	duration: 300
+	 	duration: 200
 	});
 }
 
