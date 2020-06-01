@@ -60,9 +60,8 @@ hu ða æþelingas ellen fremedon.`
 hu ða æþelingas ellen fremedon.`
   },{
     "title": "關於生物組",
-    "innerText": `Hwæt. We Gardena in geardagum,
-þeodcyninga, þrym gefrunon,
-hu ða æþelingas ellen fremedon.`
+    "innerText": `
+    由許多極度熱愛生物的同學所組成，在生物科魏宏仁老師的帶領下，到各大實驗室針對動物、植物、分子生物、微生物、遺傳、演化等六大領域，在高中課內的理論基礎上做更進一步的探討與驗證；然而，許多生物領域的研究都是既耗時又需要許多昂貴的器材，因此各組同學在專題課時都爭分奪秒，不只請常公假前往實驗室，也利用自己課外的時間進行研究，以不愧對教授和系所提供的資源。`
   }
 ];
 
@@ -100,9 +99,8 @@ hu ða æþelingas ellen fremedon.`
 hu ða æþelingas ellen fremedon.`
   },{
     "title": "生物專題指導老師的話",
-    "innerText": `Hwæt. We Gardena in geardagum,
-þeodcyninga, þrym gefrunon,
-hu ða æþelingas ellen fremedon.`
+    "innerText": `魏宏仁老師，是一名給予學生高自由度的專題老師，深知生物研究所需的時間及努力，往往都會同意同學的公假，各組對的研究內容也不會有過多干涉，更不會要求報名科展、各獎項、期刊等，給予學生最大的獨立自主空間，使我們學會對自己負責。但在高自由度的環境下，其實老師對研究的嚴謹精神是有目共睹的，該說笑時說笑，只要一談到生物領域，老師就會嚴肅地說出研究中所有你沒看到的缺點及錯誤，彷彿變了個人似的，是一位不論在學術領域和教學方面都具有極度熱誠的老師。`
+
   }
 ];
 
