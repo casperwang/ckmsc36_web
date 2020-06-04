@@ -336,11 +336,19 @@ function checkClickSub(){
 	console.log("HHH");
 	$(".portfolio-item").on({
 		mouseenter: function(){
-			console.log(this.id);
+			anime({
+				targets: "#" + this.id + " .text",
+				scale: [1, 1.05],
+				duration: 50
+			});
 			$()
 		},
 		mouseleave: function(){
-			console.log("A");
+			anime({
+				targets: "#" + this.id + " .text",
+				scale: [1.05, 1],
+				duration: 50
+			});
 		},
 		click: function(){
 			x = this.id.split("_");

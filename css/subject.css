@@ -149,3 +149,7 @@ iframe {
    display: block;
    margin: 0 auto;
 }
+
+.portfolio-item{
+	cursor:pointer;
+}

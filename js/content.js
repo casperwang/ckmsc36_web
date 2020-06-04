@@ -422,7 +422,7 @@ var groups = [
     ], //作者
   }, //資訊
   {
-    "sub": "earths",
+    "sub": "chem",
     "len": 4,
     "images": [
       "./images/einstein.jpeg",
@@ -444,6 +444,7 @@ var groups = [
     ], //作者
   }, //化學
   {
+    "sub": "earths",
     "len": 2,
     "images": [
       "./images/einstein.jpeg",
