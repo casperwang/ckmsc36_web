@@ -358,6 +358,7 @@ var groups = [
     "innerText": "more spice"
   }, //What is
   {
+    "sub": "math",
     "len": 8,
     "images": [
       "./images/einstein.jpeg",
@@ -393,6 +394,7 @@ var groups = [
     ], //作者
   }, //數學
   {
+    "sub": "inform",
     "len": 6,
     "images": [
       "./images/einstein.jpeg",
@@ -420,6 +422,7 @@ var groups = [
     ], //作者
   }, //資訊
   {
+    "sub": "earths",
     "len": 4,
     "images": [
       "./images/einstein.jpeg",
@@ -456,6 +459,7 @@ var groups = [
     ], //作者
   }, //地科
   {
+    "sub": "phys",
     "len": 7,
     "images": [
       "./images/einstein.jpeg",
@@ -486,6 +490,7 @@ var groups = [
     ], //作者
   }, //物理
   {
+    "sub": "bio",
     "len": 6,
     "images": [
       "./images/einstein.jpeg",

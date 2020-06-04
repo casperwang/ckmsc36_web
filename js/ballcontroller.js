@@ -1,7 +1,7 @@
 //Background grid
 var grid = [Math.ceil(wid / 100), Math.ceil(len / 100)];
 var nelements = grid[0] * grid[1];
-var ballState = 1, checkBallHover = true, inHover = false;
+var ballState = 1, checkBallHover = true, inHover;
 /*
 數學 #C0D72F
 資訊 #EAEAEA
@@ -208,6 +208,7 @@ function updSel(){
 function checkHover(){
 	$("#ballcontainer").on({
 	    mouseenter: function() {
+	    	console.log(this);
 	    	if(checkBallHover && !inHover){
 	    		inHover = true;
 	    		curSel = parseInt(this.id.split("_")[1]);

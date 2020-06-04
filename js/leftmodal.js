@@ -274,9 +274,9 @@ function updateTitle() {
 	for (var i = 0; i < len; i++) {
 		obj += 
 			`<div class="col-md-4 col-sm-4">
-				<div class="portfolio-item">
-			        <div class="image">
-			          <a href="${groups[curGo]["images"][i]}" data-lightbox="image-1"><img src="${groups[curGo]["images"][i]}"></a>
+				<div class="portfolio-item" id = "${groups[curGo]["sub"] + "_" + (i + 1)}" >
+			        <div class="image group_img">
+			          <a data-lightbox="image-1"><img src="${groups[curGo]["images"][i]}"></a>
 			        </div>
 			        <div class="text">
 			          <span>${groups[curGo]["names"][i]}</span>
@@ -332,9 +332,31 @@ function updateTitle() {
 	});
 }
 
+function checkClickSub(){
+	console.log("HHH");
+	$(".portfolio-item").on({
+		mouseenter: function(){
+			console.log(this.id);
+			$()
+		},
+		mouseleave: function(){
+			console.log("A");
+		},
+		click: function(){
+			x = this.id.split("_");
+			curTeam["sub"] = x[0];
+			curTeam["id"] = parseInt(x[1]);
+			window.location.href = "./teampage.html";
+		}
+	});
+}
+
+
+
 function modalUpdate(){
 	console.log("Updating modal");
 	updateTitle();
 	updateBackground();
 	console.log("Finish update modal");
+	checkClickSub();
 }
