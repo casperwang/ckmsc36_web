@@ -1,4 +1,10 @@
 function updateContent() {
+	//update curTeam based on URL argument 
+	const matcher = /(inform|math|bio|phys|chem|earths)_\d+/g;
+	var id = window.location.href.match(matcher)[0].split("_");
+	curTeam["sub"] = id[0];
+	curTeam["id"] = id[1];
+
 	var obj = data[curTeam.sub][curTeam.id];
 	console.log(obj.author[0].name);
 	$('.project_title').html(obj.title);

@@ -366,9 +366,8 @@ function checkClickSub(){
 		},
 		click: function(){
 			x = this.id.split("_");
-			curTeam["sub"] = x[0];
-			curTeam["id"] = parseInt(x[1]);
-			window.location.href = "./teampage.html";
+			console.log(x);
+			window.location.href = "./teampage.html?id=" + this.id;
 		}
 	});
 }
