@@ -146,7 +146,7 @@ var sixthSection = [
   {
     "title": "成發影片《Euphoria》",
     "innerText": `
-    <div class = "mainVideo" style = 'padding-top: 10vh; margin: 0 auto; width: 100px; '>
+    <div class = "mainVideo" style = 'padding-top: 10vh;'>
       <iframe id = "euphoria"
       width="1080" height="630"
       src="https://www.youtube.com/embed/MREGIl3GnxY">
@@ -156,7 +156,11 @@ var sixthSection = [
   },
   {
     "title": "網管、網站組",
-    "innerText": `讓我們一起飛過 霓虹彼端。`
+    "innerText": `
+    <h3>網管組</h3>
+    <h3>網站組</h3>
+
+    `
   }
 ];
 
@@ -164,7 +168,7 @@ var eighthSection = [
   {
     "title": "成發曲《霓虹彼端》",
     "innerText": `
-    <div class = "mainVideo" style = 'padding-top: 10vh; margin: 0 auto; width: 100px; '>
+    <div class = "mainVideo" style = 'padding-top: 10vh;'>
       <iframe id = "euphoria"
       width="1080" height="630"
       src="https://www.youtube.com/embed/MU2APcEQifQ">
@@ -174,7 +178,16 @@ var eighthSection = [
   },
   {
     "title": "活動、場地、主持人組",
-    "innerText": `讓我們一起飛過 霓虹彼端。`
+    "innerText": `
+    <h3>活動組</h3>
+    大家好我們是活動組，活動組會負責外賓的接待，從引導到場控都是我們負責的範疇。因應新冠病毒，我們這次多了量體溫、消毒……，一切和防疫有關的措施都是我們要進行，也因此比平常多了一些工作量，也因為新冠病毒，這次的點心時間也因此取消，使大家沒辦法跟報告者邊吃點心邊與報告者討論報告內容稍顯可惜，若成發當天有所不周，請各位嘉賓多見諒
+    </p>
+    <h3>場地組</h3>
+    </p>
+    <h3>主持人組</h3>
+
+
+`
   }
 ];
 
@@ -184,7 +197,12 @@ var tenthSection = [
   },
   {
     "title": "文書、美宣組",
-    "innerText": `讓我們一起飛過 霓虹彼端。`
+    "innerText": `
+      <h3>文書組</h3>
+      文書組主要是負責編輯成發本，裡面包含著兩班同學兩年以來努力研究的心血結晶以及各個師長們的話。而記錄兩班聯合會議的工作也是落在我們的肩上哦！會議紀錄可以幫助我們保留討論的內容，以方便之後查詢使用。另外，成發當天的簡報也是文書組負責設計以及統整。而在成發後，我們也要協助整理各組專題的研究內容，做成一本厚厚的研究的彙編留存。雖然只是五個人的小組，和其他組比起來人數相對較少，但是貢獻程度可不輸給其他組哦！
+      <h3>美宣組</h3>
+
+    `
   }
 ];
 

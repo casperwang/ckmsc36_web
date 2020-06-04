@@ -145,8 +145,7 @@ h2 {
 	filter: brightness(50%);
 }
 
-.mainVideo{
-	width: 40vw;
-	height: auto;
-	text-align: center;
+iframe {
+   display: block;
+   margin: 0 auto;
 }

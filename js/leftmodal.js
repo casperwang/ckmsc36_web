@@ -27,7 +27,7 @@ function updateTitle() {
 		$(".fifth_section").html(`
 			<div class="content container-fluid">
                 <div class="row">
-                    <div class="col-md-5">
+                    <div class="col-md-12">
                         <h3 id="fifthSection" class="sectionTitle"></h3>
                         <h4 id="fifthSub" class = "sectionSubtitle"></h4>
                         <div id="fifthInner" class="sectionText"></div>
@@ -41,7 +41,7 @@ function updateTitle() {
 			<div class = "col-md-12 sixth_section">
                 <div class="content container-fluid">
                     <div class="row">
-                        <div class="col-md-5">
+                        <div class="col-md-12">
                             <h3 id="sixthSection" class="sectionTitle"></h3>
                             <h4 id="sixthSub" class = "sectionSubtitle"></h4>
                             <div id="sixthInner" class="sectionText"></div>
@@ -52,7 +52,7 @@ function updateTitle() {
 			<div class = "col-md-12 bg_section seventh_section">
                 <div class="content container-fluid">
                     <div class="row">
-                        <div class="col-md-5">
+                        <div class="col-md-12">
                             <h3 id="seventhSection" class="sectionTitle"></h3>
                             <h4 id="seventhSub" class = "sectionSubtitle"></h4>
                             <div id="seventhInner" class="sectionText"></div>
@@ -63,7 +63,7 @@ function updateTitle() {
             <div class = "col-md-12 eighth_section">
                 <div class="content container-fluid">
                     <div class="row">
-                        <div class="col-md-5">
+                        <div class="col-md-12">
                             <h3 id="eighthSection" class="sectionTitle"></h3>
                             <h4 id="eighthSub" class = "sectionSubtitle"></h4>
                             <div id="eighthInner" class="sectionText"></div>
@@ -74,7 +74,7 @@ function updateTitle() {
             <div class = "col-md-12 bg_section ninth_section">
                 <div class="content container-fluid">
                     <div class="row">
-                        <div class="col-md-5">
+                        <div class="col-md-12">
                             <h3 id="ninthSection" class="sectionTitle"></h3>
                             <h4 id="ninthSub" class = "sectionSubtitle"></h4>
                             <div id="ninthInner" class="sectionText"></div>
@@ -88,7 +88,7 @@ function updateTitle() {
 				<div class = "col-md-12 tenth_section">
                 <div class="content container-fluid">
                     <div class="row">
-                        <div class="col-md-5">
+                        <div class="col-md-12">
                             <h3 id="tenthSection" class="sectionTitle"></h3>
                             <h4 id="tenthSub" class = "sectionSubtitle"></h4>
                             <div id="tenthInner" class="sectionText"></div>
@@ -99,7 +99,7 @@ function updateTitle() {
             <div class = "col-md-12 bg_section eleventh_section">
                 <div class="content container-fluid">
                     <div class="row">
-                        <div class="col-md-5">
+                        <div class="col-md-12">
                             <h3 id="eleventhSection" class="sectionTitle"></h3>
                             <h4 id="eleventhSub" class = "sectionSubtitle"></h4>
                             <div id="eleventhInner" class="sectionText"></div>
