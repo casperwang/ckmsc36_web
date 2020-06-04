@@ -8,6 +8,7 @@ function updateContent() {
 	var obj = data[curTeam.sub][curTeam.id];
 	console.log(obj.author[0].name);
 	$('.project_title').html(obj.title);
+	$('title').html(obj.title);
 	var authors = "";
 	for (var i = 0; i < obj.author.length; i++) {
 		if (i > 0) authors += " & ";
