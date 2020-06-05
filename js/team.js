@@ -32,6 +32,8 @@ function updateContent() {
 	
 	$('#project_description').html("&emsp;&emsp;" + obj.summary);
 	$('#project_pdf').attr("src", "data/pdf/" + obj.pdf + ".pdf");
+	$('#project_video').attr("src", "https://www.youtube.com/embed/" + obj.video)
+	$('#project_video').attr("style", "width: 100vh; height: 60vh")
 }
 
 $(document).ready(function(){ //TODO - load the text with animations
