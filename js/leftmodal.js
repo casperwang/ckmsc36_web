@@ -284,10 +284,10 @@ function updateTitle() {
 
 	}
 	var len = groups[curGo]["len"];
-	var obj = '<div class="row">';
+	var obj = '<div class="row"><div class="col-md-1 col-sm-1"></div>';
 	for (var i = 0; i < len; i++) {
 		obj += 
-			`<div class="col-md-4 col-sm-4">
+			`<div class="col-md-3 col-sm-3">
 				<div class="portfolio-item" id = "${groups[curGo]["sub"] + "_" + (i + 1)}" >
 			        <div class="image group_img">
 			          <a data-lightbox="image-1"><img src="${groups[curGo]["images"][i]}"></a>
@@ -301,7 +301,7 @@ function updateTitle() {
 			</div>`
 			;
 		if (i % 3 == 2 && i != len-1) {
-			obj += '</div><div class="row">';
+			obj += '</div><div class="row"><div class="col-md-1 col-sm-1"></div>';
 		}
 	}
 	obj += '</div>';
