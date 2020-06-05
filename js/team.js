@@ -12,7 +12,9 @@ function updateContent() {
 	var authors = "";
 	for (var i = 0; i < obj.author.length; i++) {
 		if (i > 0) authors += " & ";
-		authors += obj.author[i].class + "" + obj.author[i].number + " "
+		authors += obj.author[i].class + "";
+		if (obj.author[i].number < 10) authors += "0";
+		authors += obj.author[i].number + " ";
 		authors += obj.author[i].name;
 	}
 	$('#project_author').html(authors);
@@ -33,9 +35,9 @@ function updateContent() {
 	$('#project_description').html("&emsp;&emsp;" + obj.summary);
 	$('#project_pdf').attr("src", "data/pdf/" + obj.pdf + ".pdf");
 	$('#project_video').attr("src", "https://www.youtube.com/embed/" + obj.video);
-	$('#project_video').attr("style", "width: 125vh; height: 75vh; margin: 10px");
+	$('#project_video').attr("style", "width: 110vh; height: 66vh; margin: 10px");
 	$('#project_ppt').attr("src", "data/ppt/" + obj.pdf + ".pdf");
-	$('#project_ppt').attr("style", "width: 125vh; height: 75vh; margin: 10px");
+	$('#project_ppt').attr("style", "width: 110vh; height:66vh; margin: 10px");
 }
 
 $(document).ready(function(){ //TODO - load the text with animations
