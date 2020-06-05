@@ -80,15 +80,15 @@ var data = {
         "title": "數獨中多重解集合的性質探討",
         "author": [{
             "name": "沈泓毅",
-            "photo": "225XX.jpg",
+            "photo": "22507.jpg",
             "class": 225,
-            "number": -1,
+            "number": 7,
             "desciption": "辣椒頭哥哥好辣"
         },{
             "name": "謝翔",
-            "photo": "225XX.jpg",
+            "photo": "22527.jpg",
             "class": 225,
-            "number": -1,
+            "number": 27,
             "desciption": "辣椒頭哥哥比較辣"
         },],
         "summary": "孫子曰：兵者，詭道也。故能而示之不能，用而示之不用，近而示之遠，遠而示之近。利而誘之，亂而取之，實而備之，強而避之，怒而撓之，卑而驕之，佚而勞之，親而離之。攻其無備，出其不意。此兵家之勝，不可先傳也。",
@@ -99,15 +99,15 @@ var data = {
         "title": "探討封閉齒輪組中的迴圈數量",
         "author": [{
             "name": "鍾昊哲",
-            "photo": "225XX.jpg",
+            "photo": "22528.jpg",
             "class": 225,
-            "number": -1,
+            "number": 28,
             "desciption": "辣椒頭哥哥好辣"
         },{
             "name": "蘇宏祐",
-            "photo": "225XX.jpg",
+            "photo": "22530.jpg",
             "class": 225,
-            "number": -1,
+            "number": 30,
             "desciption": "辣椒頭哥哥比較辣"
         },],
         "summary": "孫子曰：兵者，詭道也。故能而示之不能，用而示之不用，近而示之遠，遠而示之近。利而誘之，亂而取之，實而備之，強而避之，怒而撓之，卑而驕之，佚而勞之，親而離之。攻其無備，出其不意。此兵家之勝，不可先傳也。",
@@ -118,9 +118,9 @@ var data = {
         "title": "密克點與相似形之間",
         "author": [{
             "name": "秦翌凱",
-            "photo": "225XX.jpg",
+            "photo": "22511.jpg",
             "class": 225,
-            "number": -1,
+            "number": 11,
             "desciption": "辣椒頭哥哥好辣"
         }],
         "summary": "孫子曰：兵者，詭道也。故能而示之不能，用而示之不用，近而示之遠，遠而示之近。利而誘之，亂而取之，實而備之，強而避之，怒而撓之，卑而驕之，佚而勞之，親而離之。攻其無備，出其不意。此兵家之勝，不可先傳也。",
@@ -139,23 +139,23 @@ var data = {
         },
         {
             "name": "廖士樘",
-            "photo": "225XX.jpg",
+            "photo": "22522.jpg",
             "class": 225,
-            "number": -1,
+            "number": 22,
             "desciption": "辣椒頭哥哥比較辣"
         },
         {
             "name": "李昶毅",
-            "photo": "225XX.jpg",
+            "photo": "22506.jpg",
             "class": 225,
-            "number": -1,
+            "number": 6,
             "desciption": "辣椒頭哥哥比較辣"
         },
         {
             "name": "宋竑毅",
-            "photo": "225XX.jpg",
+            "photo": "22504.jpg",
             "class": 225,
-            "number": -1,
+            "number": 4,
             "desciption": "辣椒頭哥哥比較辣"
         }],
         "summary": "孫子曰：兵者，詭道也。故能而示之不能，用而示之不用，近而示之遠，遠而示之近。利而誘之，亂而取之，實而備之，強而避之，怒而撓之，卑而驕之，佚而勞之，親而離之。攻其無備，出其不意。此兵家之勝，不可先傳也。",
@@ -166,15 +166,15 @@ var data = {
         "title": "運用CNN實現食物種類及份量辨識",
         "author": [{
             "name": "林宸宇",
-            "photo": "225XX.jpg",
+            "photo": "22508.jpg",
             "class": 225,
-            "number": -1,
+            "number": 8,
             "desciption": "辣椒頭哥哥好辣"
         },{
             "name": "黃偉翔",
-            "photo": "225XX.jpg",
+            "photo": "22520.jpg",
             "class": 225,
-            "number": -1,
+            "number": ,
             "desciption": "辣椒頭哥哥比較辣"
         },],
         "summary": "孫子曰：兵者，詭道也。故能而示之不能，用而示之不用，近而示之遠，遠而示之近。利而誘之，亂而取之，實而備之，強而避之，怒而撓之，卑而驕之，佚而勞之，親而離之。攻其無備，出其不意。此兵家之勝，不可先傳也。",
@@ -281,7 +281,7 @@ var data = {
             "desciption": "嗨嗨大家好，我是蔡宇翔，一個數資班裡面的小小普通人，化學專題的小小書生。還算活潑吧不知道反正不會有人想要認識我。還有一件重要的事：IU超讚"
         },{
             "name": "李冠逸",
-            "photo": "225XX.jpg",
+            "photo": "22505.jpg",
             "class": 225,
             "number": 5,
             "desciption": "辣椒頭哥哥比較辣"
@@ -294,7 +294,7 @@ var data = {
         "title": "從天然物抓取微量抗病毒及抗癌藥物的分子工具之研究",
         "author": [{
             "name": "莊智翔",
-            "photo": "225XX.jpg",
+            "photo": "22513.jpg",
             "class": 225,
             "number": 13,
             "desciption": "嗨嗨大家好，我是蔡宇翔，一個數資班裡面的小小普通人，化學專題的小小書生。還算活潑吧不知道反正不會有人想要認識我。還有一件重要的事：IU超讚"
@@ -362,7 +362,7 @@ var data = {
             "photo": "22626.jpg",
             "class": 226,
             "number": 26,
-            "desciption": "辣椒頭哥哥比較辣"
+            "desciption": "嘿大家好，我是劉奕辰，平常沒事的話喜歡到處逛，咖啡館是個不錯的地方，哦對了想打球也可以找我，打牌也不錯啦！"
         },],
         "summary": "利用重金屬帶正電荷的特性，用負電荷的離子進行吸附，並藉由對奈米纖維素進行改質，接上羧酸基、硫酸基、醛基，增加吸附的量，且希望將改質後的纖維素可以融合在濾紙上，使過濾後的沉澱物可以固定在濾紙上，達到濾除環境汙染因子的效果。",
         "pdf": "E2",
@@ -387,23 +387,23 @@ var data = {
         "title": "探討蝴蝶的獨特飛行",
         "author": [{
             "name": "郭哲明",
-            "photo": "225XX.jpg",
+            "photo": "22515.jpg",
             "class": 225,
-            "number": -1,
+            "number": 15,
             "desciption": "辣椒頭哥哥好辣"
         },
         {
             "name": "陳銓",
-            "photo": "225XX.jpg",
+            "photo": "22519.jpg",
             "class": 225,
-            "number": -1,
+            "number": 19,
             "desciption": "辣椒頭哥哥好辣"
         },
         {
             "name": "廖庭毅",
-            "photo": "225XX.jpg",
+            "photo": "22523.jpg",
             "class": 225,
-            "number": -1,
+            "number": 23,
             "desciption": "辣椒頭哥哥好辣"
         }],
         "summary": "本實驗的展望是完成一組電磁波接收發射系統,以供高中學生進行電磁波實驗使用。為達成目的,首先選用了適當頻段的天線,設定頻段與 Wi-fi 頻段同為2.4GHz，接著選用微帶天線。之後透過電磁模擬軟體模擬、調整,再針對模擬進行實作與量測。",
@@ -414,16 +414,16 @@ var data = {
         "title": "介電潤濕-探討液滴在電極板上的現象",
         "author": [{
             "name": "楊竣凱",
-            "photo": "225XX.jpg",
+            "photo": "22521.jpg",
             "class": 225,
-            "number": -1,
+            "number": 21,
             "desciption": "辣椒頭哥哥好辣"
         },
         {
             "name": "劉柏杰",
-            "photo": "225XX.jpg",
+            "photo": "22524.jpg",
             "class": 225,
-            "number": -1,
+            "number": 24,
             "desciption": "辣椒頭哥哥好辣"
         }],
         "summary": "本實驗的展望是完成一組電磁波接收發射系統,以供高中學生進行電磁波實驗使用。為達成目的,首先選用了適當頻段的天線,設定頻段與 Wi-fi 頻段同為2.4GHz，接著選用微帶天線。之後透過電磁模擬軟體模擬、調整,再針對模擬進行實作與量測。",
@@ -434,9 +434,9 @@ var data = {
         "title": "以固態貼合法探討紙牌運動過程中路徑及壓力分佈",
         "author": [{
             "name": "邱允謙",
-            "photo": "225XX.jpg",
+            "photo": "22509.jpg",
             "class": 225,
-            "number": -1,
+            "number": 9,
             "desciption": "辣椒頭哥哥好辣"
         }],
         "summary": "本實驗的展望是完成一組電磁波接收發射系統,以供高中學生進行電磁波實驗使用。為達成目的,首先選用了適當頻段的天線,設定頻段與 Wi-fi 頻段同為2.4GHz，接著選用微帶天線。之後透過電磁模擬軟體模擬、調整,再針對模擬進行實作與量測。",
@@ -487,7 +487,7 @@ var data = {
         }],
         "summary": "本實驗的展望是完成一組電磁波接收發射系統,以供高中學生進行電磁波實驗使用。為達成目的,首先選用了適當頻段的天線,設定頻段與 Wi-fi 頻段同為2.4GHz，接著選用微帶天線。之後透過電磁模擬軟體模擬、調整,再針對模擬進行實作與量測。",
         "pdf": "P7",
-        "video": ""
+        "video": "BVDyA0X-vAI"
     }],
     "bio": [
     {
@@ -515,23 +515,23 @@ var data = {
         "author": [
         {
             "name": "洪翊勝",
-            "photo": "225XX.jpg",
+            "photo": "22510.jpg",
             "class": 225,
-            "number": -1,
+            "number": 10,
             "desciption": "辣椒頭哥哥好辣"
         },
         {
             "name": "陳冠豪",
-            "photo": "225XX.jpg",
+            "photo": "22516.jpg",
             "class": 225,
-            "number": -1,
+            "number": 16,
             "desciption": "辣椒頭哥哥好辣"
         },
         {
             "name": "陳彥睿",
-            "photo": "225XX.jpg",
+            "photo": "22517.jpg",
             "class": 225,
-            "number": -1,
+            "number": 17,
             "desciption": "辣椒頭哥哥好辣"
         }
         ],
@@ -544,23 +544,23 @@ var data = {
         "author": [
         {
             "name": "張鈞昌",
-            "photo": "225XX.jpg",
+            "photo": "22512.jpg",
             "class": 225,
-            "number": -1,
+            "number": 12,
             "desciption": "辣椒頭哥哥好辣"
         },
         {
             "name": "陳禹翰",
-            "photo": "225XX.jpg",
+            "photo": "22518.jpg",
             "class": 225,
-            "number": -1,
+            "number": 18,
             "desciption": "辣椒頭哥哥好辣"
         },
         {
             "name": "謝旻哲",
-            "photo": "225XX.jpg",
+            "photo": "22526.jpg",
             "class": 225,
-            "number": -1,
+            "number": 26,
             "desciption": "辣椒頭哥哥好辣"
         }],
         "summary": "本實驗的展望是完成一組電磁波接收發射系統,以供高中學生進行電磁波實驗使用。為達成目的,首先選用了適當頻段的天線,設定頻段與 Wi-fi 頻段同為2.4GHz，接著選用微帶天線。之後透過電磁模擬軟體模擬、調整,再針對模擬進行實作與量測。",
@@ -593,9 +593,9 @@ var data = {
         "author": [
         {
             "name": "連啓竣",
-            "photo": "225XX.jpg",
-            "class": 226,
-            "number": -1,
+            "photo": "22514.jpg",
+            "class": 225,
+            "number": 14,
             "desciption": "辣椒頭哥哥好辣"
         },],
         "summary": "本實驗的展望是完成一組電磁波接收發射系統,以供高中學生進行電磁波實驗使用。為達成目的,首先選用了適當頻段的天線,設定頻段與 Wi-fi 頻段同為2.4GHz，接著選用微帶天線。之後透過電磁模擬軟體模擬、調整,再針對模擬進行實作與量測。",
@@ -607,9 +607,9 @@ var data = {
         "author": [
         {
             "name": "顏頎翰",
-            "photo": "225XX.jpg",
+            "photo": "22529.jpg",
             "class": 226,
-            "number": -1,
+            "number": 29,
             "desciption": "辣椒頭哥哥好辣"
         }],
         "summary": "本實驗的展望是完成一組電磁波接收發射系統,以供高中學生進行電磁波實驗使用。為達成目的,首先選用了適當頻段的天線,設定頻段與 Wi-fi 頻段同為2.4GHz，接著選用微帶天線。之後透過電磁模擬軟體模擬、調整,再針對模擬進行實作與量測。",
@@ -621,9 +621,9 @@ var data = {
         "author": [
         {
             "name": "江祐辰",
-            "photo": "225XX.jpg",
+            "photo": "22502.jpg",
             "class": 225,
-            "number": -1,
+            "number": 2,
             "desciption": "辣椒頭哥哥好辣"
         },
         ],
