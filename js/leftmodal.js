@@ -290,7 +290,7 @@ function updateTitle() {
 			`<div class="col-md-3 col-sm-3">
 				<div class="portfolio-item" id = "${groups[curGo]["sub"] + "_" + (i + 1)}" >
 			        <div class="image group_img">
-			          <a data-lightbox="image-1"><img src="${groups[curGo]["images"][i]}"></a>
+			          <a data-lightbox="image-1"><img src="${groups[curGo]["images"][i]}" width = "100%" height = "auto"></a>
 			        </div>
 			        <div class="text">
 			          <span>${groups[curGo]["names"][i]}</span>

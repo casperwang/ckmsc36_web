@@ -116,7 +116,7 @@ var fourthSection = [
     </p>
     除了強大的教學實力，老師還會在上課和班會課時，分享老師自己遇到的趣事和應對問題的方法，常常讓遁入夢鄉的同學們被全班的笑聲吵醒，也讓大家學到許多生活的經驗和處理班級事務的技巧喔！
     </p>
-    最後，因為特殊班的身份，班上許多同學都有自己的理想和目標，君陶老師也會給予我們最大的支持喔，不管是科展還是競賽，都有老師在幕後作為我們的推手，讓大家都燃起鬥志參加科展、奧林匹亞和能力競賽等比賽呢（小編絕對不會說物理奧林匹亞是老師強迫我們去的）
+    最後，因為特殊班的身份，班上許多同學都有自己的理想和目標，君陶老師也會給予我們最大的支持喔，不管是科展還是競賽，都有老師在幕後作為我們的推手，讓大家都燃起鬥志參加科展、奧林匹亞和能力競賽等比賽呢！</p>
     </p>
     <h3>姚志鴻老師</h3>
     高君陶老師，不只是226的班導，也是兩班的物理科老師。雖然老師因為學校規劃沒辦法帶我們的專題課程，但兩班的同學都在物理課上收獲許多呢！
@@ -210,7 +210,7 @@ var eighthSection = [
     <div class = "mainVideo" style = 'padding-top: 10vh;'>
       <iframe id = "euphoria"
       width="1080" height="630"
-      src="https://www.youtube.com/embed/Pk_4QL8Cla4">
+      src="https://www.youtube.com/embed/TzyhIVZI6mk">
       </iframe>
     </div>
     `
@@ -278,29 +278,29 @@ var Bgs = [
 ];
 
 var secondSubs = [
-  "By 陳彥儒",
-  "總召：洪辰亞、陳冠豪 / 副召 ： 楊竣凱、闕子維",
-  "姚志鴻老師 By ",
-  "彭天健老師 By ",
-  "曹淇峰老師 By ",
-  "李文禮老師 By 劉奕辰",
-  "賴奕帆老師 By ",
-  "魏宏仁老師 By 陳冠豪",
+  "",//" 陳彥儒",
+  "",//"總召：洪辰亞、陳冠豪 / 副召 ： 楊竣凱、闕子維",
+  "姚志鴻老師",
+  "彭天健老師",
+  "曹淇峰老師",
+  "李文禮老師",
+  "賴奕帆老師",
+  "魏宏仁老師",
 ];
 
 var thirdSubs = [
   "",
-  "By",
-  "姚志鴻老師 By ",
-  "彭天健老師 By ",
-  "曹淇峰老師 By ",
-  "李文禮老師 By 劉奕辰",
-  "賴奕帆老師 By ",
-  "魏宏仁老師 By 陳冠豪",
+  "",
+  "姚志鴻老師",
+  "彭天健老師",
+  "曹淇峰老師",
+  "李文禮老師",
+  "賴奕帆老師",
+  "魏宏仁老師",
 ];
 
 var fourthSubs = [
-  "By",
+  "",
   "",
   "",
   "",
@@ -312,36 +312,36 @@ var fourthSubs = [
 
 var sixthSubs = [
   "",
-  "By ",
-  "By ",
-  "By ",
-  "By ",
-  "By 劉奕辰",
-  "By ",
-  "By 陳冠豪",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
 ];
 
 var eighthSubs = [
   "",
-  "By ",
-  "By ",
-  "By ",
-  "By ",
-  "By 劉奕辰",
-  "By ",
-  "By 陳冠豪",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
 ];
 
 
 var tenthSubs = [
   "",
-  "By ",
-  "By ",
-  "By ",
-  "By ",
-  "By 劉奕辰",
-  "By ",
-  "By 陳冠豪",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
 ];
 
 var specialBgs = [
@@ -374,21 +374,6 @@ var teacher_photos = [
   "url('./images/teacher/bio.png')",
 ];
 
-var second_photos = [
-  "url('./images/einstein.jpeg')",
-  "url('./images/einstein.jpeg')",
-  "url('./images/einstein.jpeg')",
-  "url('./images/einstein.jpeg')",
-  "url('./images/einstein.jpeg')",
-  "url('./images/einstein.jpeg')",
-  "url('./images/einstein.jpeg')",
-  "url('./images/einstein.jpeg')",
-  "url('./images/einstein.jpeg')",
-  "url('./images/einstein.jpeg')",
-  "url('./images/einstein.jpeg')",
-  "url('./images/einstein.jpeg')",
-];
-
 var groups = [
   {
     "title": "jizz",
@@ -402,16 +387,14 @@ var groups = [
     "sub": "math",
     "len": 8,
     "images": [
-      "./images/einstein.jpeg",
-      "./images/einstein.jpeg",
-      "./images/einstein.jpeg",
-      "./images/einstein.jpeg",
-      "./images/einstein.jpeg",
-      "./images/einstein.jpeg",
-      "./images/einstein.jpeg",
-      "./images/einstein.jpeg",
-      "./images/einstein.jpeg",
-      "./images/einstein.jpeg"
+      "./images/logos/math_icon.png",
+      "./images/logos/math_icon.png",
+      "./images/logos/math_icon.png",
+      "./images/logos/math_icon.png",
+      "./images/logos/math_icon.png",
+      "./images/logos/math_icon.png",
+      "./images/logos/math_icon.png",
+      "./images/logos/math_icon.png"
     ], //團體照
     "titles": [
       "萬丈高樓平地起——方格塔內騎士巡邏路徑之存在性",
@@ -438,12 +421,12 @@ var groups = [
     "sub": "inform",
     "len": 6,
     "images": [
-      "./images/einstein.jpeg",
-      "./images/einstein.jpeg",
-      "./images/einstein.jpeg",
-      "./images/einstein.jpeg",
-      "./images/einstein.jpeg",
-      "./images/einstein.jpeg"
+      "./images/logos/inform_icon.png",
+      "./images/logos/inform_icon.png",
+      "./images/logos/inform_icon.png",
+      "./images/logos/inform_icon.png",
+      "./images/logos/inform_icon.png",
+      "./images/logos/inform_icon.png",
     ], //團體照
     "titles": [
       "神經網路的理論架構分析及程式實作",
@@ -466,10 +449,10 @@ var groups = [
     "sub": "chem",
     "len": 4,
     "images": [
-      "./images/einstein.jpeg",
-      "./images/einstein.jpeg",
-      "./images/einstein.jpeg",
-      "./images/einstein.jpeg"
+      "./images/logos/chem_icon.png",
+      "./images/logos/chem_icon.png",
+      "./images/logos/chem_icon.png",
+      "./images/logos/chem_icon.png",
     ], //團體照
     "titles": [
       "奈米銀光學性質應用於有機氣體感測及其機制之研究",
@@ -488,8 +471,8 @@ var groups = [
     "sub": "earths",
     "len": 2,
     "images": [
-      "./images/einstein.jpeg",
-      "./images/einstein.jpeg"
+      "./images/logos/earths_icon.png",
+      "./images/logos/earths_icon.png",
     ], //團體照
     "titles": [
       "銀河系OB星的快篩法",
@@ -504,13 +487,14 @@ var groups = [
     "sub": "phys",
     "len": 7,
     "images": [
-      "./images/einstein.jpeg",
-      "./images/einstein.jpeg",
-      "./images/einstein.jpeg",
-      "./images/einstein.jpeg",
-      "./images/einstein.jpeg",
-      "./images/einstein.jpeg",
-      "./images/einstein.jpeg"
+
+      "./images/logos/phys_icon.png",
+      "./images/logos/phys_icon.png",
+      "./images/logos/phys_icon.png",
+      "./images/logos/phys_icon.png",
+      "./images/logos/phys_icon.png",
+      "./images/logos/phys_icon.png",
+      "./images/logos/phys_icon.png",
     ], //團體照
     "titles": [
       "利用運動傳感器MPU6050操控機械手臂",
@@ -535,12 +519,12 @@ var groups = [
     "sub": "bio",
     "len": 6,
     "images": [
-      "./images/einstein.jpeg",
-      "./images/einstein.jpeg",
-      "./images/einstein.jpeg",
-      "./images/einstein.jpeg",
-      "./images/einstein.jpeg",
-      "./images/einstein.jpeg"
+      "./images/logos/bio_icon.png",
+      "./images/logos/bio_icon.png",
+      "./images/logos/bio_icon.png",
+      "./images/logos/bio_icon.png",
+      "./images/logos/bio_icon.png",
+      "./images/logos/bio_icon.png",
     ], //團體照
     "titles": [
       "探討PRAP-1與MTTP的關聯",
