@@ -32,6 +32,8 @@ function updateContent() {
 	
 	$('#project_description').html("&emsp;&emsp;" + obj.summary);
 	$('#project_pdf').attr("src", "data/pdf/" + obj.pdf + ".pdf");
+
+	$("#groupVideo").attr("src", "https://www.youtube-nocookie.com/embed/" + obj.video);
 }
 
 $(document).ready(function(){ //TODO - load the text with animations
