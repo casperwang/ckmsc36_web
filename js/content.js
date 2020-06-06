@@ -12,12 +12,12 @@ var titles = [
 var descs = [
   "建國中學第三十六屆數理資優班成果發表會",
   "六十個熱血青年奮鬥的故事",
-  "Μαθηματικά 一場與高斯的美麗邂逅",
-  "Πληροφορική 0與1的神秘世界",
-  "Χημεία 鍊金術的奧秘",
-  "Επιστήμη της Γης 正念反念都一樣",
-  "Η φυσικη 壓力才能使黑炭昇華為鑽石",
-  "Βιολογία 鬼斧神工",
+  "Μαθηματικά  /  治亂，數也",
+  "Πληροφορική  /  居之安，則資之深；資之深，則取之左右逢其原。",
+  "Χημεία  /  若人之形者，萬化而未始有極也，其為樂可勝計邪？",
+  "Επιστήμη της Γης  /  日短星昴，以正仲冬",
+  "Η φυσικη  /  道生之，德畜之，物形之，勢成之。",
+  "Βιολογία  /  方知此是生生物，得在仁人始受传。",
 ];
 
 var secondSection = [
@@ -70,13 +70,11 @@ hu ða æþelingas ellen fremedon.`
 
 var thirdSection = [
   {
-    "title": "我們的導師",
-    "innerText": `高君陶老師和姚志鴻老師`
+    "title": "",
+    "innerText": ""
   },{
-    "title": "關於Εὕρηκα!",
-    "innerText": `Hwæt. We Gardena in geardagum,
-þeodcyninga, þrym gefrunon,
-hu ða æþelingas ellen fremedon.`
+    "title": "",
+    "innerText": ``
   },{
     "title": "數學專題指導老師的話",
     "innerText": `從事數學研究，怎麼找自己的問題是很重要的。當然有不同的找法，有些人要發展一套理論，有些人要解決難題。理論的目標最後還是要解決問題的，所以解決重要問題是發展一般理論中很重要的一環。從事研究我想首要的當然是要有熱忱，許多在學術上有成就的學者，在整個作學問的路上要披荊斬棘，假如沒有熱忱的話，就沒有辦法成就一個大學問。一個好的數學家至少要能夠掌握兩門以上的基本功夫，有代數的、有分析的、有幾何的等種種不同的方法，所以訓練基本功夫一定要早。
@@ -111,7 +109,25 @@ hu ða æþelingas ellen fremedon.`
 var fourthSection = [
   {
     "title": "我們的導師們",
-    "innerText": ``
+    "innerText": `<h3>高君陶老師</h3>
+    高君陶老師，不只是226的班導，也是兩班的物理科老師。雖然老師因為學校規劃沒辦法帶我們的專題課程，但兩班的同學都在物理課上收獲許多呢！
+    </p>
+    老師上課時非常厲害，完全不用任何講義或投影片，完全把上課內容記在腦中呢！不只如此，板書還是整理過的筆記和精美的圖片，讓同學們完全不用整理筆記，照抄就行了喔！是不是很羨慕呢
+    </p>
+    除了強大的教學實力，老師還會在上課和班會課時，分享老師自己遇到的趣事和應對問題的方法，常常讓遁入夢鄉的同學們被全班的笑聲吵醒，也讓大家學到許多生活的經驗和處理班級事務的技巧喔！
+    </p>
+    最後，因為特殊班的身份，班上許多同學都有自己的理想和目標，君陶老師也會給予我們最大的支持喔，不管是科展還是競賽，都有老師在幕後作為我們的推手，讓大家都燃起鬥志參加科展、奧林匹亞和能力競賽等比賽呢！</p>
+    </p>
+    <h3>姚志鴻老師</h3>
+    在身為25班班導、兩個數資班數學教師、數學專題的指導老師等等多重身分的轟炸下，姚志鴻老師依舊每天笑容滿面地為各位同學上課。輕鬆有趣卻又不失專業的授課中，引領著我們數資班同學們在知識的海洋中徜徉，了解數學之美。
+﻿     </p>
+    除此之外，姚志鴻老師也對同學們非常友善，例如定期為班上同學們舉辦慶生會、自掏腰包請班上學生們吃東西、甚至會利用空閒時間放演講影片啟發同學⋯⋯種種貼心行為使得同學們都深深喜愛這位用心的老師﻿。
+    ﻿</p>
+    擔心著數資班學生們的未來，姚志鴻老師認真關心著每一位同學的專題，在我們遇到困難時耐心與我們討論一起解決，鼓勵我們勇於迎向挑戰，完成自己的研究。
+    </p>
+    溫柔敦厚，正是志鴻老師最佳的寫照，也正因如此，姚志鴻老師才能得到數資班每一位同學深深的喜愛吧！
+    </p>
+`
   },
   {
     "title": "公關、影片、音樂組",
@@ -164,7 +180,7 @@ var sixthSection = [
     <div class = "mainVideo" style = 'padding-top: 10vh;'>
       <iframe id = "euphoria"
       width="1080" height="630"
-      src="https://www.youtube.com/embed/MREGIl3GnxY">
+      src="https://www.youtube.com/embed/um_PRWXg3dw">
       </iframe>
     </div>
     `
@@ -180,7 +196,9 @@ var sixthSection = [
     成發的資訊都可以在<a href = "https://www.instagram.com/eureka_ckmsc36th/">成發的IG帳號</a>看到，也能在裡面看見各專題組員們不為人知的一面喔。如果有興趣的話，也麻煩多多關注吧～
     </p>
     <h3>網站組</h3>
-
+    嗨！我們是網管組！一行一行的將這個網站寫出來，就是由我們負責的～ 在這途中，我們學到了許多關於些網站的細節，和大家的協調，從內容架設、美工、影片、報告書，非常開心能將大家的成果放上網站上！從最開始的構思到慢慢的看到所想到的網頁慢慢成形，到最後的微調、公布，一步步這樣走來，成就感是我們最大的回饋！
+    </p>
+    也感謝來網站瀏覽的你/妳，希望你/妳會希望我們精心製造的網站！
     `
   }
 ];
@@ -192,7 +210,7 @@ var eighthSection = [
     <div class = "mainVideo" style = 'padding-top: 10vh;'>
       <iframe id = "euphoria"
       width="1080" height="630"
-      src="https://www.youtube.com/embed/MU2APcEQifQ">
+      src="https://www.youtube.com/embed/TzyhIVZI6mk">
       </iframe>
     </div>
     `
@@ -204,10 +222,10 @@ var eighthSection = [
     大家好我們是活動組，活動組會負責外賓的接待，從引導到場控都是我們負責的範疇。因應新冠病毒，我們這次多了量體溫、消毒……，一切和防疫有關的措施都是我們要進行，也因此比平常多了一些工作量，也因為新冠病毒，這次的點心時間也因此取消，使大家沒辦法跟報告者邊吃點心邊與報告者討論報告內容稍顯可惜，若成發當天有所不周，請各位嘉賓多見諒
     </p>
     <h3>場地組</h3>
+    兩天的表演，各組的報告順序以及節目安排，都是場地組之前調整許多次後的結果，而當天梅花座的安排和各種器材位置的調整，都是看似簡單卻不易做好的工作，除了觀眾看的到的部分，還有在中控室內的夥伴們，第一次進去大家都興致勃勃呢，僅僅幾個簡單的燈光就需要多次的磨合，再加上布幕以及音效等等的，想更認識場地組的人，就去看個人介紹吧！
     </p>
     <h3>主持人組</h3>
     主持人，尷尬的代名詞。各種眼神壓力、各種觀眾的睡意、各種設備的故障，都是由主持人來撐場面，可見主持人臨場反應的需求不是蓋的。雖說每個主持人都得要有很會冷場以及講冷笑話的特質，但也不是所有主持人都過分尷尬，如果有尷尬到讓觀眾有想要衝上台打人的衝動，我們深感抱歉！看著一下西裝筆挺，一下又得換裝報告專題的主持人們，想必是超級辛苦，請大家不吝於自己的掌聲，謝謝他們的辛勞！
-
 
 `
   }
@@ -222,6 +240,7 @@ var tenthSection = [
     "innerText": `
       <h3>文書組</h3>
       文書組主要是負責編輯成發本，裡面包含著兩班同學兩年以來努力研究的心血結晶以及各個師長們的話。而記錄兩班聯合會議的工作也是落在我們的肩上哦！會議紀錄可以幫助我們保留討論的內容，以方便之後查詢使用。另外，成發當天的簡報也是文書組負責設計以及統整。而在成發後，我們也要協助整理各組專題的研究內容，做成一本厚厚的研究的彙編留存。雖然只是五個人的小組，和其他組比起來人數相對較少，但是貢獻程度可不輸給其他組哦！
+      </p>
       <h3>美宣組</h3>
       我們是美宣組，默默在幕後奉獻的組別，雖然很忙碌，總是有新的工作出現，但在所有人的共同努力下也把工作一個個地完成了。美宣是一個很吃人手和天賦的組別，希望學弟可以慎選對美術具備興趣或實力的人，不然往往會落入心有餘而力不足的窘境。在分工執行之前，也需要先達成共識，風格的一致性是美宣非常看重的一點，若是各做各的，最後再將其拼貼在一塊，到頭來只能打掉重做，之前的努力終將都付諸流水。在創作的過程中多少會遇見困境或考驗，但千萬不要放棄，只要堅持下去，一定能能收獲甜美的果實。
     `
@@ -259,29 +278,29 @@ var Bgs = [
 ];
 
 var secondSubs = [
-  "By 陳彥儒",
-  "總召：洪辰亞、陳冠豪 / 副召 ： 楊竣凱、闕子維",
-  "姚志鴻老師 By ",
-  "彭天健老師 By ",
-  "曹淇峰老師 By ",
-  "李文禮老師 By 劉奕辰",
-  "賴奕帆老師 By ",
-  "魏宏仁老師 By 陳冠豪",
+  "",//" 陳彥儒",
+  "",//"總召：洪辰亞、陳冠豪 / 副召 ： 楊竣凱、闕子維",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
 ];
 
 var thirdSubs = [
   "",
-  "By",
-  "姚志鴻老師 By ",
-  "彭天健老師 By ",
-  "曹淇峰老師 By ",
-  "李文禮老師 By 劉奕辰",
-  "賴奕帆老師 By ",
-  "魏宏仁老師 By 陳冠豪",
+  "",
+  "姚志鴻老師",
+  "彭天健老師",
+  "曹淇峰老師",
+  "李文禮老師",
+  "賴奕帆老師",
+  "魏宏仁老師",
 ];
 
 var fourthSubs = [
-  "By",
+  "",
   "",
   "",
   "",
@@ -293,36 +312,36 @@ var fourthSubs = [
 
 var sixthSubs = [
   "",
-  "By ",
-  "By ",
-  "By ",
-  "By ",
-  "By 劉奕辰",
-  "By ",
-  "By 陳冠豪",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
 ];
 
 var eighthSubs = [
   "",
-  "By ",
-  "By ",
-  "By ",
-  "By ",
-  "By 劉奕辰",
-  "By ",
-  "By 陳冠豪",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
 ];
 
 
 var tenthSubs = [
   "",
-  "By ",
-  "By ",
-  "By ",
-  "By ",
-  "By 劉奕辰",
-  "By ",
-  "By 陳冠豪",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
 ];
 
 var specialBgs = [
@@ -335,10 +354,10 @@ var specialBgs = [
   ],
   [
     "url('./images/backgrounds/inform_background-01.png')",
-    "url('./images/groupimgs/day1_group.jpg')",
-    "url('./images/groupimgs/video_group.png')",
-    "url('./images/groupimgs/music_front.jpg')",
-    bg_inform,
+    "url('./images/groupimgs/singers.jpg')",
+    "url('./images/groupimgs/photographers.jpg')",
+    "url('./images/groupimgs/hosts.jpg')",
+    "url('./images/groupimgs/reception.jpg')",
     bg_inform
   ],
 
@@ -355,21 +374,6 @@ var teacher_photos = [
   "url('./images/teacher/bio.png')",
 ];
 
-var second_photos = [
-  "url('./images/einstein.jpeg')",
-  "url('./images/einstein.jpeg')",
-  "url('./images/einstein.jpeg')",
-  "url('./images/einstein.jpeg')",
-  "url('./images/einstein.jpeg')",
-  "url('./images/einstein.jpeg')",
-  "url('./images/einstein.jpeg')",
-  "url('./images/einstein.jpeg')",
-  "url('./images/einstein.jpeg')",
-  "url('./images/einstein.jpeg')",
-  "url('./images/einstein.jpeg')",
-  "url('./images/einstein.jpeg')",
-];
-
 var groups = [
   {
     "title": "jizz",
@@ -383,16 +387,14 @@ var groups = [
     "sub": "math",
     "len": 8,
     "images": [
-      "./images/einstein.jpeg",
-      "./images/einstein.jpeg",
-      "./images/einstein.jpeg",
-      "./images/einstein.jpeg",
-      "./images/einstein.jpeg",
-      "./images/einstein.jpeg",
-      "./images/einstein.jpeg",
-      "./images/einstein.jpeg",
-      "./images/einstein.jpeg",
-      "./images/einstein.jpeg"
+      "./images/logos/math_icon.png",
+      "./images/logos/math_icon.png",
+      "./images/logos/math_icon.png",
+      "./images/logos/math_icon.png",
+      "./images/logos/math_icon.png",
+      "./images/logos/math_icon.png",
+      "./images/logos/math_icon.png",
+      "./images/logos/math_icon.png"
     ], //團體照
     "titles": [
       "萬丈高樓平地起——方格塔內騎士巡邏路徑之存在性",
@@ -419,12 +421,12 @@ var groups = [
     "sub": "inform",
     "len": 6,
     "images": [
-      "./images/einstein.jpeg",
-      "./images/einstein.jpeg",
-      "./images/einstein.jpeg",
-      "./images/einstein.jpeg",
-      "./images/einstein.jpeg",
-      "./images/einstein.jpeg"
+      "./images/logos/inform_icon.png",
+      "./images/logos/inform_icon.png",
+      "./images/logos/inform_icon.png",
+      "./images/logos/inform_icon.png",
+      "./images/logos/inform_icon.png",
+      "./images/logos/inform_icon.png",
     ], //團體照
     "titles": [
       "神經網路的理論架構分析及程式實作",
@@ -447,10 +449,10 @@ var groups = [
     "sub": "chem",
     "len": 4,
     "images": [
-      "./images/einstein.jpeg",
-      "./images/einstein.jpeg",
-      "./images/einstein.jpeg",
-      "./images/einstein.jpeg"
+      "./images/logos/chem_icon.png",
+      "./images/logos/chem_icon.png",
+      "./images/logos/chem_icon.png",
+      "./images/logos/chem_icon.png",
     ], //團體照
     "titles": [
       "奈米銀光學性質應用於有機氣體感測及其機制之研究",
@@ -469,8 +471,8 @@ var groups = [
     "sub": "earths",
     "len": 2,
     "images": [
-      "./images/einstein.jpeg",
-      "./images/einstein.jpeg"
+      "./images/logos/earths_icon.png",
+      "./images/logos/earths_icon.png",
     ], //團體照
     "titles": [
       "銀河系OB星的快篩法",
@@ -485,13 +487,14 @@ var groups = [
     "sub": "phys",
     "len": 7,
     "images": [
-      "./images/einstein.jpeg",
-      "./images/einstein.jpeg",
-      "./images/einstein.jpeg",
-      "./images/einstein.jpeg",
-      "./images/einstein.jpeg",
-      "./images/einstein.jpeg",
-      "./images/einstein.jpeg"
+
+      "./images/logos/phys_icon.png",
+      "./images/logos/phys_icon.png",
+      "./images/logos/phys_icon.png",
+      "./images/logos/phys_icon.png",
+      "./images/logos/phys_icon.png",
+      "./images/logos/phys_icon.png",
+      "./images/logos/phys_icon.png",
     ], //團體照
     "titles": [
       "利用運動傳感器MPU6050操控機械手臂",
@@ -516,12 +519,12 @@ var groups = [
     "sub": "bio",
     "len": 6,
     "images": [
-      "./images/einstein.jpeg",
-      "./images/einstein.jpeg",
-      "./images/einstein.jpeg",
-      "./images/einstein.jpeg",
-      "./images/einstein.jpeg",
-      "./images/einstein.jpeg"
+      "./images/logos/bio_icon.png",
+      "./images/logos/bio_icon.png",
+      "./images/logos/bio_icon.png",
+      "./images/logos/bio_icon.png",
+      "./images/logos/bio_icon.png",
+      "./images/logos/bio_icon.png",
     ], //團體照
     "titles": [
       "探討PRAP-1與MTTP的關聯",
