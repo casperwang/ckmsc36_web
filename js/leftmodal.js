@@ -367,7 +367,7 @@ function checkClickSub(){
 		click: function(){
 			x = this.id.split("_");
 			console.log(x);
-			window.location.href = "./teampage.html?id=" + this.id;
+			window.open("./teampage.html?id=" + this.id, "_blank");
 		}
 	});
 }
