@@ -20,13 +20,13 @@ function updateContent() {
 	$('#project_author').html(authors);
 
 	$('#author_1 h2').html(obj.author[0].name);
-	$('#author_1 p').html("&emsp;&emsp;" + obj.author[0].desciption);
+	$('#author_1 p').html("&emsp;&emsp;" + obj.author[0].description);
 	$('#author_1 .photo').attr("style", "background-image: url('./data/photo/" + obj.author[0].photo + "');");
 	
 	if (obj.author.length >= 2) {
 		$('#author_2').attr("style", "visibility: visible; height: auto; padding: 15px 5% 15px 5%; text-align: right");
 		$('#author_2 h2').html(obj.author[1].name);
-		$('#author_2 p').html("&emsp;&emsp;" + obj.author[1].desciption);
+		$('#author_2 p').html("&emsp;&emsp;" + obj.author[1].description);
 		$('#author_2 .photo').attr("style", "background-image: url('./data/photo/" + obj.author[1].photo + "');");
 	} else {
 		$('#author_2').attr("style", "visibility: hidden; height: 0px; padding: 0px");
