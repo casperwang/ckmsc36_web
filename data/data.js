@@ -13,7 +13,9 @@ var data = {
             "photo": "22621.jpg",
             "class": 226,
             "number": 21,
-            "desciption": ""
+            "desciption": `看到我的ig名稱ordinary_ck_ryan就知道我在數資班中平凡的存在，竭盡全力在數學組航向未知，尋找自我。對數學和桌球略有涉獵，努力樂觀地用平凡創造不平凡。
+
+P.S.雖然我演反派，但我其實個性很善良ㄉ😁(至於校排一嘛...😉)`
         },],
         "summary": "",
         "pdf": "M1",
