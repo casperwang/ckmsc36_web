@@ -20,7 +20,8 @@ function updateContent() {
 	$('#project_author').html(authors);
 
 	$('#author_1 h2').html(obj.author[0].name);
-	$('#author_1 p').html("&emsp;&emsp;" + obj.author[0].desciption);
+	$('#author_1 p').attr("style", "margin-left: 30px");
+	$('#author_1 p').html(obj.author[0].desciption);
 	$('#author_1 .photo').attr("style", "background-image: url('./data/photo/" + obj.author[0].photo + "');");
 	
 	if (obj.author.length >= 2) {
@@ -35,9 +36,9 @@ function updateContent() {
 	$('#project_description').html("&emsp;&emsp;" + obj.summary);
 	$('#project_pdf').attr("src", "data/pdf/" + obj.pdf + ".pdf");
 	$('#project_video').attr("src", "https://www.youtube.com/embed/" + obj.video);
-	$('#project_video').attr("style", "width: 110vh; height: 66vh; margin: 10px");
+	$('#project_video').attr("style", "width: 100vh; height: 60vh; margin: 10px");
 	$('#project_ppt').attr("src", "data/ppt/" + obj.pdf + ".pdf");
-	$('#project_ppt').attr("style", "width: 110vh; height:66vh; margin: 10px");
+	$('#project_ppt').attr("style", "width: 100vh; height:60vh; margin: 10px");
 }
 
 $(document).ready(function(){ //TODO - load the text with animations
