@@ -21,7 +21,7 @@ function updateContent() {
 
 	$('#author_1 h2').html(obj.author[0].name);
 	$('#author_1 p').attr("style", "margin-left: 30px");
-	$('#author_1 p').html(obj.author[0].desciption);
+	$('#author_1 p').html(obj.author[0].description);
 	$('#author_1 .photo').attr("style", "background-image: url('./data/photo/" + obj.author[0].photo + "');");
 	
 	if (obj.author.length >= 2) {
