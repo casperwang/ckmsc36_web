@@ -90,7 +90,7 @@ var thirdSection = [
   },{
     "title": "資訊專題指導老師的話",
     "innerText": `
-    <div style = "column-count: 3;">
+    <div>
     在有山有水的地方
     </br>
 隨緣度日

@@ -40,7 +40,7 @@ function updateTitle() {
             </div>
 		`);
 		$(".rightSide").before(`
-			<div class = "col-md-12 sixth_section">
+			<div class = "col-md-12 sixth_section sect">
                 <div class="content container-fluid">
                     <div class="row">
                     	<div class="col-md-1"></div>
@@ -53,7 +53,7 @@ function updateTitle() {
                     </div>
                 </div>
             </div>
-			<div class = "col-md-12 bg_section seventh_section">
+			<div class = "col-md-12 bg_section seventh_section sect">
                 <div class="content container-fluid">
                     <div class="row">
                     	<div class="col-md-1"></div>
@@ -66,7 +66,7 @@ function updateTitle() {
                     </div>
                 </div>
             </div>
-            <div class = "col-md-12 eighth_section">
+            <div class = "col-md-12 eighth_section sect">
                 <div class="content container-fluid">
                     <div class="row">
                     	<div class="col-md-1"></div>
@@ -79,7 +79,7 @@ function updateTitle() {
                     </div>
                 </div>
             </div>
-            <div class = "col-md-12 bg_section ninth_section">
+            <div class = "col-md-12 bg_section ninth_section sect">
                 <div class="content container-fluid">
                     <div class="row">
                     	<div class="col-md-1"></div>
@@ -95,7 +95,7 @@ function updateTitle() {
 		`);
 		if(curGo == 1){
 			$(".rightSide").before(`
-				<div class = "col-md-12 tenth_section">
+				<div class = "col-md-12 tenth_section sect">
                 <div class="content container-fluid">
                     <div class="row">
                     	<div class="col-md-1"></div>
@@ -108,7 +108,7 @@ function updateTitle() {
                     </div>
                 </div>
             </div>
-            <div class = "col-md-12 bg_section eleventh_section">
+            <div class = "col-md-12 bg_section eleventh_section sect">
                 <div class="content container-fluid">
                     <div class="row">
                     	<div class="col-md-1"></div>

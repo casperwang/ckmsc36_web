@@ -63,6 +63,7 @@ section{
 	      0vw  100vh
 	);
 	min-height: 100vh;
+	max-height: 100vh;
 }
 
 .fourth_section{
@@ -143,6 +144,10 @@ h2 {
 	grid-row-end: 7;
 	z-index: 0;
 	filter: brightness(50%);
+}
+
+.sect{
+	overflow-y: scroll;
 }
 
 iframe {
